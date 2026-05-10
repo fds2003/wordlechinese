@@ -1,0 +1,295 @@
+/**
+ * generate-answers-deepseek.mjs
+ * 用法: node generate-answers-deepseek.mjs
+ *
+ * 依赖: npm install papaparse
+ * 需要环境变量: DEEPSEEK_API_KEY=your_key
+ *
+ * 输出: public/answer/YYYY-MM-DD/index.html（365天）
+ */
+
+import fs from 'fs';
+import path from 'path';
+import Papa from 'papaparse';
+
+const API_KEY = process.env.DEEPSEEK_API_KEY;
+const START_DATE = new Date('2027-05-11');
+const DAYS = 365;
+const OUTPUT_DIR = 'public/answer';
+const CACHE_FILE = 'scripts/idiom-cache.json';
+
+// ─── 1. 读取词库 ──────────────────────────────────────────────
+function loadIdioms() {
+  const csv = fs.readFileSync('game-data/game-idioms.csv', 'utf-8');
+  const { data } = Papa.parse(csv, { header: true, skipEmptyLines: true });
+  return data.map(row => ({
+    id: row.id,
+    idiom: row.idiom,
+  })).filter(r => r.idiom);
+}
+
+// ─── 2. 调用 DeepSeek API ─────────────────────────────────────
+async function fetchIdiomInfo(idiom) {
+  const resp = await fetch('https://api.deepseek.com/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: 'deepseek-chat',   // deepseek-v3，性价比最高
+      max_tokens: 800,
+      response_format: { type: 'json_object' }, // 强制返回JSON
+      messages: [
+        {
+          role: 'system',
+          content: 'You are a Chinese language expert. Always respond in valid JSON format only.'
+        },
+        {
+          role: 'user',
+          content: `For the Chinese idiom "${idiom}", return a JSON object with these exact keys:
+{
+  "pinyin": "pinyin with tone marks for each character separated by spaces",
+  "meaning": "concise English meaning in 1-2 sentences",
+  "literal": "literal translation of each character",
+  "example": "one short example sentence in English showing how this concept applies",
+  "hint1": "a subtle hint that doesn't give away the answer (mention the theme or feeling)",
+  "hint2": "a slightly more obvious hint (mention one character's meaning without naming it)",
+  "difficulty": "easy or medium or hard"
+}`
+        }
+      ]
+    })
+  });
+
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`API ${resp.status}: ${err}`);
+  }
+
+  const data = await resp.json();
+  const text = data.choices[0].message.content.trim();
+  return JSON.parse(text);
+}
+
+// ─── 3. 生成单个 HTML 页面 ────────────────────────────────────
+function generateHTML(date, idiom, info) {
+  const dateStr = date.toISOString().split('T')[0];
+  const displayDate = date.toLocaleDateString('en-US', {
+    year: 'numeric', month: 'long', day: 'numeric'
+  });
+  const chars = idiom.split('');
+  const pinyins = info.pinyin.split(' ');
+
+  const prevDate = new Date(date); prevDate.setDate(prevDate.getDate() - 1);
+  const nextDate = new Date(date); nextDate.setDate(nextDate.getDate() + 1);
+  const prevStr = prevDate.toISOString().split('T')[0];
+  const nextStr = nextDate.toISOString().split('T')[0];
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wordle Chinese Answer ${dateStr} - 今日答案 | WordleChinese.com</title>
+  <meta name="description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}). Meaning: ${info.meaning} Play the free Chinese Wordle game daily!"/>
+  <link rel="canonical" href="https://wordlechinese.com/answer/${dateStr}/"/>
+  <meta property="og:title" content="Wordle Chinese Answer ${dateStr}"/>
+  <meta property="og:description" content="Today's answer is ${idiom} — ${info.meaning}"/>
+  <meta property="og:url" content="https://wordlechinese.com/answer/${dateStr}/"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Wordle Chinese Answer for ${displayDate}",
+    "datePublished": "${dateStr}",
+    "publisher": {"@type": "Organization", "name": "WordleChinese.com", "url": "https://wordlechinese.com"}
+  }
+  </script>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:680px;margin:0 auto;padding:20px;color:#1a1a1a}
+    header{text-align:center;border-bottom:2px solid #eee;padding-bottom:16px;margin-bottom:24px}
+    header a{color:#2563eb;text-decoration:none;font-weight:600}
+    .spoiler{background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:12px 16px;margin-bottom:24px;font-size:14px}
+    .chars{display:flex;gap:12px;justify-content:center;margin:24px 0}
+    .char-box{text-align:center;border:2px solid #6aaa64;border-radius:8px;padding:12px 16px;background:#6aaa64;color:white}
+    .char-box .hanzi{font-size:36px;font-weight:bold;line-height:1}
+    .char-box .pinyin{font-size:14px;margin-top:6px;opacity:.9}
+    .section{background:#f9fafb;border-radius:8px;padding:20px;margin-bottom:16px}
+    .section h2{margin:0 0 10px;font-size:16px;color:#374151;text-transform:uppercase;letter-spacing:.05em}
+    .section p{margin:0;line-height:1.6}
+    .badge{display:inline-block;padding:2px 10px;border-radius:99px;font-size:12px;font-weight:600}
+    .easy{background:#dcfce7;color:#166534}
+    .medium{background:#fef9c3;color:#854d0e}
+    .hard{background:#fee2e2;color:#991b1b}
+    details{background:white;border:1px solid #e5e7eb;border-radius:6px;padding:12px;margin-bottom:8px}
+    summary{font-weight:600;color:#6b7280;cursor:pointer;list-style:none}
+    summary::before{content:"🔍 "}
+    .nav{display:flex;justify-content:space-between;margin-top:32px;padding-top:16px;border-top:2px solid #eee}
+    .nav a{color:#2563eb;text-decoration:none;font-size:14px}
+    .play-btn{display:block;text-align:center;background:#6aaa64;color:white;text-decoration:none;
+      padding:14px;border-radius:8px;font-weight:700;font-size:18px;margin:24px 0}
+    .play-btn:hover{background:#538d4e}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://wordlechinese.com">🀄 WordleChinese.com</a>
+    <p style="margin:8px 0 0;color:#6b7280;font-size:14px;">Daily Chinese Idiom Wordle Game</p>
+  </header>
+
+  <h1 style="text-align:center;font-size:22px;">Wordle Chinese Answer — ${displayDate}</h1>
+
+  <div class="spoiler">
+    ⚠️ <strong>Spoiler Warning!</strong> Today's answer is revealed below. Try playing first →
+    <a href="https://wordlechinese.com">Play Today's Game</a>
+  </div>
+
+  <div class="chars">
+    ${chars.map((c, i) => `
+    <div class="char-box">
+      <div class="hanzi">${c}</div>
+      <div class="pinyin">${pinyins[i] || ''}</div>
+    </div>`).join('')}
+  </div>
+
+  <a class="play-btn" href="https://wordlechinese.com">▶ Play Today's Wordle Chinese</a>
+
+  <div class="section">
+    <h2>📖 Meaning <span class="badge ${info.difficulty}">${info.difficulty}</span></h2>
+    <p><strong>${idiom}</strong> (${info.pinyin})</p>
+    <p style="margin-top:8px">${info.meaning}</p>
+    <p style="margin-top:8px;color:#6b7280;font-size:14px"><em>Literal: ${info.literal}</em></p>
+  </div>
+
+  <div class="section">
+    <h2>💡 Example</h2>
+    <p>${info.example}</p>
+  </div>
+
+  <div style="margin-bottom:16px">
+    <h2 style="font-size:16px;color:#374151;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px">🎯 Hints (for next time)</h2>
+    <details>
+      <summary>Hint 1 — Subtle</summary>
+      <p style="margin-top:8px">${info.hint1}</p>
+    </details>
+    <details>
+      <summary>Hint 2 — More Obvious</summary>
+      <p style="margin-top:8px">${info.hint2}</p>
+    </details>
+  </div>
+
+  <div class="nav">
+    <a href="/answer/${prevStr}/">← ${prevStr}</a>
+    <a href="https://wordlechinese.com">🏠 Today's Game</a>
+    <a href="/answer/${nextStr}/">${nextStr} →</a>
+  </div>
+
+  <footer style="text-align:center;margin-top:40px;color:#9ca3af;font-size:13px">
+    <p>© ${new Date().getFullYear()} <a href="https://wordlechinese.com" style="color:#6b7280">WordleChinese.com</a> ·
+    <a href="/privacy" style="color:#6b7280">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>`;
+}
+
+// ─── 4. 主流程 ───────────────────────────────────────────────
+async function main() {
+  if (!API_KEY) {
+    console.error('❌ 请设置环境变量 DEEPSEEK_API_KEY');
+    process.exit(1);
+  }
+
+  const idioms = loadIdioms();
+  console.log(`📚 词库加载完成，共 ${idioms.length} 条成语`);
+
+  let cache = {};
+  if (fs.existsSync(CACHE_FILE)) {
+    cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+    console.log(`💾 缓存命中 ${Object.keys(cache).length} 条`);
+  }
+
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  fs.mkdirSync('scripts', { recursive: true });
+
+  let generated = 0, skipped = 0, errors = 0;
+
+  for (let i = 0; i < DAYS; i++) {
+    const date = new Date(START_DATE);
+    date.setDate(date.getDate() + i);
+    const dateStr = date.toISOString().split('T')[0];
+    const { idiom } = idioms[i % idioms.length];
+
+    const outPath = path.join(OUTPUT_DIR, dateStr, 'index.html');
+    if (fs.existsSync(outPath)) {
+      skipped++;
+      continue;
+    }
+
+    let info = cache[idiom];
+    if (!info) {
+      try {
+        console.log(`🔄 [${i+1}/${DAYS}] ${dateStr} → ${idiom}`);
+        info = await fetchIdiomInfo(idiom);
+        cache[idiom] = info;
+        fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+        await new Promise(r => setTimeout(r, 300)); // DeepSeek限流较宽松
+      } catch (e) {
+        console.error(`❌ ${idiom} 失败: ${e.message}`);
+        errors++;
+        // 失败后等2秒再继续
+        await new Promise(r => setTimeout(r, 2000));
+        continue;
+      }
+    } else {
+      console.log(`✅ [${i+1}/${DAYS}] ${dateStr} → ${idiom}（缓存）`);
+    }
+
+    const html = generateHTML(date, idiom, info);
+    fs.mkdirSync(path.join(OUTPUT_DIR, dateStr), { recursive: true });
+    fs.writeFileSync(outPath, html, 'utf-8');
+    generated++;
+  }
+
+  // 生成答案页 sitemap
+  const entries = Array.from({ length: DAYS }, (_, i) => {
+    const d = new Date(START_DATE);
+    d.setDate(d.getDate() + i);
+    return `  <url><loc>https://wordlechinese.com/answer/${d.toISOString().split('T')[0]}/</loc><changefreq>never</changefreq><priority>0.6</priority></url>`;
+  }).join('\n');
+
+  fs.writeFileSync('public/answer-sitemap.xml',
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`
+  );
+
+  // 确保 sitemap-home 和 sitemap 索引存在
+  if (!fs.existsSync('public/sitemap-home.xml')) {
+    fs.writeFileSync('public/sitemap-home.xml',
+      `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://wordlechinese.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>`
+    );
+  }
+  fs.writeFileSync('public/sitemap.xml',
+    `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://wordlechinese.com/sitemap-home.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://wordlechinese.com/answer-sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>`
+  );
+
+  console.log(`\n🎉 完成！新生成 ${generated} 页，跳过 ${skipped} 页，失败 ${errors} 条`);
+  console.log(`📄 public/answer-sitemap.xml 已生成`);
+  console.log(`📄 public/sitemap.xml（索引）已更新`);
+}
+
+main().catch(console.error);
