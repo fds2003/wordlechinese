@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://wordlechinese.com/sitemap.xml
+Sitemap: https://wordlechinese.com/answer-sitemap.xml
