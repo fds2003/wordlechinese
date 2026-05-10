@@ -53,7 +53,7 @@ export default ({ header, footer, boardStates, id }) => {
     };
   }, [boardStates, id, mediaChanged]);
 
-  const fileName = `chengyu-wordle-${id}.jpg`;
+  const fileName = `wordlechinese-${id}.jpg`;
 
   return (
     <>

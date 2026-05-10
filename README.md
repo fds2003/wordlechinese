@@ -30,8 +30,6 @@ One day, I [tweeted](https://twitter.com/cheeaun/status/1484482726644183041):
 > #idea
 > 
 
-**👉👉 Continue reading: [Chengyu Wordle Is Not a Love Story](https://cheeaun.com/blog/2022/02/chengyu-wordle-is-not-a-love-story/) 👈👈**
-
 ## Media coverage
 
 - [Wikipedia: Wordle](https://zh.wikipedia.org/wiki/Wordle#cite_note-45)

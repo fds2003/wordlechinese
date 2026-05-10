@@ -1043,7 +1043,7 @@ export function App() {
                     class="button facebook"
                     href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
                       permalink,
-                    )}&hashtag=${encodeURIComponent('#chengyuwordle')}`}
+                    )}&hashtag=${encodeURIComponent('#wordlechinese')}`}
                     target="_blank"
                     onClick={() => {
                       copy(shareTextWithLink);
@@ -1306,7 +1306,7 @@ export function App() {
                   i18nKey="about.about1"
                   components={[
                     <a
-                      href="https://github.com/cheeaun/chengyu-wordle/"
+                      href="https://github.com/fds2003/wordlechinese/"
                       target="_blank"
                     />,
                     <a href="https://cheeaun.com/projects/" target="_blank" />,
@@ -1340,7 +1340,7 @@ export function App() {
                     i18nKey="feedback.githubDiscussions"
                     components={[
                       <a
-                        href="https://github.com/cheeaun/chengyu-wordle/discussions"
+                        href="https://github.com/fds2003/wordlechinese/discussions"
                         target="_blank"
                       />,
                     ]}
@@ -1351,7 +1351,7 @@ export function App() {
                     i18nKey="feedback.githubIssues"
                     components={[
                       <a
-                        href="https://github.com/cheeaun/chengyu-wordle/issues"
+                        href="https://github.com/fds2003/wordlechinese/issues"
                         target="_blank"
                       />,
                     ]}
@@ -1395,7 +1395,7 @@ export function App() {
                       document.body.appendChild($a);
                       $a.style = 'display: none';
                       $a.href = url;
-                      $a.download = 'chengyu-wordle.gamedata.json';
+                      $a.download = 'wordlechinese.gamedata.json';
                       $a.click();
 
                       // Clean up
