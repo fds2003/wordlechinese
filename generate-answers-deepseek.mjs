@@ -13,7 +13,7 @@ import path from 'path';
 import Papa from 'papaparse';
 
 const API_KEY = process.env.DEEPSEEK_API_KEY;
-const START_DATE = new Date('2027-05-11');
+const START_DATE = new Date('2026-05-11');
 const DAYS = 365;
 const OUTPUT_DIR = 'public/answer';
 const CACHE_FILE = 'scripts/idiom-cache.json';
