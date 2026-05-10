@@ -94,6 +94,26 @@ Notes:
 
 As of now, 中文 is very roughly translated from English via Google Translate, which may not be great. **Help is needed for translations!**
 
+### Deploying to wordlechinese.com
+
+The fork is hosted at <https://wordlechinese.com/> on Vercel. The repo ships a `vercel.json` that pins:
+
+- `buildCommand: npm run build`
+- `outputDirectory: dist`
+- `cleanUrls: true`
+- a SPA rewrite (`/((?!.*\..*).*) → /index.html`) that catches extension-less paths but lets `/robots.txt`, `/sitemap.xml`, `/privacy.html`, and built assets fall through.
+
+To reproduce the deploy from scratch:
+
+1. In the Vercel dashboard, **Add New → Project** and import this GitHub repo. Vercel reads `vercel.json` for the build settings — leave the framework preset on auto-detect.
+2. Under **Settings → Environment Variables**, add `VITE_GA_MEASUREMENT_ID` (e.g. `G-XXXXXXXXXX`) scoped to the **Production** environment only. Leave Preview and Development unset so previews and local builds never fire Google Analytics.
+3. Under **Settings → Domains**, add both `wordlechinese.com` and `www.wordlechinese.com`. Vercel will show a CNAME target for each.
+4. In Cloudflare, create a CNAME record per Vercel's instructions for each domain. Configure `www.wordlechinese.com` to **301 redirect to apex** so the canonical URL declared in `index.html` (`https://wordlechinese.com/`) wins.
+5. Wait for Vercel's "Valid Configuration" indicator on both domains, then verify <https://wordlechinese.com/> serves the new HTML.
+6. In Google Search Console, add the `wordlechinese.com` property using DNS TXT verification (record goes in Cloudflare) and submit `https://wordlechinese.com/sitemap.xml`.
+
+The legacy `.github/workflows/deploy.yml` GitHub Pages job is kept as a fallback for now and is not the production target.
+
 ## Other similar attempts
 
 ### [猜成语 (Cāi chéngyǔ)](https://bryony.dev/chengyu/chengyu.html) by [@nurupo_dev](https://twitter.com/nurupo_dev) - Guess the idiom

@@ -5,3 +5,9 @@ dist-ssr
 *.local
 test-results/
 playwright-report/
+openspec/
+generate-answers-deepseek.mjs
+.claude/
+CLAUDE.md
+.omc/
+doc/

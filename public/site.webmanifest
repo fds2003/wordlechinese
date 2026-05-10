@@ -1,7 +1,7 @@
 {
-  "name": "Chengyu Wordle",
-  "short_name": "Chengyu Wordle",
-  "description": " Wordle, for Chinese idioms - 成语 (chéngyǔ)",
+  "name": "Wordle Chinese",
+  "short_name": "Wordle Chinese",
+  "description": "Play the Chinese version of Wordle for free! Guess the hidden Chinese idiom (成语) in 6 tries.",
   "background_color": "green",
   "theme_color": "green",
   "start_url": "./",
