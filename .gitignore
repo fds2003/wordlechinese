@@ -6,7 +6,6 @@ dist-ssr
 test-results/
 playwright-report/
 openspec/
-generate-answers-deepseek.mjs
 .claude/
 CLAUDE.md
 .omc/
