@@ -1,10 +1,10 @@
-# Chengyu Wordle
+# Wordle Chinese
 
-> Wordle, for Chinese idioms - 成语 (chéngyǔ)
+> Play free Chinese Wordle game at [wordlechinese.com](https://wordlechinese.com/) — Learn Chinese through daily idiom puzzles
 >
-> Guess the idiom in 6 tries. 
+> Guess the hidden Chinese idiom (成语) in 6 tries. A new puzzle every day.
 
-This is my attempt at recreating [Wordle](https://www.nytimes.com/games/wordle/), made by [Josh Wardle](https://twitter.com/powerlanguish), from scratch.
+Originally created by [Chee Aun](https://github.com/cheeaun) as "Chengyu Wordle" — a recreation of [Wordle](https://www.nytimes.com/games/wordle/), made by [Josh Wardle](https://twitter.com/powerlanguish), for Chinese idioms.
 
 ## Screenshot
 
