@@ -3283,5 +3283,3280 @@
     "hint1": "This phrase describes someone acting without hesitation or discussion.",
     "hint2": "The second character means 'speech' or 'words'.",
     "difficulty": "easy"
+  },
+  "流连忘返": {
+    "pinyin": "liú lián wàng fǎn",
+    "meaning": "To linger and forget to return; to be so enchanted that one forgets to go back home.",
+    "literal": "flow (linger) attach forget return",
+    "example": "The beautiful scenery made us linger and forget to return to our hotel.",
+    "hint1": "This idiom describes a pleasant state of being absorbed in something delightful.",
+    "hint2": "The second character means 'to be attached to' or 'to adore'.",
+    "difficulty": "medium"
+  },
+  "热泪盈眶": {
+    "pinyin": "rè lèi yíng kuàng",
+    "meaning": "To be so moved that tears well up in one's eyes.",
+    "literal": "hot tears fill eye sockets",
+    "example": "When I saw the touching film, I was moved to the point of tears welling up in my eyes.",
+    "hint1": "This idiom describes an overwhelming emotional response that is visible.",
+    "hint2": "One character means 'fill up' like a container.",
+    "difficulty": "easy"
+  },
+  "销声匿迹": {
+    "pinyin": "xiāo shēng nì jì",
+    "meaning": "To disappear from public view or cease to be heard about, often referring to someone or something that was once famous or active.",
+    "literal": "vanish sound hide trace",
+    "example": "After the scandal, the politician completely disappeared from public life and has since been lying low.",
+    "hint1": "This idiom describes someone who used to be very active but now has completely faded away.",
+    "hint2": "The second character means 'sound' or 'voice'.",
+    "difficulty": "medium"
+  },
+  "打击报复": {
+    "pinyin": "dǎ jī bào fù",
+    "meaning": "To retaliate against someone for a perceived slight or injustice, often in a petty or vindictive manner.",
+    "literal": "strike, attack, retaliate, revenge",
+    "example": "After being criticized, he used his position to retaliate against his colleague.",
+    "hint1": "This phrase describes a negative response to a perceived wrongdoing.",
+    "hint2": "The second character refers to a sudden action, like a strike.",
+    "difficulty": "medium"
+  },
+  "尽心尽力": {
+    "pinyin": "jìn xīn jìn lì",
+    "meaning": "To do something with complete dedication and effort, putting in one's best.",
+    "literal": "exhaust heart exhaust strength",
+    "example": "She approached every task with jìn xīn jìn lì, ensuring no detail was overlooked.",
+    "hint1": "This idiom describes a wholehearted approach to a task.",
+    "hint2": "One of the characters means 'strength' or 'power'.",
+    "difficulty": "easy"
+  },
+  "一以贯之": {
+    "pinyin": "yī yǐ guàn zhī",
+    "meaning": "To consistently carry through a principle or policy without change.",
+    "literal": "One thread running through it",
+    "example": "His approach to leadership is to act with integrity and coherence, a principle he holds 一以贯之.",
+    "hint1": "Think of a single thread that connects all parts.",
+    "hint2": "The first character means 'one'.",
+    "difficulty": "medium"
+  },
+  "恍然大悟": {
+    "pinyin": "huǎng rán dà wù",
+    "meaning": "Suddenly understand or realize something; to have a moment of clarity.",
+    "literal": "suddenly - thus - big - comprehend",
+    "example": "After hours of puzzling over the problem, she had a sudden realization and shouted, 'I get it now!'",
+    "hint1": "Think of a moment when everything clicks into place.",
+    "hint2": "The third character means 'big' but here it means 'greatly'.",
+    "difficulty": "easy"
+  },
+  "置之不理": {
+    "pinyin": "zhì zhī bù lǐ",
+    "meaning": "To completely ignore someone or something; to pay no attention and leave it aside.",
+    "literal": "place it not manage",
+    "example": "She tried to warn him about the danger, but he placed the advice aside and ignored it completely.",
+    "hint1": "This idiom is about a deliberate choice to not engage with something.",
+    "hint2": "The second character indicates 'it' or 'that thing', and the fourth character means 'to manage or reason'.",
+    "difficulty": "medium"
+  },
+  "轻而易举": {
+    "pinyin": "qīng ér yì jǔ",
+    "meaning": "Something extremely easy to do or accomplish.",
+    "literal": "light and easy to lift",
+    "example": "With the answer key, solving the puzzle was as easy as lifting a feather.",
+    "hint1": "Think about tasks that require no effort.",
+    "hint2": "The second character means 'and', and the third means 'easy'.",
+    "difficulty": "easy"
+  },
+  "人来人往": {
+    "pinyin": "rén lái rén wǎng",
+    "meaning": "A bustling scene with many people coming and going; describes a lively, crowded place.",
+    "literal": "people come people go",
+    "example": "The market was full of people coming and going, a constant stream of shoppers.",
+    "hint1": "Describes the flow of people in a busy area.",
+    "hint2": "The first character means 'person'.",
+    "difficulty": "easy"
+  },
+  "青山绿水": {
+    "pinyin": "qīng shān lǜ shuǐ",
+    "meaning": "Refers to beautiful natural scenery, typically with green mountains and clear blue waters.",
+    "literal": "green mountain green water",
+    "example": "After a long hike, we reached a valley of green mountains and clear waters.",
+    "hint1": "Think about a classic Chinese landscape painting.",
+    "hint2": "The first and third characters are colors, the second is a landform, and the fourth is a natural feature.",
+    "difficulty": "easy"
+  },
+  "齐头并进": {
+    "pinyin": "qí tóu bìng jìn",
+    "meaning": "To advance together or progress simultaneously on multiple fronts.",
+    "literal": "together head simultaneously advance",
+    "example": "The two companies decided to develop their overseas and domestic markets 齐头并进.",
+    "hint1": "This idiom is about moving forward as a group, not leaving anyone behind.",
+    "hint2": "It contains a word that means 'disease' but here it means 'simultaneously'.",
+    "difficulty": "medium"
+  },
+  "一筹莫展": {
+    "pinyin": "yī chóu mò zhǎn",
+    "meaning": "To be at a complete loss; unable to find any solution or way out.",
+    "literal": "one calculation cannot spread out",
+    "example": "Faced with the sudden financial crisis, the CEO was at a loss, feeling completely stuck and unable to find a way out.",
+    "hint1": "This idiom describes a feeling of complete helplessness when facing a problem.",
+    "hint2": "The second character means 'a plan or calculation', and the phrase suggests having no plan to deal with a situation.",
+    "difficulty": "medium"
+  },
+  "百花齐放": {
+    "pinyin": "bǎi huā qí fàng",
+    "meaning": "Let a hundred flowers bloom; used to describe a flourishing and diverse environment, originally referring to encouraging diverse thoughts and art forms.",
+    "literal": "hundred flowers together bloom",
+    "example": "The university encouraged academic freedom and diverse viewpoints, truly embracing a 'let a hundred flowers bloom' philosophy.",
+    "hint1": "This idiom evokes a vibrant garden in spring, symbolizing diversity and openness.",
+    "hint2": "The first character means 'hundred'.",
+    "difficulty": "easy"
+  },
+  "各执一词": {
+    "pinyin": "gè zhí yī cí",
+    "meaning": "Each holds to a different version of the story; each sticks to his own argument.",
+    "literal": "each hold one word/speech",
+    "example": "The two witnesses gave conflicting accounts, each sticking to their own story.",
+    "hint1": "Think of a situation where two people cannot agree on what happened.",
+    "hint2": "The second character means 'to hold' or 'to grasp'.",
+    "difficulty": "medium"
+  },
+  "志同道合": {
+    "pinyin": "zhì tóng dào hé",
+    "meaning": "People who share the same ideals and follow the same path. It describes like-minded individuals working together towards common goals.",
+    "literal": "will/ambition same way/path harmonious",
+    "example": "Despite their different backgrounds, they became good friends because they were zhi tong dao he in their passion for environmental protection.",
+    "hint1": "This idiom describes a special bond between people who think alike.",
+    "hint2": "It includes the idea of having the same 'will' and being 'harmonious' in 'way'.",
+    "difficulty": "medium"
+  },
+  "绞尽脑汁": {
+    "pinyin": "jiǎo jìn nǎo zhī",
+    "meaning": "To rack one's brains, to think hard about something.",
+    "literal": "wring dry brain juice",
+    "example": "After hours of brainstorming, he finally figured out the solution.",
+    "hint1": "This idiom describes a mental struggle or intense thinking.",
+    "hint2": "One character means 'to press or wring', suggesting squeezing out thoughts.",
+    "difficulty": "medium"
+  },
+  "首屈一指": {
+    "pinyin": "shǒu qū yī zhǐ",
+    "meaning": "To be the best or most outstanding; to be second to none.",
+    "literal": "bend one finger (when counting on fingers, the first one bent indicates number one)",
+    "example": "In the field of scientific research, she is second to none.",
+    "hint1": "This idiom describes the top position, like being number one in a competition.",
+    "hint2": "The first character means 'first' or 'head', indicating the leading position.",
+    "difficulty": "medium"
+  },
+  "水到渠成": {
+    "pinyin": "shuǐ dào qú chéng",
+    "meaning": "When conditions are ripe, success will come naturally.",
+    "literal": "water arrives, channel forms",
+    "example": "Don't force it; with hard work and patience, things will naturally fall into place like water flowing into a channel.",
+    "hint1": "Think about a natural process where patience leads to a perfect outcome.",
+    "hint2": "The second character suggests 'arrival' or 'reaching'.",
+    "difficulty": "medium"
+  },
+  "物美价廉": {
+    "pinyin": "wù měi jià lián",
+    "meaning": "Refers to goods that are high quality and low price.",
+    "literal": "thing beautiful price cheap",
+    "example": "This store offers many items that are truly good quality and inexpensive.",
+    "hint1": "Think about things that are both good and cheap.",
+    "hint2": "It involves the quality and cost of products.",
+    "difficulty": "easy"
+  },
+  "众说纷纭": {
+    "pinyin": "zhòng shuō fēn yún",
+    "meaning": "Opinions differ widely; everyone has their own version of the story.",
+    "literal": "everyone says, numerous and confused",
+    "example": "When asked about the accident, there were many eyewitnesses but众说纷纭, making it hard to know the truth.",
+    "hint1": "Think of a situation where many people are talking at once.",
+    "hint2": "This idiom involves a character meaning 'many' or 'crowd' and another meaning 'to speak'.",
+    "difficulty": "medium"
+  },
+  "各自为政": {
+    "pinyin": "gè zì wéi zhèng",
+    "meaning": "Each person acts on their own authority without regard for others, leading to lack of coordination.",
+    "literal": "each self govern politics",
+    "example": "The team's failure was due to everyone going their own way, a classic case of '各自为政'.",
+    "hint1": "This idiom describes a situation where group members act independently.",
+    "hint2": "The third character implies 'doing' or 'managing'.",
+    "difficulty": "medium"
+  },
+  "语重心长": {
+    "pinyin": "yǔ zhòng xīn cháng",
+    "meaning": "To speak with sincere words and earnest intentions, often offering advice or wise counsel.",
+    "literal": "words - heavy - heart - long",
+    "example": "Her words were weighty and heartfelt as she advised him to pursue his dreams.",
+    "hint1": "This idiom describes a way of speaking that is full of feeling and importance.",
+    "hint2": "One character suggests something is 'heavy', not physically but in significance.",
+    "difficulty": "medium"
+  },
+  "德才兼备": {
+    "pinyin": "dé cái jiān bèi",
+    "meaning": "To possess both virtue and talent.",
+    "literal": "virtue and talent both have",
+    "example": "The ideal leader should be one who is both morally upright and professionally competent, embodying the quality of being both virtuous and talented.",
+    "hint1": "This idiom is often used to describe an ideal person in a leadership or professional context.",
+    "hint2": "It combines two positive qualities: one related to moral character and the other to ability or skill.",
+    "difficulty": "medium"
+  },
+  "乐此不疲": {
+    "pinyin": "lè cǐ bù pí",
+    "meaning": "To enjoy doing something and not feel tired; to take delight in something without getting bored.",
+    "literal": "enjoy this not tired",
+    "example": "She loves gardening so much that she spends hours in the yard, leci bu pi.",
+    "hint1": "Think of a hobby you love so much you lose track of time.",
+    "hint2": "The second character means 'this' or 'this activity'.",
+    "difficulty": "medium"
+  },
+  "方兴未艾": {
+    "pinyin": "fāng xīng wèi ài",
+    "meaning": "Describes something that is in the process of vigorous development and has not yet reached its peak.",
+    "literal": "just rising not yet ending",
+    "example": "The tech industry is flourishing and its growth is still in the ascendant.",
+    "hint1": "Think about something that is growing and has not peaked yet.",
+    "hint2": "The third character implies something hasn't happened yet.",
+    "difficulty": "medium"
+  },
+  "五颜六色": {
+    "pinyin": "wǔ yán liù sè",
+    "meaning": "Colorful; having a variety of bright colors.",
+    "literal": "five (colors), six (hues)",
+    "example": "The garden was full of flowers of every color, making it a truly wǔ yán liù sè scene.",
+    "hint1": "This idiom describes something visually striking with many hues.",
+    "hint2": "It includes the number 'five' which in Chinese often implies diversity.",
+    "difficulty": "easy"
+  },
+  "无动于衷": {
+    "pinyin": "wú dòng yú zhōng",
+    "meaning": "To be completely indifferent or unmoved; to show no emotional response.",
+    "literal": "no move in heart",
+    "example": "He listened to the tragic news with utter indifference, completely 无动于衷.",
+    "hint1": "This idiom describes a lack of emotional reaction to something that should evoke a response.",
+    "hint2": "The third character means 'in' or 'at'.",
+    "difficulty": "medium"
+  },
+  "锦上添花": {
+    "pinyin": "jǐn shàng tiān huā",
+    "meaning": "To add something beautiful to something already beautiful; to make something good even better.",
+    "literal": "brocade, on, add, flower",
+    "example": "Winning the championship was great, but getting a bonus was the icing on the cake.",
+    "hint1": "Think about adding extra beauty to something already beautiful.",
+    "hint2": "The first character means a fine silk fabric.",
+    "difficulty": "medium"
+  },
+  "荒淫无度": {
+    "pinyin": "huāng yín wú dù",
+    "meaning": "Indulging excessively in sensual pleasures without restraint; extremely licentious and debauched.",
+    "literal": "wasteful, licentious, without, measure",
+    "example": "The corrupt emperor lived a life of荒淫无度, ignoring the suffering of his people.",
+    "hint1": "This idiom describes someone who has no self-control in pursuing pleasure.",
+    "hint2": "The third character means 'without'.",
+    "difficulty": "medium"
+  },
+  "推陈出新": {
+    "pinyin": "tuī chén chū xīn",
+    "meaning": "To eliminate the old and bring forth the new; to innovate by discarding outdated methods.",
+    "literal": "push out old, bring forth new",
+    "example": "The company is always trying to introduce new products and push out old ones, embracing the concept of 推陈出新.",
+    "hint1": "It's about renewal and progress, often used in contexts of innovation or reform.",
+    "hint2": "One character means 'old' or 'stale', and another means 'new'.",
+    "difficulty": "medium"
+  },
+  "畅通无阻": {
+    "pinyin": "chàng tōng wú zǔ",
+    "meaning": "Unimpeded passage all the way; smooth sailing without obstacles.",
+    "literal": "smooth-through-without-obstacle",
+    "example": "With the new highway, travel between the two cities is now畅通无阻.",
+    "hint1": "Think of a journey with no traffic jams.",
+    "hint2": "This phrase contains the character for 'no' or 'without'.",
+    "difficulty": "medium"
+  },
+  "独树一帜": {
+    "pinyin": "dú shù yī zhì",
+    "meaning": "To develop one's own school of thought or to be unique in one's field.",
+    "literal": "alone erect one flag",
+    "example": "In the world of modern art, she truly stands alone by developing a unique style.",
+    "hint1": "Think of being distinct and original, like a flag flying alone.",
+    "hint2": "The first character means 'single' or 'alone'.",
+    "difficulty": "medium"
+  },
+  "省吃俭用": {
+    "pinyin": "shěng chī jiǎn yòng",
+    "meaning": "To live frugally, economizing on food and expenses.",
+    "literal": "save, eat, reduce, use",
+    "example": "By saving up and living frugally, she was able to afford her dream vacation.",
+    "hint1": "This idiom is about being careful with resources.",
+    "hint2": "The third character means 'reduce' or 'minus'.",
+    "difficulty": "medium"
+  },
+  "无济于事": {
+    "pinyin": "wú jì yú shì",
+    "meaning": "It is of no help or use; futile.",
+    "literal": "no help to the matter",
+    "example": "He tried to fix the broken vase with glue, but it was 无济于事.",
+    "hint1": "This idiom describes an action that is useless in solving a problem.",
+    "hint2": "The second character means 'to help' or 'to benefit'.",
+    "difficulty": "medium"
+  },
+  "情不自禁": {
+    "pinyin": "qíng bù zì jīn",
+    "meaning": "Can't help feeling a certain way; unable to control one's emotions.",
+    "literal": "feelings not self prohibit",
+    "example": "She couldn't help laughing when she heard the joke.",
+    "hint1": "This idiom is about a strong emotional reaction that is hard to suppress.",
+    "hint2": "The second character means 'not', and the fourth character means 'forbid'.",
+    "difficulty": "medium"
+  },
+  "不足为奇": {
+    "pinyin": "bù zú wéi qí",
+    "meaning": "Not worth being surprised; not at all surprising.",
+    "literal": "not - enough - to be - strange",
+    "example": "Given his experience, his success is not surprising.",
+    "hint1": "Think of something that is so common or expected that it doesn't raise eyebrows.",
+    "hint2": "The phrase implies something lacks the quality to be considered unusual.",
+    "difficulty": "medium"
+  },
+  "忍无可忍": {
+    "pinyin": "rěn wú kě rěn",
+    "meaning": "To be at the end of one's patience; unable to tolerate any longer.",
+    "literal": "endure no can endure",
+    "example": "After repeated provocations, he finally reached the point of renwukeren and spoke out.",
+    "hint1": "This idiom describes a boiling point of emotions.",
+    "hint2": "The first character means 'to bear' or 'to endure'.",
+    "difficulty": "easy"
+  },
+  "埋头苦干": {
+    "pinyin": "mái tóu kǔ gàn",
+    "meaning": "To bury one's head in hard work; to work diligently and quietly without seeking attention.",
+    "literal": "bury head bitter dry",
+    "example": "She spent the whole summer buried in her studies, 埋头苦干 for the final exams.",
+    "hint1": "This idiom describes a person who works very hard, often with great focus and without complaint.",
+    "hint2": "The second character refers to the head or face being hidden or lowered.",
+    "difficulty": "medium"
+  },
+  "郁郁葱葱": {
+    "pinyin": "yù yù cōng cōng",
+    "meaning": "Lush and green, describing vegetation that is vigorous and thriving.",
+    "literal": "luxuriant, luxuriant, verdant, verdant",
+    "example": "The garden was郁郁葱葱 after the spring rain.",
+    "hint1": "This idiom describes a scene full of life and vitality in nature.",
+    "hint2": "The first character means 'luxuriant' and is repeated.",
+    "difficulty": "easy"
+  },
+  "事半功倍": {
+    "pinyin": "shì bàn gōng bèi",
+    "meaning": "A small amount of effort yields great results; working efficiently.",
+    "literal": "effort half result double",
+    "example": "By organizing her files first, she found that her work was事半功倍.",
+    "hint1": "Think about efficiency and doing things smarter, not harder.",
+    "hint2": "One character means 'half', another means 'double'.",
+    "difficulty": "easy"
+  },
+  "不省人事": {
+    "pinyin": "bù xǐng rén shì",
+    "meaning": "To be unconscious or in a coma; to lose awareness of one's surroundings.",
+    "literal": "not aware human affairs",
+    "example": "After the accident, he lay on the ground, completely oblivious to the world.",
+    "hint1": "Think of a state where one cannot respond to the environment.",
+    "hint2": "The second character means 'to be conscious'.",
+    "difficulty": "medium"
+  },
+  "分门别类": {
+    "pinyin": "fēn mén bié lèi",
+    "meaning": "To categorize or classify things into different groups.",
+    "literal": "divide door separate category",
+    "example": "We need to分门别类 the books in the library by genre.",
+    "hint1": "This idiom is about organizing things into groups.",
+    "hint2": "One character means 'door' or 'category'.",
+    "difficulty": "medium"
+  },
+  "别出心裁": {
+    "pinyin": "bié chū xīn cái",
+    "meaning": "To adopt an original approach or idea; to be unconventional and creative.",
+    "literal": "separate/leave, out, heart, cut (to cut something new from one's heart)",
+    "example": "Her design for the project was truly 别出心裁, using recycled materials in an innovative way.",
+    "hint1": "Think about doing something in a fresh, unexpected manner.",
+    "hint2": "It involves 'heart' and 'cutting', suggesting a new pattern.",
+    "difficulty": "medium"
+  },
+  "明明白白": {
+    "pinyin": "míng míng bái bái",
+    "meaning": "Clearly and obviously; in a clear and explicit manner.",
+    "literal": "bright bright white white",
+    "example": "He explained the instructions so that everything was mingmingbaibai to everyone.",
+    "hint1": "Think about clarity and transparency, like a perfectly clear day.",
+    "hint2": "One character means 'bright', another means 'white'.",
+    "difficulty": "easy"
+  },
+  "热情洋溢": {
+    "pinyin": "rè qíng yáng yì",
+    "meaning": "Full of enthusiasm and energy; showing great warmth and excitement.",
+    "literal": "warmth, passion, overflowing, spill over",
+    "example": "The volunteers received the guests with overflowing enthusiasm.",
+    "hint1": "Think of a feeling that is both warm and abundant.",
+    "hint2": "The last character suggests something spilling over or overflowing.",
+    "difficulty": "easy"
+  },
+  "大张旗鼓": {
+    "pinyin": "dà zhāng qí gǔ",
+    "meaning": "To do something with great fanfare or in a big way, making a lot of noise and show.",
+    "literal": "big, spread, banner, drum",
+    "example": "The company launched its new product with great fanfare, going all out to attract attention.",
+    "hint1": "Think about a military campaign starting with much display and noise.",
+    "hint2": "The third character means a flag or banner.",
+    "difficulty": "easy"
+  },
+  "防不胜防": {
+    "pinyin": "fáng bù shèng fáng",
+    "meaning": "Hard to guard against or be on guard against; inevitable attacks or surprises that are hard to defend.",
+    "literal": "guard not overcome guard",
+    "example": "In the age of cyber attacks, data breaches are simply unavoidable—it's a case of being impossible to be always on guard.",
+    "hint1": "This idiom describes a situation where you are constantly vulnerable despite your best efforts.",
+    "hint2": "The first and last characters repeat, both relating to protection.",
+    "difficulty": "medium"
+  },
+  "惊魂未定": {
+    "pinyin": "jīng hún wèi dìng",
+    "meaning": "Still shaken by a recent frightening experience; not yet recovered from a shock.",
+    "literal": "shocked soul not yet settled",
+    "example": "After the car accident, she was still too jinghunweiding to speak.",
+    "hint1": "Think about a feeling of being scared and not yet calm.",
+    "hint2": "One character relates to the spirit or soul.",
+    "difficulty": "medium"
+  },
+  "蒙混过关": {
+    "pinyin": "méng hùn guò guān",
+    "meaning": "To get by under false pretenses; to deceive one's way through a check or obstacle.",
+    "literal": "deceive mix pass barrier",
+    "example": "He tried to sneak into the concert by using a fake ticket, hoping to get by undetected.",
+    "hint1": "This idiom is about tricking your way through a checkpoint.",
+    "hint2": "Think of mixing something false to pass a gate.",
+    "difficulty": "medium"
+  },
+  "一点一滴": {
+    "pinyin": "yī diǎn yī dī",
+    "meaning": "Means bit by bit, little by little, or every tiny bit.",
+    "literal": "one point one drop",
+    "example": "She saved money bit by bit to buy a car.",
+    "hint1": "This idiom emphasizes gradual accumulation over time.",
+    "hint2": "It involves the concept of small units like a drop of water.",
+    "difficulty": "easy"
+  },
+  "入不敷出": {
+    "pinyin": "rù bù fū chū",
+    "meaning": "To spend more money than one earns, resulting in financial deficit; unable to make ends meet.",
+    "literal": "enter not cover out",
+    "example": "After buying that expensive car, his monthly finances are 入不敷出.",
+    "hint1": "This idiom describes a common financial struggle.",
+    "hint2": "The third character means 'to spread over' or 'to suffice'.",
+    "difficulty": "medium"
+  },
+  "我行我素": {
+    "pinyin": "wǒ xíng wǒ sù",
+    "meaning": "To stick to one's own way of doing things regardless of others' opinions.",
+    "literal": "I act I habit",
+    "example": "Despite the criticism, she continued to do her work her way, truly practicing 'wǒ xíng wǒ sù'.",
+    "hint1": "This idiom describes someone who is very independent in their actions.",
+    "hint2": "The first and third characters are the same, meaning 'self'.",
+    "difficulty": "medium"
+  },
+  "深思熟虑": {
+    "pinyin": "shēn sī shú lǜ",
+    "meaning": "To think carefully and thoroughly before making a decision.",
+    "literal": "deep think ripe consider",
+    "example": "After deep reflection and thorough consideration, she finally made her decision.",
+    "hint1": "This idiom emphasizes careful planning and thoughtful analysis.",
+    "hint2": "The second character means 'to think' and the fourth means 'to consider'.",
+    "difficulty": "medium"
+  },
+  "趋之若鹜": {
+    "pinyin": "qū zhī ruò wù",
+    "meaning": "To flock towards something like ducks, meaning many people compete to chase after something (usually with a negative connotation).",
+    "literal": "趋(rush) 之(towards it) 若(like) 鹜(ducks)",
+    "example": "When the new cryptocurrency was launched, investors flocked to it like ducks, desperate not to miss out.",
+    "hint1": "This idiom describes a crowd mentality, often with a critical tone.",
+    "hint2": "The last character refers to a type of waterfowl.",
+    "difficulty": "medium"
+  },
+  "无微不至": {
+    "pinyin": "wú wēi bù zhì",
+    "meaning": "To show meticulous care and attention to every detail; to leave no stone unturned in taking care of someone.",
+    "literal": "not tiny not arrive",
+    "example": "Her hospitality was impeccable; she attended to every need of her guests, leaving nothing to chance.",
+    "hint1": "Think of someone who is extremely considerate and attentive.",
+    "hint2": "This idiom contains a character meaning 'tiny' or 'minute'.",
+    "difficulty": "medium"
+  },
+  "溢于言表": {
+    "pinyin": "yì yú yán biǎo",
+    "meaning": "Shows feelings or emotions that are more than what words can express.",
+    "literal": "overflow at words expression",
+    "example": "Her gratitude overflowed beyond words, written all over her face.",
+    "hint1": "Think of an emotion that is so strong it can't be contained in speech alone.",
+    "hint2": "One character means 'overflow' or 'spill over'.",
+    "difficulty": "medium"
+  },
+  "车水马龙": {
+    "pinyin": "chē shuǐ mǎ lóng",
+    "meaning": "Describes a busy, bustling scene with heavy traffic and crowds.",
+    "literal": "carriage water horse dragon",
+    "example": "The street is crowded with carriages and horses, creating a lively atmosphere.",
+    "hint1": "Think of a busy city intersection.",
+    "hint2": "It involves vehicles and animals.",
+    "difficulty": "medium"
+  },
+  "同心同德": {
+    "pinyin": "tóng xīn tóng dé",
+    "meaning": "To be of one heart and one mind, working together towards a common goal.",
+    "literal": "same heart, same virtue/moral character",
+    "example": "The team worked tong xin tong de to finish the project on time.",
+    "hint1": "This idiom is about unity and shared purpose.",
+    "hint2": "It includes the character for 'heart' or 'mind'.",
+    "difficulty": "medium"
+  },
+  "无所适从": {
+    "pinyin": "wú suǒ shì cóng",
+    "meaning": "To be at a loss as to what to do; to not know which course to take.",
+    "literal": "no place to follow; not knowing where to go",
+    "example": "With so many conflicting instructions, he was completely at a loss, unsure which path to take.",
+    "hint1": "This idiom describes a state of confusion when faced with multiple choices or demands.",
+    "hint2": "It involves a character meaning 'to follow' or 'to obey'.",
+    "difficulty": "medium"
+  },
+  "变本加厉": {
+    "pinyin": "biàn běn jiā lì",
+    "meaning": "To become even more extreme or severe than before; to intensify.",
+    "literal": "change root add severity",
+    "example": "His procrastination started as a minor delay but has since become worse, now affecting his entire schedule.",
+    "hint1": "Think about a situation that goes from bad to worse.",
+    "hint2": "The first character means 'change' and it has a negative connotation when combined with the rest.",
+    "difficulty": "medium"
+  },
+  "壮士断腕": {
+    "pinyin": "zhuàng shì duàn wàn",
+    "meaning": "Making a decisive and painful sacrifice for a greater goal, often to prevent a larger disaster.",
+    "literal": "brave warrior breaks wrist",
+    "example": "The company had to lay off many employees, a zhuangshi duanwan move to save the business.",
+    "hint1": "Think of a painful but necessary action to avoid a bigger loss.",
+    "hint2": "This phrase involves a body part and a brave person.",
+    "difficulty": "medium"
+  },
+  "雄心勃勃": {
+    "pinyin": "xióng xīn bó bó",
+    "meaning": "Describes someone who is very ambitious and determined to achieve great things.",
+    "literal": "masculine heart abundant abundant",
+    "example": "She is xiongxin bobo about starting her own company.",
+    "hint1": "This idiom describes a person with big dreams and strong drive.",
+    "hint2": "The first character means 'male' and implies strength and power.",
+    "difficulty": "easy"
+  },
+  "崭露头角": {
+    "pinyin": "zhǎn lù tóu jiǎo",
+    "meaning": "To show one's talent or skill for the first time; to begin to display one's abilities prominently.",
+    "literal": "show dew head horn",
+    "example": "At the science fair, she really shone, showing her innovative project and finally getting the recognition she deserved.",
+    "hint1": "Think of a young person finally getting noticed for their talents.",
+    "hint2": "One character means 'to expose' or 'to reveal' something that was hidden.",
+    "difficulty": "medium"
+  },
+  "以点带面": {
+    "pinyin": "yǐ diǎn dài miàn",
+    "meaning": "To use a point or a small area to drive the development of a larger area; to spread from a selected point to a wider area.",
+    "literal": "use point bring surface",
+    "example": "The government used the pilot city as a model to promote economic reforms across the entire region, applying the principle of '以点带面'.",
+    "hint1": "Think about how a small successful project can inspire and lead to larger changes.",
+    "hint2": "This idiom involves the idea of starting with one 'spot' to influence a whole 'plane'.",
+    "difficulty": "medium"
+  },
+  "学以致用": {
+    "pinyin": "xué yǐ zhì yòng",
+    "meaning": "To study or learn something in order to apply it in practice.",
+    "literal": "learn in order to apply",
+    "example": "She studied engineering not just for grades but to solve real-world problems, truly believing in learning for application.",
+    "hint1": "This idiom emphasizes the connection between theory and practice.",
+    "hint2": "The last character means 'to use' or 'to apply'.",
+    "difficulty": "easy"
+  },
+  "心中有数": {
+    "pinyin": "xīn zhōng yǒu shù",
+    "meaning": "To have a clear understanding of the situation in one's mind; to know what's what.",
+    "literal": "heart within have number",
+    "example": "Even though he didn't show it, he had a clear picture of the project's progress in his mind.",
+    "hint1": "Think about knowing a fact or number without needing to check.",
+    "hint2": "It involves having a 'number' inside you.",
+    "difficulty": "easy"
+  },
+  "五湖四海": {
+    "pinyin": "wǔ hú sì hǎi",
+    "meaning": "Refers to all corners of the country or the whole world; people from various places.",
+    "literal": "five lakes four seas",
+    "example": "People from all corners of the country came together at the conference.",
+    "hint1": "This idiom evokes a sense of vastness and unity across many regions.",
+    "hint2": "It includes the number five for bodies of water and the number four for oceans.",
+    "difficulty": "easy"
+  },
+  "审时度势": {
+    "pinyin": "shěn shí duó shì",
+    "meaning": "To carefully observe the situation and adapt to the circumstances.",
+    "literal": "examine time, measure situation",
+    "example": "In business, you must 审时度势 to seize opportunities.",
+    "hint1": "This idiom is about being strategic and adaptable.",
+    "hint2": "One character means 'time' and another means 'situation'.",
+    "difficulty": "medium"
+  },
+  "不择手段": {
+    "pinyin": "bù zé shǒu duàn",
+    "meaning": "To act by any means necessary, regardless of morality or ethics.",
+    "literal": "not choose hand segment",
+    "example": "He would use any means, fair or foul, to win the contract.",
+    "hint1": "This idiom describes a ruthless approach, where the end justifies any action.",
+    "hint2": "One character means 'select' or 'choose', implying no discrimination.",
+    "difficulty": "medium"
+  },
+  "大起大落": {
+    "pinyin": "dà qǐ dà luò",
+    "meaning": "Describing dramatic fluctuations between high and low points, often used for life events or market trends.",
+    "literal": "big rise big fall",
+    "example": "His career has been full of big ups and downs over the past decade.",
+    "hint1": "Think of extreme emotional or situational shifts.",
+    "hint2": "Contains two characters meaning 'big' and the idea of rising then falling.",
+    "difficulty": "easy"
+  },
+  "不厌其烦": {
+    "pinyin": "bù yàn qí fán",
+    "meaning": "To not mind taking the trouble; to do something patiently and without complaint.",
+    "literal": "not dislike its trouble",
+    "example": "The teacher explained the problem multiple times, not minding the trouble.",
+    "hint1": "Theme: patience or tolerance for repetitive tasks.",
+    "hint2": "One character means 'annoyed' or 'tired of'.",
+    "difficulty": "medium"
+  },
+  "一针见血": {
+    "pinyin": "yī zhēn jiàn xuè",
+    "meaning": "To hit the nail on the head; to pinpoint the issue with a single, sharp remark.",
+    "literal": "one needle see blood",
+    "example": "Her comment about the project's flaw was one needle seeing the blood.",
+    "hint1": "Think of a medical instrument and a quick, precise result.",
+    "hint2": "The first character means 'one', and the last means 'blood'.",
+    "difficulty": "medium"
+  },
+  "四通八达": {
+    "pinyin": "sì tōng bā dá",
+    "meaning": "Extending in all directions; describing a place with excellent transportation links or good connections.",
+    "literal": "four through eight reach",
+    "example": "The new subway station makes this area si tong ba da, connecting to every part of the city.",
+    "hint1": "Think of a network that spreads in all directions.",
+    "hint2": "The first and third characters describe wide coverage, while the second and fourth mean 'reach' and 'access'.",
+    "difficulty": "medium"
+  },
+  "不可开交": {
+    "pinyin": "bù kě kāi jiāo",
+    "meaning": "Extremely busy; unable to extricate oneself from a situation.",
+    "literal": "not can open/pry apart",
+    "example": "She was up to her neck in work and couldn't get away; it was a real '不可开交' situation.",
+    "hint1": "This idiom describes being extremely busy to the point of being trapped.",
+    "hint2": "The third character means 'to open' and suggests being unable to separate from something.",
+    "difficulty": "medium"
+  },
+  "春暖花开": {
+    "pinyin": "chūn nuǎn huā kāi",
+    "meaning": "Spring is warm and flowers bloom; it describes a beautiful and hopeful time or situation.",
+    "literal": "spring warm flower open",
+    "example": "After the long winter, we finally enjoy the spring weather with chun nuan hua kai.",
+    "hint1": "This idiom is associated with the season of renewal and joy.",
+    "hint2": "The second character means 'warm' and the third means 'flower'.",
+    "difficulty": "easy"
+  },
+  "天经地义": {
+    "pinyin": "tiān jīng dì yì",
+    "meaning": "Universally accepted principle; something that is perfectly justified and beyond dispute.",
+    "literal": "heaven's constancy, earth's righteousness",
+    "example": "It is a matter of natural law and common sense, as simple and undeniable as the sky above us.",
+    "hint1": "This idiom evokes the unchanging laws of nature.",
+    "hint2": "One of its characters means 'constant' or 'regular'.",
+    "difficulty": "medium"
+  },
+  "悬而未决": {
+    "pinyin": "xuán ér wèi jué",
+    "meaning": "An issue or problem that is unresolved or pending, often for a long time.",
+    "literal": "hang but not yet resolve",
+    "example": "The question of who will lead the team remains up in the air.",
+    "hint1": "Think of something that has been hanging in the air without conclusion.",
+    "hint2": "The first character means 'to hang' or 'suspend'.",
+    "difficulty": "medium"
+  },
+  "一言不发": {
+    "pinyin": "yī yán bù fā",
+    "meaning": "To say nothing; to remain completely silent.",
+    "literal": "one word not emit",
+    "example": "During the entire meeting, he sat there, uttering not a single word, remaining completely silent.",
+    "hint1": "This idiom describes a complete lack of verbal communication, often implying tension or concentration.",
+    "hint2": "Think of a situation where someone does not produce a single sound or word.",
+    "difficulty": "easy"
+  },
+  "蜂拥而至": {
+    "pinyin": "fēng yōng ér zhì",
+    "meaning": "To swarm in like a flock; to arrive in large numbers or with great enthusiasm.",
+    "literal": "bee swarm and arrive",
+    "example": "When the store announced a 50% off sale, customers came swarming in.",
+    "hint1": "Think of a crowd moving together eagerly towards something popular.",
+    "hint2": "The first character means 'bee' or metaphorically 'flock'.",
+    "difficulty": "easy"
+  },
+  "扬长而去": {
+    "pinyin": "yáng cháng ér qù",
+    "meaning": "To leave or depart in a haughty or self-satisfied manner, often after achieving one's goal or having the last word.",
+    "literal": "raise long and go",
+    "example": "After winning the argument, he turned around and walked away, leaving everyone speechless.",
+    "hint1": "This idiom describes a triumphant exit.",
+    "hint2": "One character means 'to raise' or 'to lift'.",
+    "difficulty": "medium"
+  },
+  "水落石出": {
+    "pinyin": "shuǐ luò shí chū",
+    "meaning": "The truth emerges clearly when the situation becomes clear.",
+    "literal": "water recedes, stones appear",
+    "example": "After all the rumors, the investigation revealed the truth: water recedes, stones appear.",
+    "hint1": "Think about something hidden being revealed as distractions fade.",
+    "hint2": "One character means 'stone', which represents something solid or truthful.",
+    "difficulty": "medium"
+  },
+  "大开眼界": {
+    "pinyin": "dà kāi yǎn jiè",
+    "meaning": "To broaden one's horizons; to see something eye-opening.",
+    "literal": "big open eye boundary",
+    "example": "Traveling to different countries really opened my eyes.",
+    "hint1": "This idiom describes an experience that expands your perspective.",
+    "hint2": "It involves the character for 'eye' and implies seeing beyond usual limits.",
+    "difficulty": "easy"
+  },
+  "载歌载舞": {
+    "pinyin": "zài gē zài wǔ",
+    "meaning": "To sing and dance joyfully, celebrating a happy occasion.",
+    "literal": "carrying/engaging in singing, carrying/engaging in dancing",
+    "example": "The whole village was singing and dancing in celebration of the harvest.",
+    "hint1": "This idiom describes a festive, lively atmosphere.",
+    "hint2": "The first and third characters both mean 'to engage in' or 'to carry on'.",
+    "difficulty": "medium"
+  },
+  "子虚乌有": {
+    "pinyin": "zǐ xū wū yǒu",
+    "meaning": "Fictitious or nonexistent; something invented or imaginary.",
+    "literal": "master empty nothing have",
+    "example": "The story about the treasure is just a sub-xu-wu-you tale.",
+    "hint1": "This idiom describes something that is not real, often used to dismiss a claim.",
+    "hint2": "It contains a character meaning 'nonexistent' or 'nothing'.",
+    "difficulty": "medium"
+  },
+  "了如指掌": {
+    "pinyin": "liǎo rú zhǐ zhǎng",
+    "meaning": "To know something like the palm of one's hand; to have an extremely thorough understanding.",
+    "literal": "understand as clear as pointing at palm",
+    "example": "After years of study, she knows the ancient texts like the palm of her hand.",
+    "hint1": "This idiom relates to complete familiarity, often used for knowledge about a place or subject.",
+    "hint2": "The second character means 'like' or 'as', and the fourth character means 'palm'.",
+    "difficulty": "medium"
+  },
+  "历历在目": {
+    "pinyin": "lì lì zài mù",
+    "meaning": "To recall something vividly as if it were before one's eyes.",
+    "literal": "clearly, clearly, at, eye",
+    "example": "The scenes of my childhood are still vivid in my mind.",
+    "hint1": "This idiom describes a memory that feels visually present.",
+    "hint2": "The second character means 'clear; distinct'.",
+    "difficulty": "medium"
+  },
+  "徇私枉法": {
+    "pinyin": "xún sī wǎng fǎ",
+    "meaning": "To bend the law to help friends or relatives.",
+    "literal": "follow private, bend law",
+    "example": "The judge was caught practicing self-serving favoritism and bending the law for his friend.",
+    "hint1": "This idiom relates to corruption and favoritism in a legal context.",
+    "hint2": "The second character means 'personal' or 'private'.",
+    "difficulty": "medium"
+  },
+  "风云变幻": {
+    "pinyin": "fēng yún biàn huàn",
+    "meaning": "Constant and unpredictable changes in a situation or circumstances.",
+    "literal": "wind cloud change transform",
+    "example": "The business world is full of fengyun bianhuan, so you must always be adaptable.",
+    "hint1": "This idiom describes rapid, unpredictable shifts in a dynamic environment.",
+    "hint2": "One character refers to a natural phenomenon that can suddenly change direction.",
+    "difficulty": "medium"
+  },
+  "公正廉洁": {
+    "pinyin": "gōng zhèng lián jié",
+    "meaning": "Fairness and integrity; being just, honest, and incorruptible.",
+    "literal": "fair, upright, honest, pure",
+    "example": "A good leader must be 公正廉洁 to gain the trust of the people.",
+    "hint1": "This idiom describes the ideal moral standard for officials.",
+    "hint2": "Two characters relate to justice, two to purity.",
+    "difficulty": "medium"
+  },
+  "茁壮成长": {
+    "pinyin": "zhuó zhuàng chéng zhǎng",
+    "meaning": "To grow up healthy and strong, or to thrive and develop vigorously.",
+    "literal": "robust, strong, become, grow",
+    "example": "With proper nutrition and care, children can thrive and grow up healthy and strong.",
+    "hint1": "This idiom is often used to describe the healthy development of children or plants.",
+    "hint2": "The second character means 'strong' or 'robust'.",
+    "difficulty": "medium"
+  },
+  "千丝万缕": {
+    "pinyin": "qiān sī wàn lǚ",
+    "meaning": "Countless ties and connections; complex relationships.",
+    "literal": "thousand threads ten thousand strands",
+    "example": "Their lives are linked in a thousand and one ways.",
+    "hint1": "This idiom evokes the image of something tangled and intricate.",
+    "hint2": "It includes a word that means 'threads' or 'strands'.",
+    "difficulty": "medium"
+  },
+  "奋不顾身": {
+    "pinyin": "fèn bù gù shēn",
+    "meaning": "To dash forward without regard for one's own safety; to be undaunted by danger.",
+    "literal": "strive not care for body",
+    "example": "Despite the raging fire, the firefighter ran into the burning building fenbùgùshēn to save the trapped child.",
+    "hint1": "This idiom describes a courageous, self-sacrificing action in a dangerous situation.",
+    "hint2": "The third character means 'not' or 'to not', and the fourth character means 'body' or 'self'.",
+    "difficulty": "medium"
+  },
+  "轻描淡写": {
+    "pinyin": "qīng miáo dàn xiě",
+    "meaning": "To describe or handle something in a light, casual, or understated manner, often downplaying its importance.",
+    "literal": "light sketch, faint write",
+    "example": "He mentioned his promotion with a sense of indifference, as if it were nothing special.",
+    "hint1": "Think of painting or writing with very soft strokes.",
+    "hint2": "One character means 'light' or 'gentle'.",
+    "difficulty": "medium"
+  },
+  "不解之缘": {
+    "pinyin": "bù jiě zhī yuán",
+    "meaning": "An inseparable bond or destiny with someone or something.",
+    "literal": "not untie of fate",
+    "example": "She has an unbreakable bond with music, practising every day.",
+    "hint1": "Think of a destined relationship that cannot be broken.",
+    "hint2": "The third character means 'of', and the fourth means 'fate'.",
+    "difficulty": "easy"
+  },
+  "有意无意": {
+    "pinyin": "yǒu yì wú yì",
+    "meaning": "Deliberately or unintentionally; doing something with or without conscious intent.",
+    "literal": "have meaning/not have meaning",
+    "example": "He intentionally or unintentionally revealed the secret, but the damage was done.",
+    "hint1": "This idiom captures the idea of actions falling between intention and accident.",
+    "hint2": "The second character means 'intent' or 'meaning'.",
+    "difficulty": "medium"
+  },
+  "顾名思义": {
+    "pinyin": "gù míng sī yì",
+    "meaning": "As the name suggests; understanding something from its name.",
+    "literal": "according to name think meaning",
+    "example": "The restaurant is called 'Ocean's Delight', and, as the idiom goes, it serves delicious seafood.",
+    "hint1": "This idiom is about the connection between a name and its essence.",
+    "hint2": "The second character means 'name'.",
+    "difficulty": "easy"
+  },
+  "有声有色": {
+    "pinyin": "yǒu shēng yǒu sè",
+    "meaning": "Vivid and lively; full of sound and color.",
+    "literal": "have sound have color",
+    "example": "The storyteller described the scene so vividly that it became full of sound and color.",
+    "hint1": "Think about a performance or description that engages multiple senses.",
+    "hint2": "It combines hearing and sight to describe something dynamic.",
+    "difficulty": "medium"
+  },
+  "流离失所": {
+    "pinyin": "liú lí shī suǒ",
+    "meaning": "To be displaced from one's home and wander about without a place to settle.",
+    "literal": "flow away lose place",
+    "example": "During the war, many families were forced to flee and became displaced.",
+    "hint1": "This idiom describes a state of homelessness and wandering.",
+    "hint2": "The first character relates to flowing or drifting.",
+    "difficulty": "easy"
+  },
+  "诸如此类": {
+    "pinyin": "zhū rú cǐ lèi",
+    "meaning": "And so on; things of this kind; similar things.",
+    "literal": "various like this kind",
+    "example": "He mentioned apples, oranges, and others such as these.",
+    "hint1": "Think about categorizing similar items or examples.",
+    "hint2": "One character means 'this' and another means 'kind'.",
+    "difficulty": "easy"
+  },
+  "一清二楚": {
+    "pinyin": "yī qīng èr chǔ",
+    "meaning": "To be perfectly clear or obvious; crystal clear.",
+    "literal": "one clear two clear",
+    "example": "After his explanation, the whole situation was yī qīng èr chǔ.",
+    "hint1": "This idiom describes something that needs no further explanation.",
+    "hint2": "It involves the numbers 'one' and 'two' combined with words for clarity.",
+    "difficulty": "easy"
+  },
+  "众志成城": {
+    "pinyin": "zhòng zhì chéng chéng",
+    "meaning": "Unity is strength; a group of people working together can achieve great things.",
+    "literal": "many wills form a wall",
+    "example": "With everyone contributing, they built the bridge in record time; truly, unity is strength.",
+    "hint1": "This idiom conveys the power of collective effort.",
+    "hint2": "The last character means a fortress or city wall.",
+    "difficulty": "medium"
+  },
+  "救死扶伤": {
+    "pinyin": "jiù sǐ fú shāng",
+    "meaning": "To heal the wounded and rescue the dying; a medical professional's duty.",
+    "literal": "rescue dead help wounded",
+    "example": "Doctors and nurses are trained to 救死扶伤, saving lives regardless of the situation.",
+    "hint1": "This phrase is often associated with the Hippocratic Oath.",
+    "hint2": "The first character means 'to save or rescue'.",
+    "difficulty": "medium"
+  },
+  "梦寐以求": {
+    "pinyin": "mèng mèi yǐ qiú",
+    "meaning": "To long for something day and night; to crave something deeply.",
+    "literal": "dream sleep to seek",
+    "example": "She has been dreaming of visiting Paris for years; it's her dream come true.",
+    "hint1": "It expresses a strong desire or aspiration.",
+    "hint2": "One character means 'sleep', another means 'seek'.",
+    "difficulty": "medium"
+  },
+  "逍遥法外": {
+    "pinyin": "xiāo yáo fǎ wài",
+    "meaning": "To be at large, free from the law; to get away with a crime without punishment.",
+    "literal": "free and unconstrained beyond the law",
+    "example": "Despite the evidence, the corrupt official remained xiaoyao fa wai and never faced justice.",
+    "hint1": "This idiom describes a feeling of freedom and impunity from legal consequences.",
+    "hint2": "One character means 'law' or 'legal system'.",
+    "difficulty": "medium"
+  },
+  "按捺不住": {
+    "pinyin": "àn nà bù zhù",
+    "meaning": "Unable to restrain oneself, especially when feeling excited or anxious.",
+    "literal": "press hold not stop",
+    "example": "He couldn't contain his excitement and blurted out the news.",
+    "hint1": "This idiom describes a feeling of being unable to hold back an emotion.",
+    "hint2": "The first character means 'to press down' or 'to restrain'.",
+    "difficulty": "medium"
+  },
+  "信誓旦旦": {
+    "pinyin": "xìn shì dàn dàn",
+    "meaning": "To pledge or promise with utmost sincerity and earnestness.",
+    "literal": "believe, swear, solemn, solemn",
+    "example": "He vowed to love her forever with all his heart, his words as earnest as a sacred oath.",
+    "hint1": "Think of a solemn vow made with absolute conviction.",
+    "hint2": "The second character means 'to swear an oath'.",
+    "difficulty": "medium"
+  },
+  "不计其数": {
+    "pinyin": "bù jì qí shù",
+    "meaning": "Countless; numerous beyond calculation.",
+    "literal": "not, calculate, its, number",
+    "example": "The stars in the sky are countless.",
+    "hint1": "This idiom describes a quantity so large it can't be counted.",
+    "hint2": "The second character means 'to count' or 'to calculate'.",
+    "difficulty": "easy"
+  },
+  "缺一不可": {
+    "pinyin": "quē yī bù kě",
+    "meaning": "Each one is indispensable; none can be omitted.",
+    "literal": "lack one not acceptable",
+    "example": "In a successful team, every member is indispensable.",
+    "hint1": "This idiom emphasizes completeness and necessity.",
+    "hint2": "The second character means 'one'.",
+    "difficulty": "medium"
+  },
+  "脱胎换骨": {
+    "pinyin": "tuō tāi huàn gǔ",
+    "meaning": "To undergo a complete transformation, shedding old traits and adopting new ones, often in a positive sense of rebirth or renewal.",
+    "literal": "cast off the fetus, change the bones",
+    "example": "After years of hard work, he completely transformed himself, undergoing a total change in his lifestyle and thinking.",
+    "hint1": "Think about a process of complete renewal, like a rebirth.",
+    "hint2": "One character refers to casting off the old body or form.",
+    "difficulty": "medium"
+  },
+  "真心实意": {
+    "pinyin": "zhēn xīn shí yì",
+    "meaning": "Genuine sincerity and true feelings; heartfelt and earnest.",
+    "literal": "true heart real intention",
+    "example": "She helped me with真心实意, never expecting anything in return.",
+    "hint1": "Think of an idiom that describes acting with complete honesty and from the heart.",
+    "hint2": "The first character means 'truth' and the second means 'heart'.",
+    "difficulty": "medium"
+  },
+  "对簿公堂": {
+    "pinyin": "duì bù gōng táng",
+    "meaning": "To confront someone in court; to have a legal dispute or lawsuit.",
+    "literal": "confront (in) court",
+    "example": "After years of disagreement, the business partners finally decided to take the matter to court and confront each other in court.",
+    "hint1": "This idiom involves legal proceedings and face-to-face confrontation.",
+    "hint2": "One character refers to a place where judges preside.",
+    "difficulty": "medium"
+  },
+  "不辱使命": {
+    "pinyin": "bù rǔ shǐ mìng",
+    "meaning": "To successfully complete a mission or task assigned by someone, without failing their trust or expectations.",
+    "literal": "not disgrace mission",
+    "example": "Despite the challenges, the diplomat completed the negotiations and returned home, having fulfilled his duty without disgrace.",
+    "hint1": "This idiom is about successfully carrying out a responsibility or task entrusted to you.",
+    "hint2": "The second character means 'to bring shame to' or 'to disgrace'.",
+    "difficulty": "medium"
+  },
+  "狂风暴雨": {
+    "pinyin": "kuáng fēng bào yǔ",
+    "meaning": "Violent storm; a fierce and turbulent situation.",
+    "literal": "Fierce wind, violent rain",
+    "example": "The meeting turned into a raging storm of arguments.",
+    "hint1": "Think of extreme weather conditions.",
+    "hint2": "One character means 'mad' or 'wild'.",
+    "difficulty": "easy"
+  },
+  "日复一日": {
+    "pinyin": "rì fù yī rì",
+    "meaning": "Day after day; repeatedly over time, emphasizing monotony or persistence.",
+    "literal": "day + again + one + day",
+    "example": "He goes to the same office, does the same tasks, day after day.",
+    "hint1": "Think about the passage of time and routine.",
+    "hint2": "The first character means 'sun' or 'day'.",
+    "difficulty": "easy"
+  },
+  "白发苍苍": {
+    "pinyin": "bái fà cāng cāng",
+    "meaning": "Describes an old person with white hair, indicating old age and often wisdom or frailty.",
+    "literal": "white hair grey-grey",
+    "example": "The old man, with white hair tinged with grey, sat quietly on the park bench, lost in thought.",
+    "hint1": "This idiom paints a picture of aging through hair color.",
+    "hint2": "Think of the color of snow covering the head.",
+    "difficulty": "easy"
+  },
+  "山清水秀": {
+    "pinyin": "shān qīng shuǐ xiù",
+    "meaning": "Describes a scenic area with beautiful mountains and clear waters, often used to praise picturesque natural landscapes.",
+    "literal": "mountain green water beautiful",
+    "example": "We visited a small village where the mountains were green and the rivers crystal clear, truly a place of mountain-water beauty.",
+    "hint1": "Think of a common phrase used to describe the beauty of nature in Chinese.",
+    "hint2": "The first word means 'mountain' and the third word means 'water'.",
+    "difficulty": "easy"
+  },
+  "随心所欲": {
+    "pinyin": "suí xīn suǒ yù",
+    "meaning": "To do as one pleases; to follow one's heart's desires.",
+    "literal": "follow heart what desire",
+    "example": "On vacation, he ate and slept whenever he wanted, living 随心所欲.",
+    "hint1": "This idiom relates to personal freedom and doing what you want without constraints.",
+    "hint2": "The first character means 'follow' and the fourth means 'desire'.",
+    "difficulty": "medium"
+  },
+  "浩浩荡荡": {
+    "pinyin": "hào hào dàng dàng",
+    "meaning": "Vast and majestic in scale; often used to describe a large group of people or things moving with great momentum.",
+    "literal": "vast vast grand grand",
+    "example": "The army marched across the plain,浩浩荡荡, shaking the ground.",
+    "hint1": "Think of a massive, unstoppable flow.",
+    "hint2": "The first character means 'vast like water'.",
+    "difficulty": "medium"
+  },
+  "不堪设想": {
+    "pinyin": "bù kān shè xiǎng",
+    "meaning": "Too dreadful or disastrous to imagine; unthinkable.",
+    "literal": "not bearable to conceive",
+    "example": "The consequences of a nuclear war are unthinkable.",
+    "hint1": "This idiom describes a situation so bad that you don't even want to think about it.",
+    "hint2": "The second character implies being able to bear or endure, and it's negated here.",
+    "difficulty": "medium"
+  },
+  "叹为观止": {
+    "pinyin": "tàn wéi guān zhǐ",
+    "meaning": "To gasp in amazement; to acclaim something as the peak of perfection.",
+    "literal": "sigh - as - view - stop",
+    "example": "The audience was left speechless, their reaction one of pure astonishment—they could only sigh, as if to say they had seen the ultimate.",
+    "hint1": "This idiom describes a reaction to something so impressive that words fail.",
+    "hint2": "The second character means 'as' and the third means 'view' or 'see'.",
+    "difficulty": "medium"
+  },
+  "不由自主": {
+    "pinyin": "bù yóu zì zhǔ",
+    "meaning": "Cannot help doing something; involuntarily or spontaneously.",
+    "literal": "not from oneself master",
+    "example": "He couldn't help but laugh at her joke.",
+    "hint1": "Think of a reaction you have no control over.",
+    "hint2": "The third character means 'self'.",
+    "difficulty": "easy"
+  },
+  "天下第一": {
+    "pinyin": "tiān xià dì yī",
+    "meaning": "Unrivaled or best under heaven; number one in the world.",
+    "literal": "under heaven number one",
+    "example": "Her skills in calligraphy are considered world number one.",
+    "hint1": "This idiom conveys the idea of being supreme on a global scale.",
+    "hint2": "The first character means 'sky' or 'heaven', and the last character means 'one'.",
+    "difficulty": "easy"
+  },
+  "如愿以偿": {
+    "pinyin": "rú yuàn yǐ cháng",
+    "meaning": "To have one's wishes fulfilled; to achieve what one hoped for.",
+    "literal": "as wish with fulfill",
+    "example": "After years of hard work, she finally got the promotion and felt that her wishes had come true.",
+    "hint1": "This idiom describes the joy of achieving a long-held desire.",
+    "hint2": "The second character means 'wish' or 'desire'.",
+    "difficulty": "medium"
+  },
+  "取长补短": {
+    "pinyin": "qǔ cháng bǔ duǎn",
+    "meaning": "Take from each other's strengths to compensate for weaknesses; learn from others' strong points to offset one's own deficiencies.",
+    "literal": "take long, mend short",
+    "example": "In team projects, we should practice 'qǔ cháng bǔ duǎn', letting each member contribute their unique skills.",
+    "hint1": "Think about collaboration and improvement through mutual exchange.",
+    "hint2": "One character means 'to take' and another means 'to compensate'.",
+    "difficulty": "easy"
+  },
+  "所见所闻": {
+    "pinyin": "suǒ jiàn suǒ wén",
+    "meaning": "What one sees and hears; one's experiences and observations.",
+    "literal": "that which is seen, that which is heard",
+    "example": "Her understanding of the culture comes from her 所见所闻 during her travels.",
+    "hint1": "This idiom describes the accumulation of knowledge through direct experience.",
+    "hint2": "It combines two senses: one for sight and one for hearing.",
+    "difficulty": "easy"
+  },
+  "近在咫尺": {
+    "pinyin": "jìn zài zhǐ chǐ",
+    "meaning": "Very close at hand; within easy reach.",
+    "literal": "near at hand's reach",
+    "example": "The solution was right in front of me, near at hand, but I couldn't see it.",
+    "hint1": "Think about something that is physically very close, almost touchable.",
+    "hint2": "One character means 'finger', indicating a tiny distance.",
+    "difficulty": "medium"
+  },
+  "一言一行": {
+    "pinyin": "yī yán yī xíng",
+    "meaning": "Every word and deed; refers to one's every action and speech.",
+    "literal": "one word, one action",
+    "example": "In a job interview, your every word and deed is being judged.",
+    "hint1": "This idiom emphasizes the importance of consistency between speech and behavior.",
+    "hint2": "It combines the concept of speaking and acting, each quantified as 'one'.",
+    "difficulty": "easy"
+  },
+  "惨不忍睹": {
+    "pinyin": "cǎn bù rěn dǔ",
+    "meaning": "So tragic that one cannot bear to look at it; describes a scene too horrible or pitiful to witness.",
+    "literal": "tragic / not / endure / look",
+    "example": "The aftermath of the earthquake was so devastating that the scene was truly cannot bear to look at.",
+    "hint1": "This idiom describes something extremely sad or shocking that you would want to look away from.",
+    "hint2": "The second character means 'not' and the fourth character means 'see' or 'look'.",
+    "difficulty": "medium"
+  },
+  "一无所获": {
+    "pinyin": "yī wú suǒ huò",
+    "meaning": "To gain nothing at all; to have achieved nothing despite effort.",
+    "literal": "one not that obtain",
+    "example": "After hours of searching, he came back empty-handed and felt he had gained nothing.",
+    "hint1": "This idiom describes the feeling of having tried hard but ended up with zero results.",
+    "hint2": "The second character means 'not have' and the last means 'gain'.",
+    "difficulty": "medium"
+  },
+  "既得利益": {
+    "pinyin": "jì dé lì yì",
+    "meaning": "Refers to the interests or advantages that someone has already obtained and is unwilling to give up.",
+    "literal": "already obtained interests",
+    "example": "The reforms were blocked by those who wanted to protect their vested interests.",
+    "hint1": "Think about privileges that people hold onto.",
+    "hint2": "The first character means 'already'.",
+    "difficulty": "medium"
+  },
+  "呼之欲出": {
+    "pinyin": "hū zhī yù chū",
+    "meaning": "to vividly emerge; to be on the verge of appearing or becoming clear",
+    "literal": "call, it, about to, come out",
+    "example": "The suspense in the story made the truth seem ready to burst forth.",
+    "hint1": "This phrase captures something so vivid it feels like it's just about to appear.",
+    "hint2": "The third character means 'about to' or 'on the verge of'.",
+    "difficulty": "medium"
+  },
+  "一厢情愿": {
+    "pinyin": "yī xiāng qíng yuàn",
+    "meaning": "One-sided wish; wishful thinking; to believe something is true based solely on one's own desires, ignoring reality.",
+    "literal": "one side feeling willing",
+    "example": "She thought he would ask her out, but it was just her own wishful thinking.",
+    "hint1": "This idiom describes a feeling or belief that is not shared by the other party.",
+    "hint2": "The second character means 'side' or 'party', indicating something is only from one side.",
+    "difficulty": "medium"
+  },
+  "黄金时代": {
+    "pinyin": "huáng jīn shí dài",
+    "meaning": "A golden age, a period of great prosperity, success, and happiness.",
+    "literal": "gold golden time generation",
+    "example": "The 1920s are often referred to as a golden age for literature and arts.",
+    "hint1": "This idiom describes a peak period associated with wealth and brilliance.",
+    "hint2": "The first character means 'yellow' and is associated with precious metal.",
+    "difficulty": "medium"
+  },
+  "无与伦比": {
+    "pinyin": "wú yǔ lún bǐ",
+    "meaning": "Incomparable; unparalleled; matchless.",
+    "literal": "no with compare equal companion",
+    "example": "Her performance was unparalleled, leaving the audience in awe.",
+    "hint1": "Think of something so outstanding that nothing else can match it.",
+    "hint2": "One character means 'comparison'. The phrase means nothing can compare.",
+    "difficulty": "medium"
+  },
+  "无中生有": {
+    "pinyin": "wú zhōng shēng yǒu",
+    "meaning": "To create something out of nothing; to fabricate or make something from nothing.",
+    "literal": "nothing中生有: no, middle, produce, have",
+    "example": "He accused her of wú zhōng shēng yǒu, fabricating the entire story.",
+    "hint1": "This idiom is about creating something from nothing, often used in describing false accusations or inventions.",
+    "hint2": "The second character means 'middle' or 'among', suggesting something emerging from emptiness.",
+    "difficulty": "medium"
+  },
+  "轰动一时": {
+    "pinyin": "hōng dòng yī shí",
+    "meaning": "Describes an event or person that creates a great sensation and is widely discussed for a period of time.",
+    "literal": "boom move one time",
+    "example": "The Nobel Prize winner's lecture caused a sensation and was the talk of the town.",
+    "hint1": "Think of a sudden big noise that catches everyone's attention.",
+    "hint2": "The second character means 'to move' or 'to shake'.",
+    "difficulty": "medium"
+  },
+  "街头巷尾": {
+    "pinyin": "jiē tóu xiàng wěi",
+    "meaning": "In the streets and lanes; everywhere in the city or town.",
+    "literal": "street head lane end",
+    "example": "The news spread quickly through every street and alley of the town.",
+    "hint1": "This phrase paints a picture of a lively, bustling place.",
+    "hint2": "One part refers to the beginning of a road, another to the end of a narrow path.",
+    "difficulty": "easy"
+  },
+  "掷地有声": {
+    "pinyin": "zhì dì yǒu shēng",
+    "meaning": "Descriptions, words, or promises that are impactful, resolute, and carry weight, as if making a sound when hitting the ground.",
+    "literal": "throw ground have sound",
+    "example": "Her promise was zhi di you sheng, leaving no doubt about her determination.",
+    "hint1": "Think of something solid and decisive that leaves a strong impression.",
+    "hint2": "The second character means 'ground' or 'earth'.",
+    "difficulty": "medium"
+  },
+  "戛然而止": {
+    "pinyin": "jiá rán ér zhǐ",
+    "meaning": "To come to an abrupt halt, often used to describe a sound or activity that suddenly stops.",
+    "literal": "suddenly (戛) the appearance of stopping (然) and (而) cease (止)",
+    "example": "The music戛然而止 when the power went out, leaving the dancers frozen mid-step.",
+    "hint1": "This idiom describes an unexpected, sharp end to something that was ongoing.",
+    "hint2": "The second character means 'in such a way' and the last character means 'stop'.",
+    "difficulty": "medium"
+  },
+  "念念不忘": {
+    "pinyin": "niàn niàn bù wàng",
+    "meaning": "To remember something persistently and never forget it.",
+    "literal": "miss miss not forget",
+    "example": "She still thinks about her childhood friend every day; it's a case of missing someone so deeply that she can never forget.",
+    "hint1": "This idiom describes a strong, lasting memory or feeling.",
+    "hint2": "One character means 'miss' or 'think of', repeated for emphasis.",
+    "difficulty": "easy"
+  },
+  "偷工减料": {
+    "pinyin": "tōu gōng jiǎn liào",
+    "meaning": "To use inferior materials and cut corners in construction or production to save costs.",
+    "literal": "steal work reduce material",
+    "example": "The contractor was accused of using shoddy materials and cutting corners on the project.",
+    "hint1": "This idiom describes a dishonest practice often seen in construction or manufacturing.",
+    "hint2": "The second character means 'work' or 'labor'.",
+    "difficulty": "medium"
+  },
+  "津津有味": {
+    "pinyin": "jīn jīn yǒu wèi",
+    "meaning": "To do something with great interest and enjoyment; to relish or savor something.",
+    "literal": "with gusto, have flavor",
+    "example": "She read the novel津津有味, unable to put it down.",
+    "hint1": "This idiom describes the feeling of being deeply absorbed in something enjoyable.",
+    "hint2": "The second character suggests 'saliva' or 'eagerly'.",
+    "difficulty": "medium"
+  },
+  "改头换面": {
+    "pinyin": "gǎi tóu huàn miàn",
+    "meaning": "To change only the appearance or superficial aspects of something while keeping the substance unchanged; to disguise or reform superficially.",
+    "literal": "change head, change face",
+    "example": "The company rebranded with a new logo and website, but it was just a 改头换面 attempt that didn't fix the core issues.",
+    "hint1": "This idiom involves making something look different on the outside while its true nature remains the same.",
+    "hint2": "Think about literally altering the first part of your body to present a new version of yourself.",
+    "difficulty": "medium"
+  },
+  "据为己有": {
+    "pinyin": "jù wéi jǐ yǒu",
+    "meaning": "To take something for oneself; to appropriate something that belongs to others.",
+    "literal": "take as own have",
+    "example": "He tried to keep the found money for himself.",
+    "hint1": "This idiom conveys a sense of selfish possession.",
+    "hint2": "It involves the character meaning 'to be' or 'to have'.",
+    "difficulty": "medium"
+  },
+  "大同小异": {
+    "pinyin": "dà tóng xiǎo yì",
+    "meaning": "Mostly the same but with small differences; similar in general but with minor discrepancies.",
+    "literal": "big same small different",
+    "example": "The two proposals are essentially the same, with only a few minor changes — they are mostly alike but with small differences.",
+    "hint1": "Think about two things that are basically identical but not exactly.",
+    "hint2": "One character means 'big' or 'great', and another means 'small' or 'little'."
+  },
+  "刮目相看": {
+    "pinyin": "guā mù xiāng kàn",
+    "meaning": "To see someone in a new light or with renewed respect after they have shown improvement.",
+    "literal": "rub eyes look at each other",
+    "example": "After he aced the exam, his classmates began to see him with new eyes.",
+    "hint1": "This idiom is about a positive change in perception.",
+    "hint2": "The first character means to scrape or rub.",
+    "difficulty": "medium"
+  },
+  "令人发指": {
+    "pinyin": "lìng rén fà zhǐ",
+    "meaning": "To make one's hair stand on end; extremely shocking or outrageous.",
+    "literal": "cause person hair stand up",
+    "example": "The corruption in the government was so rampant that it was truly hair-raising.",
+    "hint1": "This idiom describes a reaction to something that makes you very angry or shocked.",
+    "hint2": "One character means 'hair' and the last character means 'finger' but together they convey standing on end.",
+    "difficulty": "medium"
+  },
+  "目瞪口呆": {
+    "pinyin": "mù dèng kǒu dāi",
+    "meaning": "To be stunned or speechless with shock or surprise.",
+    "literal": "eyes wide, mouth agape",
+    "example": "When he saw the magician pull a rabbit out of the hat, he was completely dumbfounded.",
+    "hint1": "This idiom describes a state of extreme surprise.",
+    "hint2": "It involves your eyes and mouth.",
+    "difficulty": "easy"
+  },
+  "三三两两": {
+    "pinyin": "sān sān liǎng liǎng",
+    "meaning": "In small groups or in pairs; scattered here and there.",
+    "literal": "three three two two",
+    "example": "The students came into the classroom in twos and threes.",
+    "hint1": "Think about how people or things are grouped when not all together.",
+    "hint2": "It involves small numbers; one of the characters means 'three'.",
+    "difficulty": "easy"
+  },
+  "雷厉风行": {
+    "pinyin": "léi lì fēng xíng",
+    "meaning": "Describes someone who acts vigorously and swiftly, with great efficiency.",
+    "literal": "thunder, fierce, wind, action",
+    "example": "The new manager is known for his 雷厉风行 approach, implementing changes immediately.",
+    "hint1": "It describes a combination of natural forces to convey speed and decisiveness.",
+    "hint2": "One character means 'wind' and another means 'thunder'.",
+    "difficulty": "medium"
+  },
+  "风雨无阻": {
+    "pinyin": "fēng yǔ wú zǔ",
+    "meaning": "To proceed regardless of obstacles or hardships, often used to describe perseverance.",
+    "literal": "wind rain no obstruction",
+    "example": "She trained every day, rain or shine, determined to finish the marathon.",
+    "hint1": "This idiom describes an unwavering commitment despite natural challenges.",
+    "hint2": "The last two characters mean 'without' and 'obstacle'.",
+    "difficulty": "medium"
+  },
+  "江郎才尽": {
+    "pinyin": "jiāng láng cái jìn",
+    "meaning": "Refers to a person who used to be talented but has exhausted their creativity or ability.",
+    "literal": "Jiang (surname) Lang (young man) talent exhaust",
+    "example": "After his first successful novel, he never wrote anything good again; he was like Jiang Lang with his talent used up.",
+    "hint1": "This idiom describes a decline in creativity or skill over time.",
+    "hint2": "It contains a surname, a term for a young man, and the idea of talent running out.",
+    "difficulty": "medium"
+  },
+  "美轮美奂": {
+    "pinyin": "měi lún měi huàn",
+    "meaning": "Describes something extremely beautiful and magnificent, often used for buildings or decorations.",
+    "literal": "beautiful wheel beautiful grand",
+    "example": "The palace was decorated with such splendor that it was truly a meilunmeihuan sight.",
+    "hint1": "This idiom often describes splendid architecture or elaborate decorations.",
+    "hint2": "It contains two characters that mean 'beautiful' and two characters related to grand structures.",
+    "difficulty": "medium"
+  },
+  "货真价实": {
+    "pinyin": "huò zhēn jià shí",
+    "meaning": "Goods are genuine and the price is fair; describes something that is worth its price.",
+    "literal": "goods genuine price solid",
+    "example": "The handmade leather bag is expensive, but it's huò zhēn jià shí.",
+    "hint1": "Think about a fair deal in a marketplace.",
+    "hint2": "One character means 'true' or 'genuine'.",
+    "difficulty": "easy"
+  },
+  "三令五申": {
+    "pinyin": "sān lìng wǔ shēn",
+    "meaning": "To give repeated orders and warnings.",
+    "literal": "three commands five explain",
+    "example": "The teacher gave the students three orders and five explanations about the exam rules.",
+    "hint1": "Think of repeated instructions or warnings.",
+    "hint2": "One character means 'order' and another means 'explain'.",
+    "difficulty": "medium"
+  },
+  "和睦相处": {
+    "pinyin": "hé mù xiāng chǔ",
+    "meaning": "To get along harmoniously and live in peace with each other.",
+    "literal": "peaceful, harmonious, each other, dwell",
+    "example": "The neighbors have been living together in harmony for decades.",
+    "hint1": "Think about relationships where people respect and support each other.",
+    "hint2": "The second character means 'gentle' or 'harmonious'.",
+    "difficulty": "easy"
+  },
+  "感慨万千": {
+    "pinyin": "gǎn kǎi wàn qiān",
+    "meaning": "Having a myriad of emotions and thoughts; deeply stirred and filled with varied feelings.",
+    "literal": "emotion/sigh ten thousand thousand",
+    "example": "Standing on the Great Wall, he felt a surge of emotions, overcome with a sense of history.",
+    "hint1": "This idiom describes a state of being overwhelmed by mixed feelings.",
+    "hint2": "It includes a character meaning 'ten thousand' to emphasize abundance.",
+    "difficulty": "medium"
+  },
+  "拾金不昧": {
+    "pinyin": "shí jīn bù mèi",
+    "meaning": "To find money and not pocket it; to be honest and return lost property.",
+    "literal": "pick up gold not conceal",
+    "example": "When she found a wallet on the street, she practiced shi jin bu mei by turning it in to the police.",
+    "hint1": "This idiom describes a moral action involving lost valuables.",
+    "hint2": "The second character means 'gold' or 'money'.",
+    "difficulty": "medium"
+  },
+  "因人而异": {
+    "pinyin": "yīn rén ér yì",
+    "meaning": "It varies from person to person.",
+    "literal": "according to person then differ",
+    "example": "The best study method differs from person to person; you need to find what works for you.",
+    "hint1": "This idiom is about how things change based on individual differences.",
+    "hint2": "The second character means 'person'.",
+    "difficulty": "easy"
+  },
+  "一纸空文": {
+    "pinyin": "yī zhǐ kōng wén",
+    "meaning": "A piece of paper that has no effect; an empty promise or a law that is not enforced.",
+    "literal": "one sheet empty text",
+    "example": "The new policy turned out to be a dead letter, just a piece of paper with no real impact.",
+    "hint1": "Think about something officially written but completely ignored or ineffective.",
+    "hint2": "The second character suggests a piece of thin material, and the third means 'empty' or 'void'.",
+    "difficulty": "medium"
+  },
+  "双管齐下": {
+    "pinyin": "shuāng guǎn qí xià",
+    "meaning": "To adopt two approaches simultaneously; to do two things at the same time.",
+    "literal": "two tubes together down",
+    "example": "To solve the problem, we decided to work on both the marketing and product development fronts, a classic double-pronged strategy.",
+    "hint1": "Think of painting with two brushes to speed things up.",
+    "hint2": "It involves using two 'pipes' or 'brushes' together.",
+    "difficulty": "medium"
+  },
+  "脱口而出": {
+    "pinyin": "tuō kǒu ér chū",
+    "meaning": "To blurt out something without thinking; to say something unintentionally.",
+    "literal": "escape mouth and come out",
+    "example": "When she saw the surprise, she blurted out a comment before thinking.",
+    "hint1": "This idiom is about spontaneous speech that slips out.",
+    "hint2": "The first character means 'escape' or 'slip'. Think of words escaping your mouth.",
+    "difficulty": "easy"
+  },
+  "曾几何时": {
+    "pinyin": "céng jǐ hé shí",
+    "meaning": "It means 'once in a while' or 'sometime in the past', referring to a time not too long ago.",
+    "literal": "曾: once; 几: several; 何: what; 时: time",
+    "example": "We used to be close friends in the past, but now we rarely meet.",
+    "hint1": "It's about a past time that isn't very far away.",
+    "hint2": "The first character suggests 'once' or 'formerly'.",
+    "difficulty": "medium"
+  },
+  "逃之夭夭": {
+    "pinyin": "táo zhī yāo yāo",
+    "meaning": "To escape or get away quietly without being noticed, often from a difficult or unpleasant situation.",
+    "literal": "to run away (逃) + it (之) + lush (夭夭)",
+    "example": "The cat ate the fish and then escaped, leaving no trace behind.",
+    "hint1": "This idiom describes a swift and stealthy departure.",
+    "hint2": "The first character means 'to flee'.",
+    "difficulty": "medium"
+  },
+  "心甘情愿": {
+    "pinyin": "xīn gān qíng yuàn",
+    "meaning": "To be perfectly willing to do something; to do something of one's own free will.",
+    "literal": "heart + willing + feeling + wish",
+    "example": "She willingly stayed late to help her colleague finish the project.",
+    "hint1": "Think of doing something with all your heart and without any regret.",
+    "hint2": "The first character means 'heart', suggesting sincere willingness.",
+    "difficulty": "easy"
+  },
+  "一朝一夕": {
+    "pinyin": "yī zhāo yī xī",
+    "meaning": "A short period of time; overnight (often used in negative constructions to indicate that something cannot be accomplished quickly).",
+    "literal": "one morning one evening",
+    "example": "It takes time to learn a language; it cannot be mastered in a day.",
+    "hint1": "This idiom refers to the passage of a brief period of time.",
+    "hint2": "It contains two words that represent two different points of a day.",
+    "difficulty": "easy"
+  },
+  "倾家荡产": {
+    "pinyin": "qīng jiā dàng chǎn",
+    "meaning": "To lose all one's family property, often due to disaster or gambling.",
+    "literal": "empty family, squander property",
+    "example": "He gambled until he was left destitute, losing everything he owned.",
+    "hint1": "This idiom describes a severe financial ruin that affects one's entire household.",
+    "hint2": "The second character means 'family' and the last means 'property'.",
+    "difficulty": "medium"
+  },
+  "有利可图": {
+    "pinyin": "yǒu lì kě tú",
+    "meaning": "There is profit to be made; it is worthwhile to pursue.",
+    "literal": "have profit can seek",
+    "example": "The new business venture looks promising and there is money to be made.",
+    "hint1": "Think about opportunities that bring financial gain.",
+    "hint2": "One character means 'profit' and another means 'seek'.",
+    "difficulty": "medium"
+  },
+  "证据确凿": {
+    "pinyin": "zhèng jù què záo",
+    "meaning": "The evidence is conclusive and irrefutable.",
+    "literal": "evidence, proof, conclusive, solid",
+    "example": "With the fingerprints and DNA match, the evidence was ironclad.",
+    "hint1": "This idiom describes a situation where there is no doubt about the truth.",
+    "hint2": "It contains a character that means 'to confirm' or 'true'.",
+    "difficulty": "medium"
+  },
+  "万众一心": {
+    "pinyin": "wàn zhòng yī xīn",
+    "meaning": "All people are of one heart; everyone works together with unity.",
+    "literal": "ten thousand people one heart",
+    "example": "In the face of the disaster, the community was united as one, embodying the spirit of '万众一心'.",
+    "hint1": "This idiom describes collective action and solidarity.",
+    "hint2": "The third character means 'one'.",
+    "difficulty": "easy"
+  },
+  "古色古香": {
+    "pinyin": "gǔ sè gǔ xiāng",
+    "meaning": "Describes something that has an antique, classical, or nostalgic flavor, often referring to traditional art, architecture, or decor.",
+    "literal": "ancient color, ancient fragrance",
+    "example": "The old teahouse was decorated with wooden carvings and calligraphy, giving it a distinct 古色古香 atmosphere.",
+    "hint1": "This idiom evokes a sense of timelessness and tradition.",
+    "hint2": "It combines the idea of color and fragrance to describe something vintage.",
+    "difficulty": "medium"
+  },
+  "刻骨铭心": {
+    "pinyin": "kè gǔ míng xīn",
+    "meaning": "To be engraved on one's heart and bones; unforgettable and deeply cherished.",
+    "literal": "engrave bone inscribe heart",
+    "example": "The teacher's kindness was engraved on my heart like an indelible mark.",
+    "hint1": "This idiom describes an impression or memory that is extremely deep and lasting.",
+    "hint2": "It involves two body parts: one associated with structure and one with emotion.",
+    "difficulty": "medium"
+  },
+  "东窗事发": {
+    "pinyin": "dōng chuāng shì fā",
+    "meaning": "The plot or conspiracy has been exposed or discovered.",
+    "literal": "east window affair happen",
+    "example": "The bribery scheme finally came to light when the accountant confessed, proving that the east window affair had happened.",
+    "hint1": "This idiom is about secrets and their eventual revelation.",
+    "hint2": "The first character refers to a direction, and the second refers to part of a house.",
+    "difficulty": "medium"
+  },
+  "开门见山": {
+    "pinyin": "kāi mén jiàn shān",
+    "meaning": "To come straight to the point; to say something directly without preamble.",
+    "literal": "open door see mountain",
+    "example": "Instead of small talk, he opened the meeting by getting right to the point like opening the door to see the mountain.",
+    "hint1": "Think about a direct approach or cutting to the chase.",
+    "hint2": "It involves a door and a natural landscape feature.",
+    "difficulty": "easy"
+  },
+  "蒸蒸日上": {
+    "pinyin": "zhēng zhēng rì shàng",
+    "meaning": "Becoming more prosperous or thriving day by day; steadily improving.",
+    "literal": "steaming, steaming, daily, upward",
+    "example": "With each new product launch, the company's business is soaring by leaps and bounds.",
+    "hint1": "Think of something rising like steam, indicating continuous progress.",
+    "hint2": "The first two characters describe the state of water vapor on a hot day.",
+    "difficulty": "medium"
+  },
+  "艰苦卓绝": {
+    "pinyin": "jiān kǔ zhuō jué",
+    "meaning": "Describes extremely difficult and arduous circumstances, often with a sense of perseverance against great odds.",
+    "literal": "hard, bitter, outstanding, extreme",
+    "example": "The hikers endured the rugged mountain trail with艰苦卓绝 spirit, never giving up despite the harsh weather.",
+    "hint1": "Think about a situation where people face extreme hardship and show great resilience.",
+    "hint2": "One character means 'outstanding' or 'exceptional', emphasizing the severity.",
+    "difficulty": "medium"
+  },
+  "承上启下": {
+    "pinyin": "chéng shàng qǐ xià",
+    "meaning": "To inherit from the past and usher in the future; to serve as a link between the preceding and the following.",
+    "literal": "承: inherit, 上: above/previous, 启: start/open, 下: below/next",
+    "example": "This paragraph serves to承上启下, connecting the introduction to the main argument.",
+    "hint1": "Think about a bridge that connects two parts.",
+    "hint2": "One character means 'to carry on' from the past.",
+    "difficulty": "medium"
+  },
+  "振奋人心": {
+    "pinyin": "zhèn fèn rén xīn",
+    "meaning": "to inspire or uplift people's spirits; to fill people with enthusiasm.",
+    "literal": "shake/excite, inspire, people, heart/mind",
+    "example": "The coach's halftime speech was truly inspiring, it lifted the team's morale.",
+    "hint1": "This idiom describes something that makes you feel suddenly energized and motivated.",
+    "hint2": "The second character means 'to excite' or 'to arouse'.",
+    "difficulty": "medium"
+  },
+  "风起云涌": {
+    "pinyin": "fēng qǐ yún yǒng",
+    "meaning": "Describes things that are developing rapidly and vigorously, like a rising wind and surging clouds.",
+    "literal": "wind rise cloud surge",
+    "example": "The tech industry is surging with new startups springing up like wind and clouds.",
+    "hint1": "Think of a natural phenomenon that signals a big change or movement.",
+    "hint2": "The second character means 'rise' or 'start'.",
+    "difficulty": "medium"
+  },
+  "乱七八糟": {
+    "pinyin": "luàn qī bā zāo",
+    "meaning": "Describes a state of extreme disorder or messiness.",
+    "literal": "chaos, seven, eight, mess",
+    "example": "After the kids played all day, the room was in a state of 'luàn qī bā zāo'.",
+    "hint1": "This idiom describes a very chaotic situation or thing.",
+    "hint2": "It includes numbers that are often used in Chinese idioms to mean 'messy'.",
+    "difficulty": "easy"
+  },
+  "浑身解数": {
+    "pinyin": "hún shēn xiè shù",
+    "meaning": "To use all of one's skills or abilities; to do one's utmost.",
+    "literal": "whole body release number",
+    "example": "She tried her utmost to win the competition, using every trick she knew.",
+    "hint1": "This idiom describes giving your absolute best effort in a situation.",
+    "hint2": "The second part refers to 'letting go' or 'releasing' something.",
+    "difficulty": "medium"
+  },
+  "一意孤行": {
+    "pinyin": "yī yì gū xíng",
+    "meaning": "To insist on doing things one's own way regardless of others' opinions or advice.",
+    "literal": "one intention alone walk",
+    "example": "Despite the team's objections, he continued with his plan, acting with 一意孤行.",
+    "hint1": "Think of a person who stubbornly follows their own path.",
+    "hint2": "The third character means 'alone' or 'solitary'.",
+    "difficulty": "medium"
+  },
+  "大有人在": {
+    "pinyin": "dà yǒu rén zài",
+    "meaning": "There are many such people; such people are not rare.",
+    "literal": "big have people at",
+    "example": "Don't worry, people who think like you are numerous.",
+    "hint1": "This idiom describes a large number of people with a certain characteristic.",
+    "hint2": "It contains the character for 'person' twice.",
+    "difficulty": "easy"
+  },
+  "年复一年": {
+    "pinyin": "nián fù yī nián",
+    "meaning": "Year after year; repeatedly over many years.",
+    "literal": "year, again, one, year",
+    "example": "He has been working on this project year after year without giving up.",
+    "hint1": "This idiom describes the passage of time and repetition.",
+    "hint2": "The first and last characters are the same, meaning a unit of time.",
+    "difficulty": "easy"
+  },
+  "水土不服": {
+    "pinyin": "shuǐ tǔ bù fú",
+    "meaning": "Not accustomed to the climate, food, or customs of a new place; to suffer from environmental change.",
+    "literal": "water and earth not accustomed",
+    "example": "After moving to the desert, he experienced水土不服 and had trouble sleeping.",
+    "hint1": "Think about feeling unwell in a new environment.",
+    "hint2": "One character means 'water' and another means 'earth'.",
+    "difficulty": "easy"
+  },
+  "绝无仅有": {
+    "pinyin": "jué wú jǐn yǒu",
+    "meaning": "Unique; extremely rare; having no equal or parallel.",
+    "literal": "Absolutely none, very few have.",
+    "example": "Her collection of ancient manuscripts is absolutely unique and unparalleled.",
+    "hint1": "Think about something that is one of a kind.",
+    "hint2": "The first character means 'absolutely' and the third means 'extremely'.",
+    "difficulty": "medium"
+  },
+  "奄奄一息": {
+    "pinyin": "yǎn yǎn yī xī",
+    "meaning": "To be at one's last gasp; to be on the verge of death or collapse.",
+    "literal": "feeble feeble one breath",
+    "example": "After the exhausting race, he was 奄奄一息 on the ground.",
+    "hint1": "Think about a state of extreme weakness or dying.",
+    "hint2": "Each character relates to breath or faintness.",
+    "difficulty": "medium"
+  },
+  "生生不息": {
+    "pinyin": "shēng shēng bù xī",
+    "meaning": "Life and growth continue without end; referring to the endless cycle of birth, growth, and renewal in nature or life.",
+    "literal": "birth birth not cease",
+    "example": "The cycle of seasons shows how nature is forever生生不息.",
+    "hint1": "This phrase describes a continuous, unending process in nature or life.",
+    "hint2": "It involves the repetition of a character that means 'to be born' or 'life'.",
+    "difficulty": "medium"
+  },
+  "从头到尾": {
+    "pinyin": "cóng tóu dào wěi",
+    "meaning": "From beginning to end; throughout the whole process.",
+    "literal": "from head to tail",
+    "example": "She read the entire book from beginning to end.",
+    "hint1": "Think about a journey from start to finish.",
+    "hint2": "One character means 'head' or 'start'.",
+    "difficulty": "easy"
+  },
+  "迫不得已": {
+    "pinyin": "pò bù dé yǐ",
+    "meaning": "To have no other choice; to be forced into doing something against one's will.",
+    "literal": "forced cannot stop",
+    "example": "She was迫不得已 to sell her house to pay the medical bills.",
+    "hint1": "This idiom captures a feeling of being cornered or left with no option.",
+    "hint2": "The first character means 'to force' or 'compel'.",
+    "difficulty": "medium"
+  },
+  "公平合理": {
+    "pinyin": "gōng píng hé lǐ",
+    "meaning": "Fair and reasonable; just and equitable.",
+    "literal": "fair, balanced, harmonious, principle",
+    "example": "The judge's decision was fair and reasonable.",
+    "hint1": "This idiom describes a state of justice and balance.",
+    "hint2": "The first character means 'public' or 'fair'.",
+    "difficulty": "easy"
+  },
+  "独善其身": {
+    "pinyin": "dú shàn qí shēn",
+    "meaning": "To maintain one's own integrity and not get involved in others' affairs or societal issues.",
+    "literal": "alone good one's self",
+    "example": "In times of widespread corruption, he chose to focus on his own moral conduct and not engage in politics, practicing the principle of '独善其身'.",
+    "hint1": "This idiom describes a personal strategy for dealing with chaotic environments.",
+    "hint2": "The second character means 'good' or 'virtuous'.",
+    "difficulty": "medium"
+  },
+  "恰到好处": {
+    "pinyin": "qià dào hǎo chù",
+    "meaning": "Just right; perfect for the situation; hitting the nail on the head.",
+    "literal": "恰好 (just right) 到 (to) 好处 (good place)",
+    "example": "Her remarks were恰到好处, neither too harsh nor too soft.",
+    "hint1": "This idiom is about achieving balance and precision.",
+    "hint2": "One character means 'to arrive' or 'to reach'.",
+    "difficulty": "medium"
+  },
+  "一触即发": {
+    "pinyin": "yī chù jí fā",
+    "meaning": "Describes a situation that is on the verge of exploding or breaking out; imminent danger or tension.",
+    "literal": "one touch then explode",
+    "example": "The tension between the two countries was like a powder keg ready to explode at any moment - a situation of '一触即发'.",
+    "hint1": "Think of a tense situation where any small action could trigger a big reaction.",
+    "hint2": "This idiom involves 'touch' (触) and 'explode' (发); something is very close to happening.",
+    "difficulty": "medium"
+  },
+  "说三道四": {
+    "pinyin": "shuō sān dào sì",
+    "meaning": "To gossip about others or make unwarranted comments.",
+    "literal": "say three speak four",
+    "example": "Don't shuosandao about others behind their backs.",
+    "hint1": "This idiom is often used when someone is being overly critical or talking nonsense.",
+    "hint2": "The idiom uses numbers, suggesting counting or listing, but in a negative context.",
+    "difficulty": "medium"
+  },
+  "不胜枚举": {
+    "pinyin": "bù shèng méi jǔ",
+    "meaning": "Too numerous to list individually; countless.",
+    "literal": "not win enumeration lift",
+    "example": "There are so many stars in the sky, they are too numerous to list.",
+    "hint1": "This idiom describes a quantity so large that it's impossible to count one by one.",
+    "hint2": "The second character suggests being unable to bear or finish, while the fourth means to lift or cite.",
+    "difficulty": "medium"
+  },
+  "各抒己见": {
+    "pinyin": "gè shū jǐ jiàn",
+    "meaning": "Each person expresses their own opinion.",
+    "literal": "each express one's own opinion",
+    "example": "During the meeting, everyone was encouraged to speak freely and 各抒己见.",
+    "hint1": "This idiom is about sharing ideas in a group.",
+    "hint2": "The second character means 'to express' or 'to state'.",
+    "difficulty": "medium"
+  },
+  "意味深长": {
+    "pinyin": "yì wèi shēn cháng",
+    "meaning": "Having profound meaning or significance; thought-provoking.",
+    "literal": "meaning: flavor: deep: long",
+    "example": "His speech was意味深长, leaving the audience in deep thought.",
+    "hint1": "Think about something that has layers of meaning beyond the surface.",
+    "hint2": "One character means 'deep' and relates to depth of meaning.",
+    "difficulty": "medium"
+  },
+  "聪明才智": {
+    "pinyin": "cōng míng cái zhì",
+    "meaning": "Intelligence and wisdom; exceptional mental ability and talent.",
+    "literal": "clever, bright, talent, wisdom",
+    "example": "Her 聪明才智 helped her solve the complex problem quickly.",
+    "hint1": "This phrase describes a combination of natural cleverness and acquired knowledge.",
+    "hint2": "The second character relates to brightness or sharpness of mind.",
+    "difficulty": "easy"
+  },
+  "生死存亡": {
+    "pinyin": "shēng sǐ cún wáng",
+    "meaning": "The critical moment between life and death; a matter of survival or ruin.",
+    "literal": "life death exist perish",
+    "example": "The company's future hangs in the balance during this merger—it's a matter of life or death.",
+    "hint1": "Think about the ultimate stakes in any situation.",
+    "hint2": "Two characters relate to being alive, two to ceasing to exist.",
+    "difficulty": "medium"
+  },
+  "蠢蠢欲动": {
+    "pinyin": "chǔn chǔn yù dòng",
+    "meaning": "Restlessly ready to start some activity; used negatively to describe someone who is about to cause trouble.",
+    "literal": "stupid stupid want move",
+    "example": "The enemy troops were stirring, ready to attack.",
+    "hint1": "This idiom describes a state of restless readiness, often with negative intent.",
+    "hint2": "One character means 'to desire' or 'to want', combined with movement.",
+    "difficulty": "medium"
+  },
+  "摇摇欲坠": {
+    "pinyin": "yáo yáo yù zhuì",
+    "meaning": "Describes something that is extremely unstable and about to collapse or fall.",
+    "literal": "shake shake want fall",
+    "example": "The old building was shaking in the wind and looked like it could collapse any moment.",
+    "hint1": "This idiom describes a precarious state, often used for buildings or situations.",
+    "hint2": "One character means 'wobble' and is repeated for emphasis.",
+    "difficulty": "medium"
+  },
+  "世外桃源": {
+    "pinyin": "shì wài táo yuán",
+    "meaning": "A utopian place, often a secluded paradise away from the troubles of the real world.",
+    "literal": "world outside peach orchard",
+    "example": "The remote village felt like a shi wai tao yuan, untouched by modern civilization.",
+    "hint1": "Think of a hidden paradise or ideal world.",
+    "hint2": "One character refers to a place beyond the mundane world, another to a fruit tree.",
+    "difficulty": "medium"
+  },
+  "滔滔不绝": {
+    "pinyin": "tāo tāo bù jué",
+    "meaning": "To speak incessantly and fluently, without stopping.",
+    "literal": "rolling-flow not cease",
+    "example": "He talked滔滔不绝 about his travel adventures all evening.",
+    "hint1": "This idiom describes someone who is very talkative and never runs out of things to say.",
+    "hint2": "It involves the idea of a river flowing continuously, like a ceaseless stream of words.",
+    "difficulty": "easy"
+  },
+  "欣欣向荣": {
+    "pinyin": "xīn xīn xiàng róng",
+    "meaning": "Describes plants, businesses, or situations that are thriving and full of vitality.",
+    "literal": "flourishing, thriving, facing, prosperous",
+    "example": "The town's economy is欣欣向荣 with new shops opening every month.",
+    "hint1": "This idiom often describes a scene of growth and prosperity.",
+    "hint2": "The second character suggests joy or delight.",
+    "difficulty": "medium"
+  },
+  "添砖加瓦": {
+    "pinyin": "tiān zhuān jiā wǎ",
+    "meaning": "To make a small contribution to a larger effort or project.",
+    "literal": "add brick add tile",
+    "example": "Every volunteer can add a brick and a tile to the community project.",
+    "hint1": "Think about construction and building something together.",
+    "hint2": "One character means 'brick'.",
+    "difficulty": "easy"
+  },
+  "相差无几": {
+    "pinyin": "xiāng chà wú jǐ",
+    "meaning": "Almost the same; very little difference.",
+    "literal": "mutual differ not several",
+    "example": "The two paintings are almost identical; they are 相差无几.",
+    "hint1": "This idiom describes things that are so close in quality or quantity that the difference is negligible.",
+    "hint2": "The third character means 'without' or 'not have'.",
+    "difficulty": "medium"
+  },
+  "来势汹汹": {
+    "pinyin": "lái shì xiōng xiōng",
+    "meaning": "To approach or arrive with great force, intensity, or aggressiveness.",
+    "literal": "come - manner/official - fierce - fierce",
+    "example": "The storm came on fiercely, with strong winds and heavy rain.",
+    "hint1": "This idiom describes a sudden, powerful arrival.",
+    "hint2": "The second character refers to a situation or force.",
+    "difficulty": "medium"
+  },
+  "有朝一日": {
+    "pinyin": "yǒu zhāo yī rì",
+    "meaning": "One day in the future; someday.",
+    "literal": "have morning one day",
+    "example": "She keeps studying hard, believing that one day she will succeed.",
+    "hint1": "This idiom expresses hope or determination for a future time.",
+    "hint2": "The second character refers to a time of day.",
+    "difficulty": "medium"
+  },
+  "疑难杂症": {
+    "pinyin": "yí nán zá zhèng",
+    "meaning": "Difficult and complex problems that are hard to diagnose or solve.",
+    "literal": "difficult, hard, miscellaneous, disease",
+    "example": "The company's financial troubles are a real 疑难杂症 that will take years to fix.",
+    "hint1": "This term is often used in medical contexts but can apply to any tricky issue.",
+    "hint2": "The second character means 'difficult' and the fourth means 'symptom'.",
+    "difficulty": "medium"
+  },
+  "指日可待": {
+    "pinyin": "zhǐ rì kě dài",
+    "meaning": "Something is just around the corner; it can be expected very soon.",
+    "literal": "point day can wait",
+    "example": "With the new funding, the project's completion is just around the corner.",
+    "hint1": "Think about something you're eagerly waiting for that you can see coming.",
+    "hint2": "One character means 'to point at' or 'to indicate'.",
+    "difficulty": "medium"
+  },
+  "每况愈下": {
+    "pinyin": "měi kuàng yù xià",
+    "meaning": "The situation keeps getting worse and worse, showing a continuous decline.",
+    "literal": "each- situation - even more - below",
+    "example": "The company's financial performance has been every day, with profits dropping each quarter.",
+    "hint1": "Think about a downward spiral or deteriorating circumstances.",
+    "hint2": "The first character means 'each' or 'every', and the last character means 'below' or 'lower'.",
+    "difficulty": "medium"
+  },
+  "精打细算": {
+    "pinyin": "jīng dǎ xì suàn",
+    "meaning": "To plan and budget meticulously, often with great attention to detail to avoid waste.",
+    "literal": "careful + strike + fine + calculate",
+    "example": "She managed to save enough for a vacation by budgeting every expense carefully.",
+    "hint1": "Think of someone who keeps track of every penny and avoids waste.",
+    "hint2": "The second character means 'to strike' or 'to make', as in making plans.",
+    "difficulty": "medium"
+  },
+  "真知灼见": {
+    "pinyin": "zhēn zhī zhuó jiàn",
+    "meaning": "Profound and accurate insight or opinion.",
+    "literal": "genuine knowledge, thorough insight",
+    "example": "Her analysis of the market trends showed true insight.",
+    "hint1": "This idiom describes wisdom that comes from deep understanding.",
+    "hint2": "One character means 'real' or 'true', another means 'to see clearly'.",
+    "difficulty": "medium"
+  },
+  "遥遥无期": {
+    "pinyin": "yáo yáo wú qī",
+    "meaning": "An event or outcome that is far off in the future with no definite end in sight.",
+    "literal": "distant distant without period",
+    "example": "The completion of the project seems indefinitely postponed, with no clear deadline in sight.",
+    "hint1": "This idiom describes a feeling of endless waiting.",
+    "hint2": "One character means 'distant', repeated for emphasis.",
+    "difficulty": "medium"
+  },
+  "代代相传": {
+    "pinyin": "dài dài xiāng chuán",
+    "meaning": "To pass down from generation to generation, referring to traditions, knowledge, or heritage.",
+    "literal": "generation generation mutually transmit",
+    "example": "This family recipe has been passed down from generation to generation.",
+    "hint1": "This idiom is about the continuity of something valuable through time.",
+    "hint2": "Involves the idea of each generation giving something to the next one.",
+    "difficulty": "easy"
+  },
+  "勇往直前": {
+    "pinyin": "yǒng wǎng zhí qián",
+    "meaning": "To forge ahead courageously without hesitation.",
+    "literal": "brave go straight forward",
+    "example": "Even in the face of setbacks, she remains steadfast and勇往直前 in pursuing her dreams.",
+    "hint1": "This idiom describes a fearless attitude in overcoming obstacles.",
+    "hint2": "It contains the character for 'forward' or 'ahead' twice.",
+    "difficulty": "easy"
+  },
+  "好景不长": {
+    "pinyin": "hǎo jǐng bù cháng",
+    "meaning": "Good times do not last long; a happy period is often short-lived.",
+    "literal": "good scene not long",
+    "example": "They had a wonderful vacation, but as the saying goes, good times are like this idiom.",
+    "hint1": "This idiom expresses a bittersweet feeling about temporary happiness.",
+    "hint2": "The second character means 'scenery' or 'situation'.",
+    "difficulty": "easy"
+  },
+  "另辟蹊径": {
+    "pinyin": "lìng pì xī jìng",
+    "meaning": "To take a different path or find a new way to solve a problem, often implying innovation or departure from convention.",
+    "literal": "另外(another) 开辟(open up) 蹊(path) 径(path)",
+    "example": "When the usual methods failed, she decided to 另辟蹊径 and try a completely new approach.",
+    "hint1": "This idiom is about finding an alternative route when the usual one is blocked.",
+    "hint2": "The third character means 'a small path'.",
+    "difficulty": "medium"
+  },
+  "朝气蓬勃": {
+    "pinyin": "zhāo qì péng bó",
+    "meaning": "Full of youthful energy and vitality; vibrant and spirited.",
+    "literal": "morning air exuberant",
+    "example": "The team was朝气蓬勃, ready to tackle any challenge.",
+    "hint1": "This idiom describes a vibrant and energetic state, often associated with youth or spring.",
+    "hint2": "One character means 'morning' or 'early'.",
+    "difficulty": "medium"
+  },
+  "见怪不怪": {
+    "pinyin": "jiàn guài bù guài",
+    "meaning": "When you've seen something strange often enough, you stop being surprised by it.",
+    "literal": "see strange not strange",
+    "example": "After living near the airport for years, she was immune to the noise—见怪不怪.",
+    "hint1": "This idiom reflects a common human reaction to repeated unusual events.",
+    "hint2": "The second character means 'strange' or 'unusual'.",
+    "difficulty": "medium"
+  },
+  "一劳永逸": {
+    "pinyin": "yī láo yǒng yì",
+    "meaning": "Once a job is done well, it brings lasting benefits.",
+    "literal": "one labor eternal ease",
+    "example": "Installing solar panels was expensive, but it was a one-time effort that provides free electricity for decades.",
+    "hint1": "Related to efficiency and long-term gain from a single action.",
+    "hint2": "The second character implies 'work' or 'effort'.",
+    "difficulty": "medium"
+  },
+  "目不暇接": {
+    "pinyin": "mù bù xiá jiē",
+    "meaning": "The eyes are too busy to take in everything; too many things to see.",
+    "literal": "eye not have leisure to receive",
+    "example": "At the night market, the variety of street food was so dazzling that my eyes were overwhelmed.",
+    "hint1": "This idiom describes a sensory overload situation, often used for beautiful or numerous scenes.",
+    "hint2": "The second character means 'not' and the third means 'leisure'.",
+    "difficulty": "medium"
+  },
+  "热气腾腾": {
+    "pinyin": "rè qì téng téng",
+    "meaning": "Describes something steaming hot, often with a lively and energetic atmosphere.",
+    "literal": "hot air rising",
+    "example": "The hot pot is steaming and bubbling, making everyone eager to eat.",
+    "hint1": "Think of a freshly cooked dish on a cold day.",
+    "hint2": "The word for 'hot' is in the first character.",
+    "difficulty": "easy"
+  },
+  "脍炙人口": {
+    "pinyin": "kuài zhì rén kǒu",
+    "meaning": "A metaphor for works that are widely praised and very popular, especially in literature or art.",
+    "literal": "minced meat and roasted meat are popular with everyone's mouth",
+    "example": "This writer's new novel is so captivating that it has become universally praised.",
+    "hint1": "Think of something delicious that everyone loves to eat.",
+    "hint2": "The idiom includes a character meaning 'person' or 'human'.",
+    "difficulty": "medium"
+  },
+  "无所事事": {
+    "pinyin": "wú suǒ shì shì",
+    "meaning": "To have nothing to do; to be idle or bored.",
+    "literal": "nothing (to) do as (in) business",
+    "example": "After finishing all her work, she spent the whole morning无所事事.",
+    "hint1": "This idiom describes a state of doing nothing, often with a sense of boredom.",
+    "hint2": "One character means 'thing' or 'affair'.",
+    "difficulty": "easy"
+  },
+  "甚嚣尘上": {
+    "pinyin": "shèn xiāo chén shàng",
+    "meaning": "This idiom describes a rumor or negative report that is widely spread and causing a commotion.",
+    "literal": "very (甚) noise (嚣) dust (尘) up (上)",
+    "example": "The rumor about the celebrity's scandal was甚嚣尘上, dominating headlines for weeks.",
+    "hint1": "Think of a dusty, noisy situation—something stirred up and in the air.",
+    "hint2": "The first and last characters together mean 'dust rises'.",
+    "difficulty": "medium"
+  },
+  "时不我待": {
+    "pinyin": "shí bù wǒ dài",
+    "meaning": "Time waits for no one; one must seize the moment.",
+    "literal": "time not me wait",
+    "example": "We must start the project now, as time waits for no one.",
+    "hint1": "This idiom expresses urgency about using time wisely.",
+    "hint2": "The second character means 'not'.",
+    "difficulty": "medium"
+  },
+  "打成一片": {
+    "pinyin": "dǎ chéng yī piàn",
+    "meaning": "To unite seamlessly or to mix together harmoniously, often used to describe getting along well with others or blending into a group.",
+    "literal": "strike become one piece",
+    "example": "The new manager quickly made an effort to integrate with the team and soon everyone was working together as one.",
+    "hint1": "Think about harmony and unity among people or things.",
+    "hint2": "The last character means 'slice' or 'piece', suggesting a whole formed by merging parts.",
+    "difficulty": "medium"
+  },
+  "一成不变": {
+    "pinyin": "yī chéng bù biàn",
+    "meaning": "Once formed, never changes; describes something fixed and unchanging.",
+    "literal": "one become not change",
+    "example": "She follows the same routine every day, never deviating from it.",
+    "hint1": "This idiom relates to something that remains the same over time.",
+    "hint2": "Think about the idea of 'once something is set, it stays that way'.",
+    "difficulty": "easy"
+  },
+  "怀恨在心": {
+    "pinyin": "huái hèn zài xīn",
+    "meaning": "To harbor resentment or hold a grudge in one's heart.",
+    "literal": "cherish - hatred - at - heart",
+    "example": "She felt betrayed and held a grudge against him for years.",
+    "hint1": "This idiom describes a lingering negative emotion directed at someone.",
+    "hint2": "The second character means 'hatred' or 'resentment'.",
+    "difficulty": "easy"
+  },
+  "总而言之": {
+    "pinyin": "zǒng ér yán zhī",
+    "meaning": "In short; to sum up; in a word.",
+    "literal": "total/collect and speak it",
+    "example": "We had some delays and issues, but all in all, it was a successful trip.",
+    "hint1": "This phrase is used to summarize or conclude a discussion.",
+    "hint2": "It includes the character for 'speak' or 'words'.",
+    "difficulty": "easy"
+  },
+  "支支吾吾": {
+    "pinyin": "zhī zhī wú wú",
+    "meaning": "To hem and haw; to be evasive or hesitant in speech.",
+    "literal": "support support disregard disregard",
+    "example": "When asked about the missing money, he just stood there hemming and hawing.",
+    "hint1": "This idiom describes the sound of someone who can't speak clearly.",
+    "hint2": "One character means 'to speak haltingly'.",
+    "difficulty": "medium"
+  },
+  "艰苦创业": {
+    "pinyin": "jiān kǔ chuàng yè",
+    "meaning": "To build up an enterprise through hard work and perseverance.",
+    "literal": "hard, bitter, start, undertaking",
+    "example": "The founders of the company spent years in 艰苦创业 before it became successful.",
+    "hint1": "This idiom describes a process requiring resilience and determination.",
+    "hint2": "The second character refers to a taste that's not sweet.",
+    "difficulty": "medium"
+  },
+  "不务正业": {
+    "pinyin": "bù wù zhèng yè",
+    "meaning": "To not attend to one's proper business or duties; to neglect one's main job in favor of trivial pursuits.",
+    "literal": "not attend proper occupation",
+    "example": "He spends all day playing video games instead of studying; his parents say he is 不务正业.",
+    "hint1": "This idiom describes someone who ignores their main responsibility.",
+    "hint2": "The second character means 'to engage in' or 'to attend to'.",
+    "difficulty": "medium"
+  },
+  "身无分文": {
+    "pinyin": "shēn wú fēn wén",
+    "meaning": "To have no money at all; completely broke.",
+    "literal": "body not a single coin",
+    "example": "After losing his job, he was left penniless.",
+    "hint1": "This idiom describes a state of having zero money.",
+    "hint2": "The second character means 'not have' and the fourth character means 'coin'.",
+    "difficulty": "medium"
+  },
+  "别具一格": {
+    "pinyin": "bié jù yī gé",
+    "meaning": "Having a unique style or distinctive character that sets it apart from others.",
+    "literal": "other, possess, one, standard",
+    "example": "Her fashion style is completely different from mainstream trends—truly unique.",
+    "hint1": "Think about something that stands out for its originality.",
+    "hint2": "This phrase includes a character meaning 'one' and another meaning 'standard'.",
+    "difficulty": "medium"
+  },
+  "治病救人": {
+    "pinyin": "zhì bìng jiù rén",
+    "meaning": "To cure the sickness and save the patient; to criticize someone in order to help them improve.",
+    "literal": "treat illness, save person",
+    "example": "The teacher's criticism was meant to help the student improve, following the principle of curing the sickness to save the patient.",
+    "hint1": "Think of a medical approach applied to personal growth.",
+    "hint2": "One character means 'disease' or 'illness'.",
+    "difficulty": "medium"
+  },
+  "岌岌可危": {
+    "pinyin": "jí jí kě wēi",
+    "meaning": "In a very precarious or dangerous situation; on the verge of collapse or disaster.",
+    "literal": "high mountain dangerous can dangerous",
+    "example": "The company was in a precarious financial position, teetering on the edge of bankruptcy.",
+    "hint1": "This phrase describes something that is extremely unstable and might fall apart at any moment.",
+    "hint2": "One character means 'dangerous' and appears twice in the idiom.",
+    "difficulty": "hard"
+  },
+  "丰功伟绩": {
+    "pinyin": "fēng gōng wěi jì",
+    "meaning": "Great achievements and illustrious contributions, often in a historical or grand context.",
+    "literal": "abundant merit, great accomplishment, magnificent deed, achievement",
+    "example": "The general's life was filled with feng gong wei ji that shaped the nation.",
+    "hint1": "Think of a phrase praising someone's monumental accomplishments.",
+    "hint2": "The first character means 'abundant' and the third means 'magnificent'.",
+    "difficulty": "medium"
+  },
+  "他山之石": {
+    "pinyin": "tā shān zhī shí",
+    "meaning": "Stones from other hills can be used to polish jade; referring to advice or help from others that can improve oneself.",
+    "literal": "other mountain's stone",
+    "example": "After hearing his colleague's feedback, she saw it as a stone from another hill and refined her project.",
+    "hint1": "Think about learning from outside sources or outsiders.",
+    "hint2": "One character means 'mountain'.",
+    "difficulty": "medium"
+  },
+  "避重就轻": {
+    "pinyin": "bì zhòng jiù qīng",
+    "meaning": "To avoid the important and dwell on the trivial; to sidestep the main issue.",
+    "literal": "avoid heavy, approach light",
+    "example": "When asked about the budget cuts, the manager kept avoiding the main issue and talking about minor details.",
+    "hint1": "This idiom describes a common tactic in arguments or discussions.",
+    "hint2": "The first character means 'to avoid' and the third character means 'to approach'.",
+    "difficulty": "medium"
+  },
+  "按部就班": {
+    "pinyin": "àn bù jiù bān",
+    "meaning": "To follow the prescribed order or routine; to stick to established procedures.",
+    "literal": "according to order, follow the class/rank",
+    "example": "He preferred to work creatively, but his boss insisted on doing everything 按部就班.",
+    "hint1": "This idiom is often used in work or study contexts, suggesting a lack of innovation.",
+    "hint2": "One character means 'step' or 'order', and another means 'category' or 'rank'.",
+    "difficulty": "medium"
+  },
+  "急转直下": {
+    "pinyin": "jí zhuǎn zhí xià",
+    "meaning": "A sudden and dramatic turn for the worse; a situation rapidly deteriorates.",
+    "literal": "rapidly turn straight down",
+    "example": "The stock market was booming, but then it took a sudden turn for the worse.",
+    "hint1": "Think of a situation that goes from good to bad very quickly.",
+    "hint2": "The second character implies a change in direction.",
+    "difficulty": "medium"
+  },
+  "一举两得": {
+    "pinyin": "yī jǔ liǎng dé",
+    "meaning": "To achieve two goals in one single action.",
+    "literal": "one move two gain",
+    "example": "By combining the meeting with the team-building activity, the manager killed two birds with one stone, saving time and boosting morale.",
+    "hint1": "This idiom is about efficiency and clever planning.",
+    "hint2": "It involves doing one thing that brings double the benefit.",
+    "difficulty": "easy"
+  },
+  "兴高采烈": {
+    "pinyin": "xìng gāo cǎi liè",
+    "meaning": "In high spirits; elated and excited.",
+    "literal": "interest high spirit fierce",
+    "example": "She was in high spirits after winning the award.",
+    "hint1": "This idiom describes a joyful and energetic state.",
+    "hint2": "One character means 'spirit' or 'mood'.",
+    "difficulty": "medium"
+  },
+  "同心协力": {
+    "pinyin": "tóng xīn xié lì",
+    "meaning": "To work together with a united effort and shared purpose.",
+    "literal": "same heart, united strength",
+    "example": "The team worked with tong xin xie li to complete the project ahead of schedule.",
+    "hint1": "Think of a group of people rowing a boat in perfect sync.",
+    "hint2": "The first two characters mean 'same heart'.",
+    "difficulty": "easy"
+  },
+  "侃侃而谈": {
+    "pinyin": "kǎn kǎn ér tán",
+    "meaning": "To speak confidently and fluently, in a composed and articulate manner.",
+    "literal": "frankly, frankly, then, talk",
+    "example": "During the meeting, she spoke 侃侃而谈, impressing everyone with her clarity.",
+    "hint1": "Think of a person who speaks with ease and authority, like a seasoned speaker.",
+    "hint2": "The first character means 'frank' or 'outspoken' and is repeated for emphasis.",
+    "difficulty": "medium"
+  },
+  "恼羞成怒": {
+    "pinyin": "nǎo xiū chéng nù",
+    "meaning": "To become angry from embarrassment or shame when one's fault is pointed out.",
+    "literal": "embarrassment shame become anger",
+    "example": "He didn't like being corrected in public and flushed with annoyance, eventually turning it into anger.",
+    "hint1": "This is about a feeling turning into another emotion.",
+    "hint2": "Think of a character related to feeling ashamed.",
+    "difficulty": "medium"
+  },
+  "天壤之别": {
+    "pinyin": "tiān rǎng zhī bié",
+    "meaning": "Describes a huge difference or gap between two things; like the difference between heaven and earth.",
+    "literal": "heaven, earth, possessive particle, difference",
+    "example": "The performance of the two students was a difference as vast as between heaven and earth.",
+    "hint1": "This idiom contrasts two extremely opposite realms.",
+    "hint2": "One of the characters means 'the sky' or 'heaven'.",
+    "difficulty": "easy"
+  },
+  "咄咄逼人": {
+    "pinyin": "duō duō bī rén",
+    "meaning": "Overbearing and aggressive; to bully or intimidate others with one's manner or actions.",
+    "literal": "urgent urgent pressing person",
+    "example": "Her boss was always so overbearing, making everyone feel uncomfortable with his constant criticism.",
+    "hint1": "Think of a situation where someone's presence or words make you feel pressured or threatened.",
+    "hint2": "One character means 'to press' or 'to force', like applying pressure.",
+    "difficulty": "medium"
+  },
+  "千篇一律": {
+    "pinyin": "qiān piān yī lǜ",
+    "meaning": "All follow the same pattern; lacking variety.",
+    "literal": "thousand articles one rule",
+    "example": "The artist's paintings are all qiān piān yī lǜ, so they've become boring.",
+    "hint1": "Think about something that is monotonous or repetitive.",
+    "hint2": "This idiom involves the character for 'one'.",
+    "difficulty": "medium"
+  },
+  "寸步难行": {
+    "pinyin": "cùn bù nán xíng",
+    "meaning": "It is extremely difficult to move even a single step, describing a situation where progress is almost impossible.",
+    "literal": "cùn (inch) bù (step) nán (difficult) xíng (walk)",
+    "example": "After the heavy snow, the roads were so icy that even walking was 寸步难行.",
+    "hint1": "This idiom describes a feeling of being stuck or unable to advance.",
+    "hint2": "The second character means 'step', and the whole phrase emphasizes the difficulty of moving even that much.",
+    "difficulty": "medium"
+  },
+  "嘘寒问暖": {
+    "pinyin": "xū hán wèn nuǎn",
+    "meaning": "To show concern for someone's comfort, especially by asking about their warmth and cold.",
+    "literal": "breathe cold, ask warm",
+    "example": "Every time I visit my grandmother, she always asks about my health and whether I'm dressed warmly enough.",
+    "hint1": "This idiom is about showing care through words related to temperature.",
+    "hint2": "The first character means 'to exhale' and relates to cold weather.",
+    "difficulty": "medium"
+  },
+  "不失时机": {
+    "pinyin": "bù shī shí jī",
+    "meaning": "To not miss the opportune moment; to seize the right time to act.",
+    "literal": "not lose time opportunity",
+    "example": "She didn't want to miss the opportunity, so she applied for the job right away.",
+    "hint1": "This idiom emphasizes the importance of timing and seizing the moment.",
+    "hint2": "One character means 'opportunity' and another means 'lose'.",
+    "difficulty": "easy"
+  },
+  "直截了当": {
+    "pinyin": "zhí jiē liǎo dàng",
+    "meaning": "Straightforward and direct in speech or action.",
+    "literal": "straight, direct, straightforward, resolute",
+    "example": "Instead of hinting, she was direct and told him straight out.",
+    "hint1": "It describes a no-nonsense approach.",
+    "hint2": "Think of a word that starts with 'straight-' or 'direct-'.",
+    "difficulty": "easy"
+  },
+  "白手起家": {
+    "pinyin": "bái shǒu qǐ jiā",
+    "meaning": "To start a business or career from scratch with no resources.",
+    "literal": "white hand start family",
+    "example": "She built her company from nothing, truly starting with white hands.",
+    "hint1": "This idiom describes someone who builds success from absolute zero.",
+    "hint2": "The first character means 'white' or 'empty'.",
+    "difficulty": "medium"
+  },
+  "人去楼空": {
+    "pinyin": "rén qù lóu kōng",
+    "meaning": "The person has gone, leaving the building empty. It describes a scene of loss and emptiness after someone's departure.",
+    "literal": "person - gone - building - empty",
+    "example": "After she moved abroad, her old apartment felt like a classic case of 'ren qu lou kong'.",
+    "hint1": "It conveys a sense of melancholy after someone important leaves.",
+    "hint2": "The third character means a multi-story structure.",
+    "difficulty": "medium"
+  },
+  "置若罔闻": {
+    "pinyin": "zhì ruò wǎng wén",
+    "meaning": "To ignore completely; to pretend not to hear.",
+    "literal": "put if net hear",
+    "example": "He turned a deaf ear to the warnings, continuing down the dangerous path.",
+    "hint1": "Think of deliberately ignoring advice or information.",
+    "hint2": "The second character means 'like' or 'as if'.",
+    "difficulty": "medium"
+  },
+  "瞠目结舌": {
+    "pinyin": "chēng mù jié shé",
+    "meaning": "To be so shocked or stunned that one's eyes are wide open and tongue is tied, unable to say a word.",
+    "literal": "stare eyes, tie tongue",
+    "example": "When he saw the magician's final trick, he stood there, stunned and staring, completely speechless.",
+    "hint1": "This idiom describes a reaction of extreme surprise or shock that leaves you unable to speak.",
+    "hint2": "The second character means 'eye' or 'to stare'.",
+    "difficulty": "medium"
+  },
+  "长途跋涉": {
+    "pinyin": "cháng tú bá shè",
+    "meaning": "To make a long and arduous journey, often implying hardship and fatigue.",
+    "literal": "long road wade trek",
+    "example": "After a long跋涉 across the desert, the explorers finally reached the oasis.",
+    "hint1": "This idiom describes a tiring trip over a great distance.",
+    "hint2": "One character means 'to wade' or 'to go through difficulties'.",
+    "difficulty": "medium"
+  },
+  "有说有笑": {
+    "pinyin": "yǒu shuō yǒu xiào",
+    "meaning": "To talk and laugh together; having a lively and cheerful conversation.",
+    "literal": "have speak have laugh",
+    "example": "The friends walked home together, talking and laughing all the way.",
+    "hint1": "This idiom describes a social scene filled with joy.",
+    "hint2": "The idiom includes two verbs that express verbal and emotional expression.",
+    "difficulty": "easy"
+  },
+  "严于律己": {
+    "pinyin": "yán yú lǜ jǐ",
+    "meaning": "To be strict with oneself, meaning to hold oneself to high standards of conduct or discipline.",
+    "literal": "strict in regulate self",
+    "example": "He always holds himself to high standards, truly embodying the principle of being strict with oneself.",
+    "hint1": "This idiom is about self-discipline and moral integrity.",
+    "hint2": "The second character means 'in' or 'at', and the third means 'regulate' or 'discipline'.",
+    "difficulty": "easy"
+  },
+  "群策群力": {
+    "pinyin": "qún cè qún lì",
+    "meaning": "To pool wisdom and efforts of everyone; to work as a team to solve a problem.",
+    "literal": "group scheme group strength",
+    "example": "By brainstorming together, the team used a group strategy to complete the project on time.",
+    "hint1": "This idiom describes the power of collective action.",
+    "hint2": "The second character means 'strategy' or 'plan'.",
+    "difficulty": "medium"
+  },
+  "前车之鉴": {
+    "pinyin": "qián chē zhī jiàn",
+    "meaning": "A lesson learned from past mistakes; a warning from previous failures.",
+    "literal": "front cart's mirror",
+    "example": "The company's bankruptcy was a 前车之鉴 for others in the industry.",
+    "hint1": "Think about learning from past failures or accidents.",
+    "hint2": "One character refers to a vehicle used for transportation.",
+    "difficulty": "medium"
+  },
+  "一拥而上": {
+    "pinyin": "yī yōng ér shàng",
+    "meaning": "To swarm up or rush forward all at once, describing a crowd or group moving together eagerly or chaotically.",
+    "literal": "one swarm then up",
+    "example": "As soon as the shop opened, customers swarmed in all at once, buying up the discounted items.",
+    "hint1": "Describes a collective, often unruly movement of people towards something.",
+    "hint2": "The first character means 'one' and suggests unity or simultaneity.",
+    "difficulty": "medium"
+  },
+  "违法乱纪": {
+    "pinyin": "wéi fǎ luàn jì",
+    "meaning": "To violate the law and disturb discipline; refers to behavior that breaks rules and regulations.",
+    "literal": "violate law, disturb discipline",
+    "example": "The official was accused of违法乱纪 and was investigated for corruption.",
+    "hint1": "This idiom describes actions that go against established rules and order.",
+    "hint2": "The second character means 'law' and the last character means 'discipline'.",
+    "difficulty": "medium"
+  },
+  "大政方针": {
+    "pinyin": "dà zhèng fāng zhēn",
+    "meaning": "Major policies and fundamental principles that guide the overall direction.",
+    "literal": "big, politics, direction, needle",
+    "example": "The company's 10-year plan outlines the 大政方针 for global expansion.",
+    "hint1": "Think about the guiding rules of a nation or large organization.",
+    "hint2": "One character means 'policy' and another means 'direction'.",
+    "difficulty": "medium"
+  },
+  "痛定思痛": {
+    "pinyin": "tòng dìng sī tòng",
+    "meaning": "To recall a painful experience after it is over, in order to learn from it and prevent its recurrence.",
+    "literal": "pain settled think pain",
+    "example": "After the project failed, the team sat down to analyze their mistakes, truly understanding the importance of \"痛定思痛.\"",
+    "hint1": "This idiom is about reflecting on past suffering to gain wisdom.",
+    "hint2": "The third character means 'to think' or 'to ponder'.",
+    "difficulty": "medium"
+  },
+  "始终如一": {
+    "pinyin": "shǐ zhōng rú yī",
+    "meaning": "Consistent from beginning to end; unchanging; constant.",
+    "literal": "start, end, like, one",
+    "example": "She has been始终如一 in her dedication to the project.",
+    "hint1": "Think about constancy and reliability over time.",
+    "hint2": "The first two characters represent the start and the end.",
+    "difficulty": "easy"
+  },
+  "数不胜数": {
+    "pinyin": "shǔ bù shèng shǔ",
+    "meaning": "Too many to count; countless.",
+    "literal": "count not win count",
+    "example": "There are so many stars in the sky that they are too numerous to count.",
+    "hint1": "Think about an overwhelming abundance.",
+    "hint2": "The first character means 'to count'.",
+    "difficulty": "medium"
+  },
+  "啼笑皆非": {
+    "pinyin": "tí xiào jiē fēi",
+    "meaning": "To not know whether to laugh or cry; to find something both funny and annoying.",
+    "literal": "cry, laugh, both, wrong",
+    "example": "When his toddler poured juice on the carpet, he was at a loss for words, truly in a state of tíxiàojiēfēi.",
+    "hint1": "This idiom describes a mixed emotional reaction to an absurd or awkward situation.",
+    "hint2": "One of the characters means 'cry', another means 'laugh', indicating conflicting feelings.",
+    "difficulty": "medium"
+  },
+  "不闻不问": {
+    "pinyin": "bù wén bù wèn",
+    "meaning": "To show no interest or concern; to ignore completely.",
+    "literal": "not hear not ask",
+    "example": "She adopted a policy of non-interference, neither asking nor listening to their problems.",
+    "hint1": "This idiom describes an attitude of deliberate neglect or indifference.",
+    "hint2": "The first two characters mean 'not hear'.",
+    "difficulty": "easy"
+  },
+  "不相上下": {
+    "pinyin": "bù xiāng shàng xià",
+    "meaning": "To be equally matched; to be on a par with each other.",
+    "literal": "not each other above below",
+    "example": "The two chess players are so evenly matched that their games are always neck-and-neck.",
+    "hint1": "This idiom is often used in competitive contexts like sports or exams.",
+    "hint2": "The first character means 'not', and the idiom describes a situation where neither side is superior.",
+    "difficulty": "easy"
+  },
+  "自给自足": {
+    "pinyin": "zì jǐ zì zú",
+    "meaning": "To be self-sufficient and self-reliant, not depending on others.",
+    "literal": "self, give, self, sufficient",
+    "example": "The small village is self-sufficient, growing its own food and making its own clothes.",
+    "hint1": "This idiom describes independence and not needing handouts.",
+    "hint2": "One of the characters means 'to provide' or 'to give'.",
+    "difficulty": "easy"
+  },
+  "有生之年": {
+    "pinyin": "yǒu shēng zhī nián",
+    "meaning": "The time one is alive; during one's lifetime.",
+    "literal": "have life 's year",
+    "example": "I hope to visit Japan within my lifetime.",
+    "hint1": "This idiom reflects a sense of urgency or preciousness of time.",
+    "hint2": "The second character means 'life' or 'birth'.",
+    "difficulty": "easy"
+  },
+  "打草惊蛇": {
+    "pinyin": "dǎ cǎo jīng shé",
+    "meaning": "To act rashly and alert an opponent, causing them to be cautious or flee.",
+    "literal": "hit grass frighten snake",
+    "example": "The detective avoided questioning the suspect directly to prevent tipping him off, knowing that stirring the grass would scare the snake.",
+    "hint1": "Think of a situation where caution is needed because any premature action could warn the target.",
+    "hint2": "The idiom involves both an action on vegetation and a reaction from a reptile.",
+    "difficulty": "medium"
+  },
+  "守望相助": {
+    "pinyin": "shǒu wàng xiāng zhù",
+    "meaning": "To help and protect each other, especially in times of need, like neighbors or close friends.",
+    "literal": "guard-watch-each other-help",
+    "example": "In this small village, everyone practices shouwang xiangzhu, so no one feels alone during hard times.",
+    "hint1": "This idiom evokes a sense of community and mutual support.",
+    "hint2": "The second character '望' can mean 'to look after' or 'to watch over'.",
+    "difficulty": "medium"
+  },
+  "鼓舞人心": {
+    "pinyin": "gǔ wǔ rén xīn",
+    "meaning": "To inspire and encourage people, boosting their morale and confidence.",
+    "literal": "drum, dance, people, heart",
+    "example": "The coach's speech was designed to鼓舞人心 the team before the championship game.",
+    "hint1": "This idiom evokes a sense of motivation and upliftment, often used in contexts of leadership or encouragement.",
+    "hint2": "The first character refers to a musical instrument used in ancient times to signal or excite.",
+    "difficulty": "medium"
+  },
+  "三五成群": {
+    "pinyin": "sān wǔ chéng qún",
+    "meaning": "People gather or form groups in small numbers, typically three to five.",
+    "literal": "three five become group",
+    "example": "During the break, students gathered in small groups, talking and laughing.",
+    "hint1": "Think about how people naturally form small clusters.",
+    "hint2": "It involves numbers that are often used together.",
+    "difficulty": "medium"
+  },
+  "铿锵有力": {
+    "pinyin": "kēng qiāng yǒu lì",
+    "meaning": "Describes a speech or sound that is forceful, resounding, and vigorous. It often refers to a powerful and convincing tone.",
+    "literal": "ringing sound + forceful + possessing + strength",
+    "example": "His speech was so 铿锵有力 that the entire audience was moved.",
+    "hint1": "This idiom relates to a commanding presence in speech or music.",
+    "hint2": "The first character describes a loud, metallic sound.",
+    "difficulty": "medium"
+  },
+  "接踵而来": {
+    "pinyin": "jiē zhǒng ér lái",
+    "meaning": "One after another in quick succession; to follow closely on the heels of another.",
+    "literal": "follow heel and come",
+    "example": "After the first success, new opportunities came one after another.",
+    "hint1": "Think of a crowd or events that happen in rapid succession.",
+    "hint2": "One of the characters refers to the back part of a foot.",
+    "difficulty": "medium"
+  },
+  "赏心悦目": {
+    "pinyin": "shǎng xīn yuè mù",
+    "meaning": "To be pleasing to both the mind and the eye; to be aesthetically enjoyable.",
+    "literal": "Enjoy heart delight eye",
+    "example": "The garden's design was truly赏心悦目, with vibrant flowers and a tranquil pond.",
+    "hint1": "This idiom describes something that is both mentally and visually satisfying.",
+    "hint2": "It involves the heart and the eye, suggesting an inner and outer delight.",
+    "difficulty": "medium"
+  },
+  "夜以继日": {
+    "pinyin": "yè yǐ jì rì",
+    "meaning": "To continue working day and night; to work around the clock without rest.",
+    "literal": "night with continue day",
+    "example": "The team worked night and day to meet the project deadline.",
+    "hint1": "This idiom describes a tireless work ethic.",
+    "hint2": "The second character means 'use' or 'with'.",
+    "difficulty": "medium"
+  },
+  "起早贪黑": {
+    "pinyin": "qǐ zǎo tān hēi",
+    "meaning": "To start work early in the morning and continue late into the night; to work hard from dawn to dusk.",
+    "literal": "rise early, covet darkness",
+    "example": "She worked qǐ zǎo tān hēi to finish the project on time.",
+    "hint1": "Describes someone who works tirelessly, often from before sunrise until after sunset.",
+    "hint2": "The first character means 'to get up', and the last character refers to the darkness of night.",
+    "difficulty": "medium"
+  },
+  "爱不释手": {
+    "pinyin": "ài bù shì shǒu",
+    "meaning": "To love something so much that you can't bear to put it down.",
+    "literal": "love not let go hand",
+    "example": "She found the novel so captivating that she was loving it and couldn't put it down.",
+    "hint1": "Think of a feeling of deep attachment to an object or book.",
+    "hint2": "The first character means 'love'.",
+    "difficulty": "medium"
+  },
+  "手足无措": {
+    "pinyin": "shǒu zú wú cuò",
+    "meaning": "To be at a loss as to what to do; flustered and uncertain.",
+    "literal": "hands feet without place",
+    "example": "When the teacher asked him a question he hadn't prepared for, he was at a loss, his hands and feet having no place.",
+    "hint1": "This idiom describes a feeling of panic or confusion.",
+    "hint2": "It involves two body parts that are often used for action.",
+    "difficulty": "medium"
+  },
+  "一分为二": {
+    "pinyin": "yī fēn wéi èr",
+    "meaning": "Everything has two sides; one should look at problems from multiple perspectives.",
+    "literal": "one divide become two",
+    "example": "You should view this issue as a case of one dividing into two, considering both its advantages and disadvantages.",
+    "hint1": "Think about balance and duality.",
+    "hint2": "The third character means 'to become'.",
+    "difficulty": "easy"
+  },
+  "不可多得": {
+    "pinyin": "bù kě duō dé",
+    "meaning": "Rare and hard to come by; refers to something scarce and precious.",
+    "literal": "not can many obtain",
+    "example": "Her talent is truly rare and hard to find; she is truly exceptional.",
+    "hint1": "This idiom describes something valuable that is not easy to find.",
+    "hint2": "One character means 'many', but the phrase says it's not possible to have many of them.",
+    "difficulty": "easy"
+  },
+  "喜出望外": {
+    "pinyin": "xǐ chū wàng wài",
+    "meaning": "To be overjoyed or pleasantly surprised by an unexpected good fortune.",
+    "literal": "happiness beyond expectations",
+    "example": "She was overjoyed when she heard she got the job.",
+    "hint1": "This idiom describes a feeling of joy from something unexpected.",
+    "hint2": "The second character means 'to go beyond'.",
+    "difficulty": "medium"
+  },
+  "口口相传": {
+    "pinyin": "kǒu kǒu xiāng chuán",
+    "meaning": "Passed on by word of mouth from person to person.",
+    "literal": "mouth mouth mutually transmit",
+    "example": "The story of the old town has been passed down by word of mouth for generations.",
+    "hint1": "This idiom is about how information spreads without writing.",
+    "hint2": "It involves the repeated use of a body part related to speech.",
+    "difficulty": "easy"
+  },
+  "只争朝夕": {
+    "pinyin": "zhǐ zhēng zhāo xī",
+    "meaning": "Seize the day; make the most of every moment.",
+    "literal": "only strive for morning and evening",
+    "example": "In the final sprint of the project, we must work with the spirit of '只争朝夕'.",
+    "hint1": "It's about urgency and not wasting time.",
+    "hint2": "The second character means 'to fight for' or 'to strive'.",
+    "difficulty": "medium"
+  },
+  "气喘吁吁": {
+    "pinyin": "qì chuǎn xū xū",
+    "meaning": "To breathe heavily; to be out of breath.",
+    "literal": "breath pant pant pant",
+    "example": "After running up the 10 flights of stairs, she was out of breath.",
+    "hint1": "This idiom describes a physical state after strenuous activity.",
+    "hint2": "The first character means 'breath' and the last two are onomatopoeic for heavy breathing.",
+    "difficulty": "easy"
+  },
+  "猝不及防": {
+    "pinyin": "cù bù jí fáng",
+    "meaning": "Something happens so suddenly that one has no time to defend or prepare.",
+    "literal": "sudden not reach defend",
+    "example": "The storm arrived so quickly that everyone was caught off guard.",
+    "hint1": "This idiom describes a surprising situation where you have no time to react.",
+    "hint2": "It involves a sense of urgency and lack of readiness, like a sudden attack.",
+    "difficulty": "medium"
+  },
+  "不甘示弱": {
+    "pinyin": "bù gān shì ruò",
+    "meaning": "Unwilling to admit inferiority; to show that one is not to be outdone.",
+    "literal": "not willing to show weakness",
+    "example": "Despite being a newcomer, she refused to show weakness and spoke confidently at the meeting.",
+    "hint1": "This idiom is often used in competitive situations where one doesn't want to appear inferior.",
+    "hint2": "The second character conveys the idea of being willing or reluctant.",
+    "difficulty": "medium"
+  },
+  "亡羊补牢": {
+    "pinyin": "wáng yáng bǔ láo",
+    "meaning": "It's never too late to fix a mistake or prevent further loss after a mishap.",
+    "literal": "to pen the sheep after it's lost",
+    "example": "He forgot to lock the door and his bike was stolen. Now he is buying a better lock; better late than never.",
+    "hint1": "Fixing a problem after it happens.",
+    "hint2": "It involves an animal and a fence.",
+    "difficulty": "easy"
+  },
+  "意气风发": {
+    "pinyin": "yì qì fēng fā",
+    "meaning": "To be full of spirit and vitality; to be in high spirits and act with energy and determination.",
+    "literal": "spirit/air/aspiration + wind + to emit/send forth",
+    "example": "After winning the championship, the team walked off the field意气风发.",
+    "hint1": "This idiom describes someone who is both mentally and physically charged up.",
+    "hint2": "One character refers to a natural phenomenon often associated with momentum.",
+    "difficulty": "medium"
+  },
+  "摩拳擦掌": {
+    "pinyin": "mó quán cā zhǎng",
+    "meaning": "To rub one's fists and wipe one's palms, indicating eagerness to start a task or fight.",
+    "literal": "rub fist wipe palm",
+    "example": "The team was rubbing their fists and wiping their palms before the championship game.",
+    "hint1": "This idiom describes a physical action showing readiness.",
+    "hint2": "One character involves the movement of hands together.",
+    "difficulty": "easy"
+  },
+  "喜怒哀乐": {
+    "pinyin": "xǐ nù āi lè",
+    "meaning": "Joy, anger, sorrow, and pleasure — the four basic human emotions.",
+    "literal": "joy anger sorrow pleasure",
+    "example": "The movie evoked a range of emotions, from joy to anger to sorrow.",
+    "hint1": "This idiom covers a wide range of human feelings.",
+    "hint2": "One of the characters means 'anger'.",
+    "difficulty": "easy"
+  },
+  "千差万别": {
+    "pinyin": "qiān chā wàn bié",
+    "meaning": "There are numerous differences or great diversity.",
+    "literal": "thousand differences ten thousand distinctions",
+    "example": "The cultures of the world are thousands of differences.",
+    "hint1": "This idiom emphasizes a vast number of variations or disparities.",
+    "hint2": "Think of a concept that involves numbers 'thousand' and 'ten thousand' and their opposites.",
+    "difficulty": "medium"
+  },
+  "酸甜苦辣": {
+    "pinyin": "suān tián kǔ là",
+    "meaning": "Refers to the various flavors of life, including both enjoyable and difficult experiences.",
+    "literal": "sour, sweet, bitter, spicy",
+    "example": "After many years of hard work and joy, she has tasted the sweet and sour of life.",
+    "hint1": "It's about the different flavors of life.",
+    "hint2": "One of the characters means 'sweet'.",
+    "difficulty": "easy"
+  },
+  "惟妙惟肖": {
+    "pinyin": "wéi miào wéi xiào",
+    "meaning": "Describes something that is vividly portrayed or extremely lifelike.",
+    "literal": "only wonderful only resembling",
+    "example": "Her performance was 惟妙惟肖; the audience felt as if they were watching the real historical figure.",
+    "hint1": "This idiom is often used for artistic imitation that captures the essence perfectly.",
+    "hint2": "The second character means 'wonderful', and the fourth means 'resemble'.",
+    "difficulty": "medium"
+  },
+  "自相矛盾": {
+    "pinyin": "zì xiāng máo dùn",
+    "meaning": "Refers to self-contradiction, where one's own statements or actions conflict with each other.",
+    "literal": "self mutual spear shield",
+    "example": "He said he supported the plan, then argued against it—a perfect example of self-contradiction.",
+    "hint1": "This idiom comes from an ancient story about a merchant selling weapons.",
+    "hint2": "One character means 'spear' and another means 'shield'.",
+    "difficulty": "medium"
+  },
+  "中流砥柱": {
+    "pinyin": "zhōng liú dǐ zhù",
+    "meaning": "A person or thing that serves as a stabilizing pillar in a critical situation.",
+    "literal": "midstream foundation pillar",
+    "example": "During the crisis, she was the mainstay that kept the team focused.",
+    "hint1": "Think of a stable force in a challenging environment.",
+    "hint2": "One character means 'pillar' and another means 'midstream'.",
+    "difficulty": "medium"
+  },
+  "真相大白": {
+    "pinyin": "zhēn xiàng dà bái",
+    "meaning": "The truth has come to light; everything is clear.",
+    "literal": "true appearance great white",
+    "example": "After the investigation, the truth finally came out and the whole story was clear.",
+    "hint1": "This idiom is used when something hidden becomes fully known.",
+    "hint2": "It combines concepts of 'real form' and 'bright as day'.",
+    "difficulty": "easy"
+  },
+  "早出晚归": {
+    "pinyin": "zǎo chū wǎn guī",
+    "meaning": "To leave early and return late, describing a busy or hardworking person.",
+    "literal": "early go out late return",
+    "example": "She works hard every day, going out early and coming back late.",
+    "hint1": "This idiom describes a daily routine of a dedicated worker.",
+    "hint2": "The second character means 'to go out'.",
+    "difficulty": "easy"
+  },
+  "繁荣昌盛": {
+    "pinyin": "fán róng chāng shèng",
+    "meaning": "Describes a country or society that is thriving, prosperous, and flourishing.",
+    "literal": "prosperous, flourishing, thriving, prosperous",
+    "example": "The country enjoyed a period of prosperity and flourishing development.",
+    "hint1": "This idiom describes a state of great success and growth.",
+    "hint2": "One of its characters means 'abundant' or 'plentiful'.",
+    "difficulty": "easy"
+  },
+  "异口同声": {
+    "pinyin": "yì kǒu tóng shēng",
+    "meaning": "To speak with one voice; all saying the same thing.",
+    "literal": "different mouths, same sound",
+    "example": "When asked about the incident, the witnesses answered in unison.",
+    "hint1": "This idiom describes a situation where everyone agrees completely.",
+    "hint2": "It involves the concept of 'sound' or 'voice' (声).",
+    "difficulty": "easy"
+  },
+  "喜气洋洋": {
+    "pinyin": "xǐ qì yáng yáng",
+    "meaning": "Describes a joyful and cheerful atmosphere or expression.",
+    "literal": "happy air lively lively",
+    "example": "The family was喜气洋洋 as they celebrated the New Year together.",
+    "hint1": "Think of a festive celebration where everyone feels happy.",
+    "hint2": "The first character means 'happiness' and the third character means 'ocean'.",
+    "difficulty": "easy"
+  },
+  "大是大非": {
+    "pinyin": "dà shì dà fēi",
+    "meaning": "Refers to major issues of principle, where right and wrong are clearly defined.",
+    "literal": "big right big wrong",
+    "example": "In matters of 大是大非, we must not compromise our principles.",
+    "hint1": "This idiom is about fundamental moral or political issues.",
+    "hint2": "It involves the concept of 'right' and 'wrong' on a large scale.",
+    "difficulty": "easy"
+  },
+  "自食其力": {
+    "pinyin": "zì shí qí lì",
+    "meaning": "To earn one's own living; to be self-reliant and independent.",
+    "literal": "self eat one's own strength",
+    "example": "After finishing college, he decided to move out and start a business to 自食其力.",
+    "hint1": "This idiom is about independence and not relying on others for support.",
+    "hint2": "The second character relates to consuming or sustaining oneself.",
+    "difficulty": "medium"
+  },
+  "言传身教": {
+    "pinyin": "yán chuán shēn jiào",
+    "meaning": "Teaching by precept and example; influencing others through both words and actions.",
+    "literal": "words transmit, body teach",
+    "example": "A good teacher uses yan chuan shen jiao to inspire students, not just lecturing but also demonstrating kindness.",
+    "hint1": "This idiom emphasizes the power of modeling behavior.",
+    "hint2": "The idiom contains a character meaning 'body' or 'personally'.",
+    "difficulty": "medium"
+  },
+  "浴血奋战": {
+    "pinyin": "yù xuè fèn zhàn",
+    "meaning": "To fight a bloody battle with great courage and determination.",
+    "literal": "bathe blood fight battle",
+    "example": "The soldiers were determined to fight to the end, bathing in blood if needed.",
+    "hint1": "This idiom evokes a scene of intense, desperate struggle.",
+    "hint2": "One character means 'blood'.",
+    "difficulty": "medium"
+  },
+  "大惊小怪": {
+    "pinyin": "dà jīng xiǎo guài",
+    "meaning": "To make a big fuss over a small matter; to be overly alarmed about something trivial.",
+    "literal": "big surprise small strange",
+    "example": "When he found a tiny scratch on his car, he made a huge fuss—what a typical case of making a mountain out of a molehill.",
+    "hint1": "This idiom is about overreacting to something minor.",
+    "hint2": "The first character means 'big' and the third means 'small'.",
+    "difficulty": "easy"
+  },
+  "转危为安": {
+    "pinyin": "zhuǎn wēi wéi ān",
+    "meaning": "To turn danger into safety; to avert a crisis.",
+    "literal": "turn danger into safety",
+    "example": "Quick thinking and teamwork helped the company turn the crisis around and turn danger into safety.",
+    "hint1": "This idiom describes a positive outcome after a bad situation.",
+    "hint2": "Think about changing a risky state to a secure one.",
+    "difficulty": "medium"
+  },
+  "见缝插针": {
+    "pinyin": "jiàn féng chā zhēn",
+    "meaning": "To make use of every opportunity; to seize every chance to do something.",
+    "literal": "see seam insert needle",
+    "example": "She always finds time to practice English, even during her commute, truly living by the principle of 'seizing every opportunity'.",
+    "hint1": "Think about a sewing metaphor that applies to time management.",
+    "hint2": "One character means 'seam' or 'crack', suggesting a small opening.",
+    "difficulty": "easy"
+  },
+  "平易近人": {
+    "pinyin": "píng yì jìn rén",
+    "meaning": "A person who is approachable, amiable, and easy to get along with; typically describes someone friendly and unassuming.",
+    "literal": "plain easy near people",
+    "example": "The new manager is very approachable, always greeting everyone with a smile.",
+    "hint1": "This idiom describes a quality that makes others feel comfortable and welcome.",
+    "hint2": "One character means 'level' or 'common'; another means 'close to'.",
+    "difficulty": "medium"
+  },
+  "古今中外": {
+    "pinyin": "gǔ jīn zhōng wài",
+    "meaning": "Refers to all times (past and present) and all places (China and foreign countries); throughout history and everywhere.",
+    "literal": "ancient, present, China, foreign",
+    "example": "This scientific principle holds true古今中外.",
+    "hint1": "This idiom spans both time and geography.",
+    "hint2": "It includes two temporal and two spatial directions.",
+    "difficulty": "easy"
+  },
+  "怨声载道": {
+    "pinyin": "yuàn shēng zài dào",
+    "meaning": "Voices of discontent fill the streets; people are complaining bitterly about injustices or poor conditions.",
+    "literal": "complaint sound fill the road",
+    "example": "After the tax increase, there was widespread resentment with grievances heard everywhere.",
+    "hint1": "Think of a public reaction when people are unhappy with the government.",
+    "hint2": "The third character means 'carry' or 'fill', evoking something widespread.",
+    "difficulty": "medium"
+  },
+  "人声鼎沸": {
+    "pinyin": "rén shēng dǐng fèi",
+    "meaning": "Used to describe a noisy and bustling scene with many people talking loudly, like the sound of boiling water in a cauldron.",
+    "literal": "people voice cauldron boiling",
+    "example": "The marketplace was a scene of people shouting and bargaining, a real \"人声鼎沸\" atmosphere.",
+    "hint1": "Think of a crowded festival or a busy market square.",
+    "hint2": "One character means a large cooking pot, and another means to boil.",
+    "difficulty": "medium"
+  },
+  "千里迢迢": {
+    "pinyin": "qiān lǐ tiáo tiáo",
+    "meaning": "From a great distance; to travel a long way, often implying arduous journey.",
+    "literal": "thousand li [Chinese unit of distance, about 500 km] far far away",
+    "example": "She came from New York to attend her friend's wedding, truly traveling from a thousand li away.",
+    "hint1": "This idiom describes a journey that is long and distant, often with a sense of effort or dedication.",
+    "hint2": "The second character means 'mile' or 'unit of distance', and is repeated in the fourth character.",
+    "difficulty": "easy"
+  },
+  "融会贯通": {
+    "pinyin": "róng huì guàn tōng",
+    "meaning": "To achieve a thorough understanding by integrating knowledge from various sources.",
+    "literal": "melt, converge, penetrate, through",
+    "example": "After years of study, she was finally able to ronghui guantong the different theories and apply them in her research.",
+    "hint1": "It's about connecting the dots and gaining a deep understanding.",
+    "hint2": "Think of melting together multiple ideas to form a unified whole.",
+    "difficulty": "medium"
+  },
+  "整装待发": {
+    "pinyin": "zhěng zhuāng dài fā",
+    "meaning": "To be fully prepared and ready to set off or begin an endeavor.",
+    "literal": "arrange equipment wait dispatch",
+    "example": "The team was packed and ready at dawn,整装待发 for the expedition.",
+    "hint1": "This idiom conveys a sense of readiness and anticipation, often used before a journey or challenge.",
+    "hint2": "The second character means 'outfit' or 'clothing', suggesting preparation of attire.",
+    "difficulty": "medium"
+  },
+  "得心应手": {
+    "pinyin": "dé xīn yìng shǒu",
+    "meaning": "To be very skilled or proficient at something; to handle with ease and confidence.",
+    "literal": "obtain heart respond hand",
+    "example": "After years of practice, she plays the piano with such facility and grace.",
+    "hint1": "Think of a skill that feels natural and effortless, like a fish in water.",
+    "hint2": "The second character means 'heart' or 'mind', suggesting mastery comes from within.",
+    "difficulty": "medium"
+  },
+  "守土有责": {
+    "pinyin": "shǒu tǔ yǒu zé",
+    "meaning": "It is one's duty to defend one's territory; responsible for guarding one's land.",
+    "literal": "guard-possess-responsibility",
+    "example": "As a border guard, she believes 守土有责 and patrols diligently every day.",
+    "hint1": "This idiom is about responsibility and protection.",
+    "hint2": "The second character means 'soil' or 'land'.",
+    "difficulty": "medium"
+  },
+  "破口大骂": {
+    "pinyin": "pò kǒu dà mà",
+    "meaning": "To shout abuse; to let loose a torrent of abuse.",
+    "literal": "break mouth big scold",
+    "example": "He was so angry that he started cursing loudly, breaking into a stream of insults.",
+    "hint1": "This idiom describes a very intense, vocal reaction to anger.",
+    "hint2": "One character means 'to break' or 'to burst'.",
+    "difficulty": "medium"
+  },
+  "不可磨灭": {
+    "pinyin": "bù kě mó miè",
+    "meaning": "Indelible; cannot be erased or obliterated, typically referring to achievements, memories, or influence.",
+    "literal": "not, can, rub/file, extinguish",
+    "example": "Her contributions to the community left an indelible mark on everyone's hearts.",
+    "hint1": "This idiom describes something that remains forever in people's minds or history.",
+    "hint2": "The third character involves the idea of rubbing or polishing away.",
+    "difficulty": "medium"
+  },
+  "永无止境": {
+    "pinyin": "yǒng wú zhǐ jìng",
+    "meaning": "Endless; without limit; forever ongoing.",
+    "literal": "ever without stop boundary",
+    "example": "The pursuit of knowledge is 永无止境.",
+    "hint1": "Think of something that never ends, like a cycle or a continuous journey.",
+    "hint2": "One character means 'never' and another means 'boundary'.",
+    "difficulty": "medium"
+  },
+  "犹豫不决": {
+    "pinyin": "yóu yù bù jué",
+    "meaning": "To be indecisive or hesitant, unable to make up one's mind.",
+    "literal": "hesitate un-decide",
+    "example": "She was hesitant to choose between the two job offers, feeling very uncertain.",
+    "hint1": "This idiom describes a state of mind when you can't decide between options.",
+    "hint2": "One character means 'not' and another means 'decide'.",
+    "difficulty": "medium"
+  },
+  "火眼金睛": {
+    "pinyin": "huǒ yǎn jīn jīng",
+    "meaning": "sharp and discerning eyes; ability to see through deception or false appearances.",
+    "literal": "fire eyes golden eyes",
+    "example": "With his 火眼金睛, the detective easily spotted the forgery.",
+    "hint1": "This idiom relates to a famous monkey's supernatural vision.",
+    "hint2": "The first two characters mean 'fire' and 'eye'.",
+    "difficulty": "medium"
+  },
+  "袖手旁观": {
+    "pinyin": "xiù shǒu páng guān",
+    "meaning": "To stand by and watch without offering any help or taking any action.",
+    "literal": "sleeve, hand, side, observe",
+    "example": "While the two were arguing, he just stood by with his arms folded and watched.",
+    "hint1": "The phrase describes someone who deliberately does not get involved.",
+    "hint2": "It involves the idea of putting hands in sleeves or folding arms.",
+    "difficulty": "easy"
+  },
+  "苦口婆心": {
+    "pinyin": "kǔ kǒu pó xīn",
+    "meaning": "To advise someone earnestly and patiently, even if it's unpleasant or unwelcome.",
+    "literal": "bitter mouth, motherly heart",
+    "example": "She was ku-ko-po-xin with her son about his grades, but he ignored her advice.",
+    "hint1": "Think of a caring but nagging elder giving tough advice.",
+    "hint2": "One character means 'bitter', like a difficult truth.",
+    "difficulty": "medium"
+  },
+  "游刃有余": {
+    "pinyin": "yóu rèn yǒu yú",
+    "meaning": "To be highly skilled and handle tasks with plenty of room; to do something with ease and proficiency.",
+    "literal": "游 (swim) 刃 (blade) 有 (have) 余 (surplus)",
+    "example": "With years of practice, she played the piano with 游刃有余, never missing a note.",
+    "hint1": "This idiom describes someone who is so skilled that they have extra capacity while doing a difficult task.",
+    "hint2": "One character means 'blade' or 'knife edge'.",
+    "difficulty": "medium"
+  },
+  "始终不渝": {
+    "pinyin": "shǐ zhōng bù yú",
+    "meaning": "It means never changing or altering one's commitment or loyalty from beginning to end. It describes unwavering persistence.",
+    "literal": "start - end - not - change",
+    "example": "She remained loyal to her principles throughout her career, never wavering.",
+    "hint1": "This idiom is about persistence and loyalty over time.",
+    "hint2": "One of the characters means 'end' or 'always', and another means 'not'.",
+    "difficulty": "medium"
+  },
+  "发家致富": {
+    "pinyin": "fā jiā zhì fù",
+    "meaning": "To become wealthy and prosperous, often by starting a successful business or through hard work.",
+    "literal": "get rich, set up a family, reach, wealthy",
+    "example": "After years of hard work, she managed to get rich and start a new life.",
+    "hint1": "This idiom is about achieving financial success and improving one's living standards.",
+    "hint2": "The second character means 'family' or 'home', showing that wealth often involves family prosperity.",
+    "difficulty": "medium"
+  },
+  "耿耿于怀": {
+    "pinyin": "gěng gěng yú huái",
+    "meaning": "To brood over something; to have a persistent feeling of resentment or worry that one cannot forget.",
+    "literal": "loyal and devoted (reduplicated) in the heart",
+    "example": "She still broods over the argument they had years ago.",
+    "hint1": "This idiom describes a lingering negative feeling that stays with you.",
+    "hint2": "The first character means 'loyal' or 'devoted', but here it's about an unresolved emotion.",
+    "difficulty": "medium"
+  },
+  "油然而生": {
+    "pinyin": "yóu rán ér shēng",
+    "meaning": "(Of a feeling) well up spontaneously; arise involuntarily",
+    "literal": "oil-so apparently and thus arise",
+    "example": "A sense of respect welled up spontaneously in me when I saw the monument.",
+    "hint1": "This idiom describes a feeling that appears naturally and without effort.",
+    "hint2": "The second character means 'appear' or 'seem', and the last character means 'give birth'.",
+    "difficulty": "medium"
+  },
+  "害群之马": {
+    "pinyin": "hài qún zhī mǎ",
+    "meaning": "A person who brings trouble or disgrace to the group, acting as a bad influence on others.",
+    "literal": "harm group 's horse",
+    "example": "He is the one who always complains and spreads negativity at work, a real troublemaker.",
+    "hint1": "It's about an animal that spoils things for the herd.",
+    "hint2": "The third character means 'group' or 'crowd'.",
+    "difficulty": "medium"
+  },
+  "权宜之计": {
+    "pinyin": "quán yí zhī jì",
+    "meaning": "A temporary measure or expedient to deal with an immediate problem, not a long-term solution.",
+    "literal": "power / weigh / temporary / plan",
+    "example": "The company used layoffs as a stopgap measure, but it was only a temporary expedient.",
+    "hint1": "Think of a quick fix that solves the problem for now but isn't a permanent solution.",
+    "hint2": "One character means 'temporary' or 'provisional'.",
+    "difficulty": "medium"
+  },
+  "背井离乡": {
+    "pinyin": "bèi jǐng lí xiāng",
+    "meaning": "To leave one's hometown and family, often due to hardship or necessity.",
+    "literal": "Back, well, leave, hometown",
+    "example": "After the war, many families had to 背井离乡 and start anew in distant cities.",
+    "hint1": "This idiom describes a life-changing move driven by difficult circumstances.",
+    "hint2": "The first character means 'back' or 'turn away' from something.",
+    "difficulty": "medium"
+  },
+  "支离破碎": {
+    "pinyin": "zhī lí pò suì",
+    "meaning": "Describes something that is fragmented, shattered, or broken into pieces; often used for a situation or object that is in a state of disarray or ruin.",
+    "literal": "branch, leave, broken, scattered",
+    "example": "After the earthquake, the city lay in a state of utter disarray, with buildings reduced to rubble.",
+    "hint1": "Think of something that has been smashed or torn apart.",
+    "hint2": "One character means 'broken' or 'destroyed'.",
+    "difficulty": "medium"
+  },
+  "皆大欢喜": {
+    "pinyin": "jiē dà huān xǐ",
+    "meaning": "Everyone is satisfied and happy.",
+    "literal": "all big joyful happy",
+    "example": "After the project was completed successfully, it was a situation of 皆大欢喜, with both the client and the team celebrating.",
+    "hint1": "This idiom describes a universally positive outcome that brings joy to all involved.",
+    "hint2": "It includes a character meaning 'all' or 'each'.",
+    "difficulty": "medium"
+  },
+  "大名鼎鼎": {
+    "pinyin": "dà míng dǐng dǐng",
+    "meaning": "Very famous or well-known; renowned.",
+    "literal": "big name tripod tripod",
+    "example": "The author of that novel is world-famous, with his works translated into many languages.",
+    "hint1": "This idiom describes someone or something that is very well-known.",
+    "hint2": "It contains a word that also refers to an ancient bronze vessel.",
+    "difficulty": "easy"
+  },
+  "合二为一": {
+    "pinyin": "hé ér wéi yī",
+    "meaning": "To combine two separate things into one.",
+    "literal": "combine two become one",
+    "example": "The two companies merged, effectively becoming one entity.",
+    "hint1": "Think about integration or merging two items into a single unit.",
+    "hint2": "The first character means to join together, and the last character means one.",
+    "difficulty": "easy"
+  },
+  "风吹草动": {
+    "pinyin": "fēng chuī cǎo dòng",
+    "meaning": "A sign of trouble or disturbance; a slight indication that something is happening.",
+    "literal": "wind blows, grass moves",
+    "example": "The sudden silence in the room was a 'wind-blown grass' that made everyone uneasy.",
+    "hint1": "Think about nature and how small changes can signal something bigger.",
+    "hint2": "The second character means 'blow' as in wind.",
+    "difficulty": "easy"
+  },
+  "依依不舍": {
+    "pinyin": "yī yī bù shě",
+    "meaning": "Reluctant to part; reluctant to say goodbye.",
+    "literal": "each each not abandon",
+    "example": "At the airport, they waved good-bye, feeling yiyibushe.",
+    "hint1": "This idiom describes the feeling of farewell.",
+    "hint2": "It contains the idea of not abandoning step by step.",
+    "difficulty": "medium"
+  },
+  "秋高气爽": {
+    "pinyin": "qiū gāo qì shuǎng",
+    "meaning": "The sky is clear and crisp in autumn, giving a refreshing feeling.",
+    "literal": "autumn high air brisk",
+    "example": "We decided to go hiking because of the qiū gāo qì shuǎng weather.",
+    "hint1": "It describes a pleasant seasonal feeling.",
+    "hint2": "It involves the air and the sky.",
+    "difficulty": "easy"
+  },
+  "挺身而出": {
+    "pinyin": "tǐng shēn ér chū",
+    "meaning": "To step forward bravely to take on a challenge or responsibility, often in a dangerous situation.",
+    "literal": "straighten body and go out",
+    "example": "When the building caught fire, he immediately 挺身而出 to rescue the trapped children.",
+    "hint1": "This idiom describes a courageous action in a critical moment.",
+    "hint2": "It involves two actions: one about posture and another about moving forward.",
+    "difficulty": "easy"
+  },
+  "掩人耳目": {
+    "pinyin": "yǎn rén ěr mù",
+    "meaning": "To deceive or mislead others by covering up the truth.",
+    "literal": "cover others' eyes and ears",
+    "example": "The CEO's vague report was just a way to mask the company's real financial troubles.",
+    "hint1": "It involves blocking sensory perception.",
+    "hint2": "One character means 'eye'.",
+    "difficulty": "medium"
+  },
+  "姗姗来迟": {
+    "pinyin": "shān shān lái chí",
+    "meaning": "To arrive late, often implying a graceful or leisurely delay.",
+    "literal": "slowly slowly come late",
+    "example": "She was late to the meeting, but her 姗姗来迟 entrance didn't seem rude.",
+    "hint1": "This idiom describes a belated arrival that feels unhurried.",
+    "hint2": "One of its characters means 'slowly' or 'leisurely'.",
+    "difficulty": "medium"
+  },
+  "实至名归": {
+    "pinyin": "shí zhì míng guī",
+    "meaning": "A person's reputation matches their actual achievements; well-deserved recognition.",
+    "literal": "reality to name returns",
+    "example": "After winning the championship, she felt it was truly a case of '实至名归'.",
+    "hint1": "This idiom describes the harmony between reality and reputation.",
+    "hint2": "The second character means 'to reach' or 'to arrive'.",
+    "difficulty": "medium"
+  },
+  "事与愿违": {
+    "pinyin": "shì yǔ yuàn wéi",
+    "meaning": "Things turn out contrary to what one wishes; results are opposite to expectations.",
+    "literal": "things / with / wishes / oppose",
+    "example": "He studied hard for the exam, but things turned out contrary to his wishes.",
+    "hint1": "This idiom describes a situation where outcomes disappoint your hopes.",
+    "hint2": "The word for 'things' (事) starts this expression.",
+    "difficulty": "easy"
+  },
+  "翩翩起舞": {
+    "pinyin": "piān piān qǐ wǔ",
+    "meaning": "To dance gracefully and lightly, often used to describe elegant dancing or movements.",
+    "literal": "whirl whirl rise dance",
+    "example": "She moved across the stage,翩翩起舞 as if carried by the wind.",
+    "hint1": "This idiom describes a beautiful and rhythmic movement.",
+    "hint2": "The second character suggests a fluttering or flying motion.",
+    "difficulty": "medium"
+  },
+  "名目繁多": {
+    "pinyin": "míng mù fán duō",
+    "meaning": "There is a great variety of names or items.",
+    "literal": "name item numerous many",
+    "example": "The store had a dazzling array of products, with a bewildering variety of items.",
+    "hint1": "Think about a situation with many different categories or labels.",
+    "hint2": "The first two characters mean 'name' and 'item'.",
+    "difficulty": "medium"
+  },
+  "凤毛麟角": {
+    "pinyin": "fèng máo lín jiǎo",
+    "meaning": "Something extremely rare and precious.",
+    "literal": "phoenix feather, unicorn horn",
+    "example": "In this small town, a truly talented musician is a phoenix feather and unicorn horn.",
+    "hint1": "Think of mythical creatures and their rare attributes.",
+    "hint2": "One part of this idiom refers to a legendary bird's feather.",
+    "difficulty": "medium"
+  },
+  "忍气吞声": {
+    "pinyin": "rěn qì tūn shēng",
+    "meaning": "To swallow one's pride and endure humiliation silently without protest.",
+    "literal": "endure anger, swallow sound",
+    "example": "At work, he had to swallow his pride and nod along with the unfair criticism.",
+    "hint1": "The feeling of holding back anger in a difficult situation.",
+    "hint2": "One character means 'to swallow' or 'to endure'.",
+    "difficulty": "medium"
+  },
+  "耳濡目染": {
+    "pinyin": "ěr rú mù rǎn",
+    "meaning": "to be influenced by constant exposure to something, often without conscious effort; to be subtly affected by what one frequently sees and hears.",
+    "literal": "ear soaked, eye dyed",
+    "example": "Living in a musical family, she learned to play the piano through constant exposure, just by ear and eye.",
+    "hint1": "This idiom is about the power of environment and habitual observation.",
+    "hint2": "Think about two sensory organs and a dyeing process.",
+    "difficulty": "medium"
+  },
+  "天伦之乐": {
+    "pinyin": "tiān lún zhī lè",
+    "meaning": "The happiness derived from family reunions and familial harmony.",
+    "literal": "heavenly relationship's joy",
+    "example": "During the Spring Festival, the whole family gathers to enjoy tianlunzhile.",
+    "hint1": "Think about family togetherness and traditional values.",
+    "hint2": "The second character means 'order' or 'relationship'.",
+    "difficulty": "medium"
+  },
+  "一气呵成": {
+    "pinyin": "yī qì hē chéng",
+    "meaning": "To accomplish something in one breath; to do something without interruption or with smooth continuity.",
+    "literal": "one breath accomplish become",
+    "example": "She painted the entire landscape in one go, completing it with a single, uninterrupted flow.",
+    "hint1": "Think of performing an action smoothly from start to finish without pause.",
+    "hint2": "The second character means 'air' or 'breath'.",
+    "difficulty": "easy"
+  },
+  "千载难逢": {
+    "pinyin": "qiān zǎi nán féng",
+    "meaning": "Extremely rare; once in a lifetime opportunity.",
+    "literal": "thousand years hard to meet",
+    "example": "Winning the lottery is a once-in-a-lifetime chance, a qianzai nanfeng event.",
+    "hint1": "Think about something that happens very rarely, like a special event.",
+    "hint2": "The first character means 'thousand', implying a long time.",
+    "difficulty": "medium"
+  },
+  "满目疮痍": {
+    "pinyin": "mǎn mù chuāng yí",
+    "meaning": "The eye sees devastation everywhere; refers to a scene of destruction and ruin after a disaster or war.",
+    "literal": "full eye wound scar",
+    "example": "After the earthquake, the city was满目疮痍, with buildings collapsed and people homeless.",
+    "hint1": "This idiom paints a picture of a landscape after a catastrophe.",
+    "hint2": "The second character means 'eye' and the third means 'wound'.",
+    "difficulty": "hard"
+  },
+  "堆积如山": {
+    "pinyin": "duī jī rú shān",
+    "meaning": "Describes a huge amount of things piled up like a mountain, often indicating an overwhelming quantity.",
+    "literal": "pile up like mountain",
+    "example": "After the holidays, the emails in my inbox piled up like a mountain.",
+    "hint1": "This idiom evokes the feeling of being overwhelmed by a massive accumulation.",
+    "hint2": "One character refers to a large natural elevation, implying great height and mass.",
+    "difficulty": "medium"
+  },
+  "一无所有": {
+    "pinyin": "yī wú suǒ yǒu",
+    "meaning": "To have nothing at all; to be utterly destitute or without possessions.",
+    "literal": "One not that have",
+    "example": "After the fire, he was left with nothing — truly yi wu suo you.",
+    "hint1": "This idiom describes utter lack or emptiness, often in a material or abstract sense.",
+    "hint2": "The second character means 'without' and the third character means 'that which'.",
+    "difficulty": "easy"
   }
 }
