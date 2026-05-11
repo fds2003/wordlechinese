@@ -86,26 +86,61 @@ function generateHTML(date, idiom, info) {
   const prevStr = prevDate.toISOString().split('T')[0];
   const nextStr = nextDate.toISOString().split('T')[0];
 
+  const articleJSON = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `Wordle Chinese Answer for ${displayDate}`,
+    datePublished: dateStr,
+    dateModified: dateStr,
+    publisher: { '@type': 'Organization', name: 'Wordle Chinese', url: 'https://wordlechinese.com' }
+  });
+  const faqJSON = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      { '@type': 'Question', name: 'What is Wordle Chinese?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Wordle Chinese is a free daily word puzzle game where you guess a hidden Chinese idiom (成语) in 6 tries.' }
+      },
+      { '@type': 'Question', name: `Wordle Chinese hint 1 for ${dateStr}`,
+        acceptedAnswer: { '@type': 'Answer', text: info.hint1 }
+      },
+      { '@type': 'Question', name: `Wordle Chinese hint 2 for ${dateStr}`,
+        acceptedAnswer: { '@type': 'Answer', text: info.hint2 }
+      }
+    ]
+  });
+  const breadcrumbJSON = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Wordle Chinese', item: 'https://wordlechinese.com/' },
+      { '@type': 'ListItem', position: 2, name: `Answer for ${dateStr}`, item: `https://wordlechinese.com/answer/${dateStr}/` }
+    ]
+  });
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wordle Chinese Answer ${dateStr} - 今日答案 | WordleChinese.com</title>
+  <title>Wordle Chinese Answer ${dateStr} - 今日答案 | Wordle Chinese</title>
   <meta name="description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}). Meaning: ${info.meaning} Play the free Chinese Wordle game daily!"/>
+  <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://wordlechinese.com/answer/${dateStr}/"/>
+  <link rel="alternate" hreflang="en" href="https://wordlechinese.com/answer/${dateStr}/"/>
   <meta property="og:title" content="Wordle Chinese Answer ${dateStr}"/>
   <meta property="og:description" content="Today's answer is ${idiom} — ${info.meaning}"/>
   <meta property="og:url" content="https://wordlechinese.com/answer/${dateStr}/"/>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Wordle Chinese Answer for ${displayDate}",
-    "datePublished": "${dateStr}",
-    "publisher": {"@type": "Organization", "name": "WordleChinese.com", "url": "https://wordlechinese.com"}
-  }
-  </script>
+  <meta property="og:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Wordle Chinese Answer ${dateStr}"/>
+  <meta name="twitter:description" content="Today's answer is ${idiom} — ${info.meaning}"/>
+  <meta name="twitter:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
+  <script type="application/ld+json">${articleJSON}</script>
+  <script type="application/ld+json">${faqJSON}</script>
+  <script type="application/ld+json">${breadcrumbJSON}</script>
   <style>
     body{font-family:system-ui,sans-serif;max-width:680px;margin:0 auto;padding:20px;color:#1a1a1a}
     header{text-align:center;border-bottom:2px solid #eee;padding-bottom:16px;margin-bottom:24px}
@@ -134,7 +169,7 @@ function generateHTML(date, idiom, info) {
 </head>
 <body>
   <header>
-    <a href="https://wordlechinese.com">🀄 WordleChinese.com</a>
+    <a href="https://wordlechinese.com">🀄 Wordle Chinese</a>
     <p style="margin:8px 0 0;color:#6b7280;font-size:14px;">Daily Chinese Idiom Wordle Game</p>
   </header>
 
@@ -186,15 +221,134 @@ function generateHTML(date, idiom, info) {
   </div>
 
   <footer style="text-align:center;margin-top:40px;color:#9ca3af;font-size:13px">
-    <p>© ${new Date().getFullYear()} <a href="https://wordlechinese.com" style="color:#6b7280">WordleChinese.com</a> ·
+    <p>© ${new Date().getFullYear()} <a href="https://wordlechinese.com" style="color:#6b7280">Wordle Chinese</a> ·
     <a href="/privacy" style="color:#6b7280">Privacy Policy</a></p>
   </footer>
 </body>
 </html>`;
 }
 
-// ─── 4. 主流程 ───────────────────────────────────────────────
+// ─── 4. 生成 sitemap 文件 ──────────────────────────────────────
+function generateSitemaps(startDate, days) {
+  const lastmod = new Date().toISOString().split('T')[0];
+
+  // answer-sitemap.xml
+  const entries = Array.from({ length: days }, (_, i) => {
+    const d = new Date(startDate);
+    d.setDate(d.getDate() + i);
+    const ds = d.toISOString().split('T')[0];
+    return `  <url><loc>https://wordlechinese.com/answer/${ds}/</loc><lastmod>${ds}</lastmod><changefreq>never</changefreq><priority>0.6</priority></url>`;
+  }).join('\n');
+
+  fs.writeFileSync('public/answer-sitemap.xml',
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`
+  );
+  console.log(`📄 public/answer-sitemap.xml (${days} URLs)`);
+
+  // sitemap-home.xml
+  fs.writeFileSync('public/sitemap-home.xml',
+    `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://wordlechinese.com/</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://wordlechinese.com/privacy.html</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>`
+  );
+  console.log(`📄 public/sitemap-home.xml`);
+
+  // sitemap.xml (index)
+  fs.writeFileSync('public/sitemap.xml',
+    `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://wordlechinese.com/sitemap-home.xml</loc>
+    <lastmod>${lastmod}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://wordlechinese.com/answer-sitemap.xml</loc>
+    <lastmod>${lastmod}</lastmod>
+  </sitemap>
+</sitemapindex>`
+  );
+  console.log(`📄 public/sitemap.xml (index)`);
+}
+
+// ─── 5. HTML-only 模式：从缓存重新生成所有 HTML ────────────────
+function htmlOnlyMode() {
+  const idioms = loadIdioms();
+  console.log(`📚 词库: ${idioms.length} 条成语`);
+
+  if (!fs.existsSync(CACHE_FILE)) {
+    console.error('❌ 缓存文件不存在: ' + CACHE_FILE);
+    console.error('   请先运行完整生成: node generate-answers-deepseek.mjs');
+    process.exit(1);
+  }
+
+  const cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+  console.log(`💾 缓存: ${Object.keys(cache).length} 条`);
+
+  // 计算需要生成的日期范围
+  const dirs = fs.readdirSync(OUTPUT_DIR).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
+  if (dirs.length === 0) {
+    console.error('❌ public/answer/ 下无日期目录');
+    process.exit(1);
+  }
+
+  let count = 0;
+  for (const dateStr of dirs) {
+    const date = new Date(dateStr + 'T00:00:00Z');
+    const dayIndex = Math.floor((date - START_DATE) / (24 * 60 * 60 * 1000));
+    if (dayIndex < 0) continue;
+
+    let { idiom } = idioms[dayIndex % idioms.length];
+    let info = cache[idiom];
+
+    // Fallback: try to extract idiom from existing HTML and look up in cache
+    if (!info) {
+      const outPath = path.join(OUTPUT_DIR, dateStr, 'index.html');
+      if (fs.existsSync(outPath)) {
+        const oldHtml = fs.readFileSync(outPath, 'utf-8');
+        const m = oldHtml.match(/<strong>([一-鿿]{4})<\/strong>/);
+        if (m && cache[m[1]]) {
+          idiom = m[1];
+          info = cache[idiom];
+        }
+      }
+    }
+
+    if (!info) {
+      console.error(`⚠️  ${dateStr} → ${idiom} 缓存未命中，跳过`);
+      continue;
+    }
+
+    const html = generateHTML(date, idiom, info);
+    const outPath = path.join(OUTPUT_DIR, dateStr, 'index.html');
+    fs.writeFileSync(outPath, html, 'utf-8');
+    count++;
+  }
+
+  console.log(`✅ 重新生成 ${count} 个 HTML 文件`);
+  generateSitemaps(new Date(dirs[0] + 'T00:00:00Z'), dirs.length);
+}
+
+// ─── 6. 主流程 ───────────────────────────────────────────────
 async function main() {
+  const htmlOnly = process.argv.includes('--html-only');
+
+  if (htmlOnly) {
+    htmlOnlyMode();
+    return;
+  }
+
   if (!API_KEY) {
     console.error('❌ 请设置环境变量 DEEPSEEK_API_KEY');
     process.exit(1);
@@ -237,7 +391,6 @@ async function main() {
       } catch (e) {
         console.error(`❌ ${idiom} 失败: ${e.message}`);
         errors++;
-        // 失败后等2秒再继续
         await new Promise(r => setTimeout(r, 2000));
         continue;
       }
@@ -251,45 +404,9 @@ async function main() {
     generated++;
   }
 
-  // 生成答案页 sitemap
-  const entries = Array.from({ length: DAYS }, (_, i) => {
-    const d = new Date(START_DATE);
-    d.setDate(d.getDate() + i);
-    return `  <url><loc>https://wordlechinese.com/answer/${d.toISOString().split('T')[0]}/</loc><changefreq>never</changefreq><priority>0.6</priority></url>`;
-  }).join('\n');
-
-  fs.writeFileSync('public/answer-sitemap.xml',
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`
-  );
-
-  // 确保 sitemap-home 和 sitemap 索引存在
-  if (!fs.existsSync('public/sitemap-home.xml')) {
-    fs.writeFileSync('public/sitemap-home.xml',
-      `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://wordlechinese.com/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>`
-    );
-  }
-  fs.writeFileSync('public/sitemap.xml',
-    `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://wordlechinese.com/sitemap-home.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://wordlechinese.com/answer-sitemap.xml</loc>
-  </sitemap>
-</sitemapindex>`
-  );
+  generateSitemaps(START_DATE, DAYS);
 
   console.log(`\n🎉 完成！新生成 ${generated} 页，跳过 ${skipped} 页，失败 ${errors} 条`);
-  console.log(`📄 public/answer-sitemap.xml 已生成`);
-  console.log(`📄 public/sitemap.xml（索引）已更新`);
 }
 
 main().catch(console.error);
