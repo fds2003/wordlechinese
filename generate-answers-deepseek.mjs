@@ -101,11 +101,17 @@ function generateHTML(date, idiom, info) {
       { '@type': 'Question', name: 'What is Wordle Chinese?',
         acceptedAnswer: { '@type': 'Answer', text: 'Wordle Chinese is a free daily word puzzle game where you guess a hidden Chinese idiom (成语) in 6 tries.' }
       },
+      { '@type': 'Question', name: `What is today's Wordle Chinese answer for ${dateStr}?`,
+        acceptedAnswer: { '@type': 'Answer', text: `Today's Wordle Chinese answer is ${idiom} (${info.pinyin}), which means ${info.meaning}` }
+      },
       { '@type': 'Question', name: `Wordle Chinese hint 1 for ${dateStr}`,
         acceptedAnswer: { '@type': 'Answer', text: info.hint1 }
       },
       { '@type': 'Question', name: `Wordle Chinese hint 2 for ${dateStr}`,
         acceptedAnswer: { '@type': 'Answer', text: info.hint2 }
+      },
+      { '@type': 'Question', name: 'How can I learn Chinese with Wordle?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Play the daily puzzle, read the idiom explanations on each answer page, and practice using new idioms in sentences. Visit our guide at wordlechinese.com/learn-chinese-with-wordle.html for more tips.' }
       }
     ]
   });
@@ -123,20 +129,20 @@ function generateHTML(date, idiom, info) {
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}</title>
-  <meta name="description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Today's Wordle Chinese answer for ${displayDate}. Build your Chinese vocabulary one idiom a day!"/>
+  <title>Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})</title>
+  <meta name="description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day with this free daily puzzle."/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://wordlechinese.com/answer/${dateStr}/"/>
   <link rel="alternate" hreflang="en" href="https://wordlechinese.com/answer/${dateStr}/"/>
-  <meta property="og:title" content="Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}"/>
-  <meta property="og:description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day!"/>
+  <meta property="og:title" content="Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})"/>
+  <meta property="og:description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day with this free daily puzzle."/>
   <meta property="og:url" content="https://wordlechinese.com/answer/${dateStr}/"/>
   <meta property="og:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}"/>
-  <meta name="twitter:description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day!"/>
+  <meta name="twitter:title" content="Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})"/>
+  <meta name="twitter:description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day with this free daily puzzle."/>
   <meta name="twitter:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
   <script type="application/ld+json">${articleJSON}</script>
   <script type="application/ld+json">${faqJSON}</script>
@@ -214,6 +220,21 @@ function generateHTML(date, idiom, info) {
     </details>
   </div>
 
+  <div class="section" style="background:#fff;border:1px solid #e5e7eb">
+    <h2>📚 Learn Chinese with This Idiom</h2>
+    <p>The idiom <strong>${idiom}</strong> (${info.pinyin}) is a widely-used Chinese expression meaning <em>${info.meaning}</em>. Literally, each character means: ${info.literal}.</p>
+    <p>Learning Chinese idioms (成语, chéngyǔ) is one of the most effective ways to improve your Chinese. Each four-character idiom packs centuries of culture and wisdom into a compact phrase. When you understand the story behind an idiom like <strong>${idiom}</strong>, you're not just memorizing words — you're connecting with how Chinese speakers think and express ideas.</p>
+    <p>Here's how you can use <strong>${idiom}</strong> in your Chinese study today:</p>
+    <ul style="line-height:1.8">
+      <li><strong>Example usage:</strong> ${info.example}</li>
+      <li><strong>Practice tip:</strong> Try using <strong>${idiom}</strong> in a sentence about your own life. Write it down, say it aloud, or share it with a language partner.</li>
+      <li><strong>Spaced repetition:</strong> Come back to this page tomorrow and see if you still remember the meaning and pronunciation without looking.</li>
+    </ul>
+    <p style="margin-top:16px;padding:12px;background:#f0f9ff;border-radius:6px;font-size:14px">
+      📖 <a href="/learn-chinese-with-wordle.html" style="color:#2563eb;font-weight:600">Read our full guide: How to Learn Chinese with Wordle →</a>
+    </p>
+  </div>
+
   <div class="nav">
     <a href="/answer/${prevStr}/">← ${prevStr}</a>
     <a href="https://wordlechinese.com">🏠 Today's Game</a>
@@ -260,6 +281,12 @@ function generateSitemaps(startDate, days) {
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://wordlechinese.com/learn-chinese-with-wordle.html</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>`
   );
