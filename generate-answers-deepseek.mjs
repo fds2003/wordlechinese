@@ -123,20 +123,20 @@ function generateHTML(date, idiom, info) {
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wordle Chinese Answer ${dateStr} - 今日答案 | Wordle Chinese</title>
-  <meta name="description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}). Meaning: ${info.meaning} Play the free Chinese Wordle game daily!"/>
+  <title>Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}</title>
+  <meta name="description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Today's Wordle Chinese answer for ${displayDate}. Build your Chinese vocabulary one idiom a day!"/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://wordlechinese.com/answer/${dateStr}/"/>
   <link rel="alternate" hreflang="en" href="https://wordlechinese.com/answer/${dateStr}/"/>
-  <meta property="og:title" content="Wordle Chinese Answer ${dateStr}"/>
-  <meta property="og:description" content="Today's answer is ${idiom} — ${info.meaning}"/>
+  <meta property="og:title" content="Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}"/>
+  <meta property="og:description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day!"/>
   <meta property="og:url" content="https://wordlechinese.com/answer/${dateStr}/"/>
   <meta property="og:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Wordle Chinese Answer ${dateStr}"/>
-  <meta name="twitter:description" content="Today's answer is ${idiom} — ${info.meaning}"/>
+  <meta name="twitter:title" content="Learn Chinese Idiom: ${idiom} (${info.pinyin}) — Wordle Chinese Answer ${dateStr}"/>
+  <meta name="twitter:description" content="Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day!"/>
   <meta name="twitter:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
   <script type="application/ld+json">${articleJSON}</script>
   <script type="application/ld+json">${faqJSON}</script>
@@ -173,7 +173,7 @@ function generateHTML(date, idiom, info) {
     <p style="margin:8px 0 0;color:#6b7280;font-size:14px;">Daily Chinese Idiom Wordle Game</p>
   </header>
 
-  <h1 style="text-align:center;font-size:22px;">Wordle Chinese Answer — ${displayDate}</h1>
+  <h1 style="text-align:center;font-size:22px;">Learn Chinese Idiom: ${idiom} — ${displayDate} Answer</h1>
 
   <div class="spoiler">
     ⚠️ <strong>Spoiler Warning!</strong> Today's answer is revealed below. Try playing first →

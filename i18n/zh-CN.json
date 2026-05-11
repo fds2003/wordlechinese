@@ -5,8 +5,8 @@
     "heading": "关于"
   },
   "app": {
-    "description": "Wordle，用于汉语成语——成语（chéngyǔ）。在 6 次尝试中猜出成语。",
-    "title": "成语Wordle"
+    "description": "通过每日成语猜谜学习中文。在 6 次尝试中猜出隐藏的成语（chéngyǔ），理解其含义，每天积累一个词汇。",
+    "title": "Wordle Chinese — 每日成语猜谜学中文"
   },
   "common": {
     "choose": "选择",
