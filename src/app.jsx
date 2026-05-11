@@ -1464,6 +1464,11 @@ export function App() {
                   {t('debugging.clearDB')}
                 </button>
               </details>
+              <p style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border-color,#e5e7eb)">
+                <a href="/learn-chinese-with-wordle.html">
+                  📖 How to Learn Chinese with Wordle
+                </a>
+              </p>
             </>
           ) : (
             <p>

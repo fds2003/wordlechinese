@@ -73,7 +73,7 @@ async function fetchIdiomInfo(idiom) {
 }
 
 // ─── 3. 生成单个 HTML 页面 ────────────────────────────────────
-function generateHTML(date, idiom, info) {
+function generateHTML(date, idiom, info, isFirst = false, isLast = false) {
   const dateStr = date.toISOString().split('T')[0];
   const displayDate = date.toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric'
@@ -236,14 +236,20 @@ function generateHTML(date, idiom, info) {
   </div>
 
   <div class="nav">
-    <a href="/answer/${prevStr}/">← ${prevStr}</a>
+    ${isFirst
+      ? `<a href="https://wordlechinese.com">🏠 Home</a>`
+      : `<a href="/answer/${prevStr}/">← ${prevStr}</a>`
+    }
     <a href="https://wordlechinese.com">🏠 Today's Game</a>
-    <a href="/answer/${nextStr}/">${nextStr} →</a>
+    ${isLast
+      ? `<a href="https://wordlechinese.com">🏠 Home</a>`
+      : `<a href="/answer/${nextStr}/">${nextStr} →</a>`
+    }
   </div>
 
   <footer style="text-align:center;margin-top:40px;color:#9ca3af;font-size:13px">
     <p>© ${new Date().getFullYear()} <a href="https://wordlechinese.com" style="color:#6b7280">Wordle Chinese</a> ·
-    <a href="/privacy" style="color:#6b7280">Privacy Policy</a></p>
+    <a href="/privacy.html" style="color:#6b7280">Privacy Policy</a></p>
   </footer>
 </body>
 </html>`;
@@ -330,6 +336,14 @@ function htmlOnlyMode() {
     process.exit(1);
   }
 
+  // 预计算有效日期（排除 START_DATE 之前的旧目录）
+  const validDirs = dirs.filter(d => {
+    const date = new Date(d + 'T00:00:00Z');
+    return (date - START_DATE) / (24 * 60 * 60 * 1000) >= 0;
+  });
+  const firstValid = validDirs[0];
+  const lastValid = validDirs[validDirs.length - 1];
+
   let count = 0;
   for (const dateStr of dirs) {
     const date = new Date(dateStr + 'T00:00:00Z');
@@ -357,7 +371,9 @@ function htmlOnlyMode() {
       continue;
     }
 
-    const html = generateHTML(date, idiom, info);
+    const isFirst = dateStr === firstValid;
+    const isLast = dateStr === lastValid;
+    const html = generateHTML(date, idiom, info, isFirst, isLast);
     const outPath = path.join(OUTPUT_DIR, dateStr, 'index.html');
     fs.writeFileSync(outPath, html, 'utf-8');
     count++;
@@ -425,7 +441,9 @@ async function main() {
       console.log(`✅ [${i+1}/${DAYS}] ${dateStr} → ${idiom}（缓存）`);
     }
 
-    const html = generateHTML(date, idiom, info);
+    const isFirst = i === 0;
+    const isLast = i === DAYS - 1;
+    const html = generateHTML(date, idiom, info, isFirst, isLast);
     fs.mkdirSync(path.join(OUTPUT_DIR, dateStr), { recursive: true });
     fs.writeFileSync(outPath, html, 'utf-8');
     generated++;
