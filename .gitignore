@@ -12,3 +12,5 @@ CLAUDE.md
 .omc/
 doc/
 docs/
+.vercel
+.env*.local
