@@ -2,8 +2,8 @@ name: Daily answer pages rollover
 
 on:
   schedule:
-    - cron: '0 1 * * *' # 每天 UTC 01:00（北京时间 09:00）
-  workflow_dispatch: # 也支持手动触发
+    - cron: '0 1 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,11 +15,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
 
-      - name: Regenerate answer pages and sitemap
+      - name: Regenerate HTML and sitemap (cache only, no API call)
         run: node generate-answers-deepseek.mjs --html-only
+        # 不需要 DEEPSEEK_API_KEY
 
       - name: Deploy to Vercel
         run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
