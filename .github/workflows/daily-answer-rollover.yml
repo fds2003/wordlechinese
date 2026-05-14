@@ -6,11 +6,19 @@ name: Daily answer pages rollover
 # 3) 仓库长期无活动可能被暂停 Actions，任意 push 可唤醒。
 # 4) cron 为 UTC：0 1 * * * = 每天 UTC 01:00，非北京时间。
 # 5) 可随时在 Actions → 本 workflow → Run workflow 手动验证。
+# 6) push 到 main 时也会运行（与 deploy / playwright 一样出现在 Actions 列表里）。
 
 on:
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: daily-answer-rollover-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
