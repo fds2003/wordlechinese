@@ -1,5 +1,12 @@
 name: Daily answer pages rollover
 
+# 定时任务说明（若「从未执行」请逐项核对）：
+# 1) schedule 只在「默认分支」上触发；请确认 Settings → General 里默认分支是 main。
+# 2) Fork 仓库默认不跑定时任务，需在 Actions 里为该仓库启用 workflows。
+# 3) 仓库长期无活动可能被暂停 Actions，任意 push 可唤醒。
+# 4) cron 为 UTC：0 1 * * * = 每天 UTC 01:00，非北京时间。
+# 5) 可随时在 Actions → 本 workflow → Run workflow 手动验证。
+
 on:
   schedule:
     - cron: '0 1 * * *'
