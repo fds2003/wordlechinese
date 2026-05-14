@@ -1,14 +1,13 @@
-name: Build and Deploy
-on:
-  push:
-    branches:
-      - main
+name: Daily build
 
-permissions:
-  contents: write
+on:
+  schedule:
+    # 每天 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -20,7 +19,3 @@ jobs:
           npm ci
           npm test
           npm run build
-      - uses: JamesIves/github-pages-deploy-action@v4.8.0
-        with:
-          branch: gh-pages
-          folder: dist
