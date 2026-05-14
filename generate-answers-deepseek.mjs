@@ -263,7 +263,8 @@ function generateSitemaps(generatedDates) {
   fs.writeFileSync('public/answer-sitemap.xml',
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>`
   );
-  console.log(`📄 answer-sitemap.xml (${generatedDates.length} URLs, up to ${generatedDates[generatedDates.length - 1]})`);
+  const lastDate = generatedDates.length ? generatedDates[generatedDates.length - 1] : '(none)';
+  console.log(`📄 answer-sitemap.xml (${generatedDates.length} URLs, up to ${lastDate})`);
 
   fs.writeFileSync('public/sitemap-home.xml',
     `<?xml version="1.0" encoding="UTF-8"?>
@@ -292,6 +293,11 @@ function htmlOnlyMode() {
     process.exit(1);
   }
   const cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    console.error('❌ 目录不存在: ' + OUTPUT_DIR);
+    process.exit(1);
+  }
 
   const todayMs = getTodayUtcMs();
   const maxMs = todayMs + MAX_FUTURE_DAYS * 86400000;

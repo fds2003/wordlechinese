@@ -5,9 +5,16 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     steps:
       - uses: actions/checkout@v5
 
@@ -20,10 +27,13 @@ jobs:
 
       - name: Regenerate HTML and sitemap (cache only, no API call)
         run: node generate-answers-deepseek.mjs --html-only
-        # 不需要 DEEPSEEK_API_KEY
+        # 需要仓库里的 scripts/idiom-cache.json 与 public/answer/
 
-      - name: Deploy to Vercel
-        run: npx vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      - name: Pull Vercel project settings
+        run: npx vercel pull --yes --environment=production
+
+      - name: Vercel production build (includes updated public/)
+        run: npx vercel build --prod
+
+      - name: Deploy prebuilt to Vercel production
+        run: npx vercel deploy --prebuilt --prod --yes
