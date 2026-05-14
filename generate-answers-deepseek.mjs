@@ -17,8 +17,8 @@ const START_DATE_STR = '2026-05-11';
 // ✅ 修复1：统一用 UTC 时间戳做日期运算基点
 const START_DATE_UTC = Date.UTC(2026, 4, 11); // 月份从 0 起，4 = May
 
-// ✅ 修复2：限制最多预生成未来 N 天，防止生成 2027 年的页面
-const MAX_FUTURE_DAYS = 30; // 可调整，建议 7~30
+// ✅ 修复2：限制最多预生成未来 N 天，防止生成过远的日期页面
+const MAX_FUTURE_DAYS = 90; // 可调整
 
 const OUTPUT_DIR = 'public/answer';
 const CACHE_FILE = 'scripts/idiom-cache.json';
@@ -372,17 +372,17 @@ async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.mkdirSync('scripts', { recursive: true });
 
-  // ✅ 修复8：动态计算结束日期 = 今天 + MAX_FUTURE_DAYS，不用硬编码 DAYS=365
-  const todayMs = getTodayUtcMs();
+  // ✅ 修复8：动态计算结束日期 = 今天 + MAX_FUTURE_DAYS，不再硬编码固定天数
+  const todayMs = Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate());
   const endMs = todayMs + MAX_FUTURE_DAYS * 86400000;
-  const totalDays = Math.round((endMs - START_DATE_UTC) / 86400000) + 1;
+  const DAYS = Math.round((endMs - START_DATE_UTC) / 86400000) + 1;
 
-  console.log(`📅 生成范围: ${START_DATE_STR} → ${utcMsToDateStr(endMs)}（共 ${totalDays} 天）`);
+  console.log(`📅 生成范围: ${START_DATE_STR} → ${utcMsToDateStr(endMs)}（共 ${DAYS} 天）`);
 
   let generated = 0, skipped = 0, errors = 0;
   const generatedDates = [];
 
-  for (let i = 0; i < totalDays; i++) {
+  for (let i = 0; i < DAYS; i++) {
     const dateMs = START_DATE_UTC + i * 86400000;
     const dateStr = utcMsToDateStr(dateMs); // ✅ 全程 UTC，无时区漂移
     const { idiom } = idioms[i % idioms.length];
@@ -395,7 +395,7 @@ async function main() {
     let info = cache[idiom];
     if (!info) {
       try {
-        console.log(`🔄 [${i + 1}/${totalDays}] ${dateStr} → ${idiom}`);
+        console.log(`🔄 [${i + 1}/${DAYS}] ${dateStr} → ${idiom}`);
         info = await fetchIdiomInfo(idiom);
         cache[idiom] = info;
         fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
@@ -408,11 +408,11 @@ async function main() {
         continue;
       }
     } else {
-      console.log(`✅ [${i + 1}/${totalDays}] ${dateStr} → ${idiom}（缓存）`);
+      console.log(`✅ [${i + 1}/${DAYS}] ${dateStr} → ${idiom}（缓存）`);
     }
 
     const prevStr = i > 0 ? utcMsToDateStr(START_DATE_UTC + (i - 1) * 86400000) : null;
-    const nextStr = i < totalDays - 1 ? utcMsToDateStr(START_DATE_UTC + (i + 1) * 86400000) : null;
+    const nextStr = i < DAYS - 1 ? utcMsToDateStr(START_DATE_UTC + (i + 1) * 86400000) : null;
 
     const html = generateHTML(dateStr, idiom, info, prevStr, nextStr);
     fs.mkdirSync(path.join(OUTPUT_DIR, dateStr), { recursive: true });
