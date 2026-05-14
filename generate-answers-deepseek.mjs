@@ -108,6 +108,12 @@ function generateHTML(dateStr, idiom, info, prevStr, nextStr) {
   const displayDate = d.toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
   });
+  const h1MonthDay = d.toLocaleDateString('en-US', {
+    month: 'long', day: 'numeric', timeZone: 'UTC'
+  });
+  const h1Text = `Wordle Chinese Answer ${h1MonthDay} — ${idiom} (${info.pinyin})`;
+  const pageUrl = `https://wordlechinese.com/answer/${dateStr}/`;
+  const articleDescription = `Wordle Chinese answer for ${h1MonthDay}: ${idiom} (${info.pinyin}) — ${info.meaning}`;
 
   const chars = idiom.split('');
   const pinyins = info.pinyin.split(' ');
@@ -115,9 +121,12 @@ function generateHTML(dateStr, idiom, info, prevStr, nextStr) {
   const articleJSON = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: `Wordle Chinese Answer for ${displayDate}`,
-    datePublished: dateStr,
-    dateModified: dateStr,
+    headline: h1Text,
+    description: articleDescription,
+    datePublished: `${dateStr}T00:00:00.000Z`,
+    dateModified: `${dateStr}T00:00:00.000Z`,
+    url: pageUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${pageUrl}` },
     publisher: { '@type': 'Organization', name: 'Wordle Chinese', url: 'https://wordlechinese.com' }
   });
 
@@ -165,19 +174,19 @@ function generateHTML(dateStr, idiom, info, prevStr, nextStr) {
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})</title>
-<meta name="description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}. Build your Chinese vocabulary one idiom a day with this free daily puzzle."/>
+<title>${h1Text}</title>
+<meta name="description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}) — ${info.meaning}. Hints, meaning, and example."/>
 <meta name="robots" content="index, follow"/>
 <link rel="canonical" href="https://wordlechinese.com/answer/${dateStr}/"/>
-<meta property="og:title" content="Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})"/>
-<meta property="og:description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}."/>
+<meta property="og:title" content="${h1Text}"/>
+<meta property="og:description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}) — ${info.meaning}."/>
 <meta property="og:url" content="https://wordlechinese.com/answer/${dateStr}/"/>
 <meta property="og:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Today's Wordle Chinese Answer for ${displayDate} — Learn Chinese Idiom ${idiom} (${info.pinyin})"/>
-<meta name="twitter:description" content="Today's Wordle Chinese answer and hints for ${displayDate}. Learn the Chinese idiom ${idiom} (${info.pinyin}): ${info.meaning}."/>
+<meta name="twitter:title" content="${h1Text}"/>
+<meta name="twitter:description" content="Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}) — ${info.meaning}."/>
 <meta name="twitter:image" content="https://i.imgur.com/HaFiQgi.jpg"/>
 <script type="application/ld+json">${articleJSON}</script>
 <script type="application/ld+json">${faqJSON}</script>
@@ -209,7 +218,7 @@ summary::before{content:"🔍 "}
 <a href="https://wordlechinese.com">🀄 Wordle Chinese</a>
 <p style="margin:8px 0 0;color:#6b7280;font-size:14px;">Daily Chinese Idiom Wordle Game</p>
 </header>
-<h1 style="text-align:center;font-size:22px;">Learn Chinese Idiom: ${idiom} — ${displayDate} Answer</h1>
+<h1 style="text-align:center;font-size:22px;">${h1Text}</h1>
 <div class="spoiler">⚠️ <strong>Spoiler Warning!</strong> Today's answer is revealed below. Try playing first → <a href="https://wordlechinese.com">Play Today's Game</a></div>
 <div class="chars">
 ${chars.map((c, i) => `<div class="char-box"><div class="hanzi">${c}</div><div class="pinyin">${pinyins[i] || ''}</div></div>`).join('')}
