@@ -22,7 +22,7 @@ const TOPIC_KEYWORDS = {
     label: 'Animals (动物)',
     slug: 'animals',
     description:
-      'Chinese idioms featuring animals — from dragons to fish, tigers to birds.',
+      'Chinese idioms about animals — dragons, tigers, fish, horses, birds and more. Explore chengyu featuring 50+ animal characters with pinyin and English meanings.',
     keywords: [
       // 走兽
       '龙',
@@ -93,7 +93,7 @@ const TOPIC_KEYWORDS = {
     label: 'Numbers (数字)',
     slug: 'numbers',
     description:
-      'Chinese idioms containing numbers — one, two, three and beyond.',
+      'Chinese idioms with numbers — one, two, three, hundred, thousand, ten thousand. Learn number chengyu (数字成语) for HSK prep with pinyin and English.',
     keywords: [
       '一',
       '二',
@@ -116,7 +116,7 @@ const TOPIC_KEYWORDS = {
   nature: {
     label: 'Nature (自然)',
     slug: 'nature',
-    description: 'Chinese idioms inspired by mountains, rivers, wind and rain.',
+    description:       'Chinese nature idioms — mountains, rivers, wind, rain, moon, flowers. Discover chengyu inspired by the natural world with pinyin and English.',
     keywords: [
       '山',
       '水',
@@ -149,7 +149,7 @@ const TOPIC_KEYWORDS = {
     label: 'People (人物)',
     slug: 'people',
     description:
-      'Chinese idioms about human nature, relationships and character.',
+      'Chinese idioms about people — character, relationships, emotions, wisdom. Learn human-nature chengyu (人物成语) with pinyin, meanings and examples.',
     keywords: [
       '人',
       '心',
@@ -177,7 +177,7 @@ const TOPIC_KEYWORDS = {
   colors: {
     label: 'Colors (颜色)',
     slug: 'colors',
-    description: 'Chinese idioms that paint a picture with color.',
+    description:       'Chinese color idioms — red, green, black, white, blue, gold in chengyu. Explore colorful Chinese idioms with pinyin and English meanings.',
     keywords: [
       '红',
       '绿',
@@ -200,17 +200,17 @@ const DIFFICULTY_META = {
   easy: {
     label: 'Easy 😊',
     slug: 'easy',
-    description: 'Beginner-friendly Chinese idioms — great for new learners.',
+    description: 'Learn easy Chinese idioms (成语) with pinyin and English. Beginner-friendly 4-character chengyu perfect for HSK prep and daily mandarin wordle practice.',
   },
   medium: {
     label: 'Medium 🤔',
     slug: 'medium',
-    description: 'Intermediate Chinese idioms to challenge your vocabulary.',
+    description: 'Intermediate Chinese idioms (成语) to build vocabulary. Medium-difficulty chengyu with pinyin, English meanings and examples. HSK 4-5 level practice.',
   },
   hard: {
     label: 'Hard 🔥',
     slug: 'hard',
-    description: 'Advanced Chinese idioms for serious learners.',
+    description: 'Advanced Chinese idioms (成语) for serious learners. Challenging chengyu with deep cultural meanings, pinyin and English explanations. HSK 6+ level.',
   },
 };
 
@@ -257,7 +257,7 @@ function buildIdiomDateMap() {
     const htmlPath = path.join(answerDir, d, 'index.html');
     if (!fs.existsSync(htmlPath)) continue;
     const html = fs.readFileSync(htmlPath, 'utf-8');
-    const match = html.match(/<title>[^<]*Idiom (\S+) \(/);
+    const match = html.match(/<title>[^<]*— ([^ (]+) \(/);
     if (match) {
       map[match[1]] = d;
     } else {
@@ -431,6 +431,38 @@ function generateIndexPage(categories) {
   <title>Chinese Idiom Categories | WordleChinese.com</title>
   <meta name="description" content="Browse Chinese idioms by difficulty or theme — animals, numbers, nature, colors and more. Play Wordle Chinese daily."/>
   <link rel="canonical" href="${SITE_URL}/idioms/"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many Chinese idioms are on Wordle Chinese?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wordle Chinese has 7,200+ idioms organized by difficulty (easy, medium, hard) and theme (animals, numbers, nature, people, colors)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the easiest Chinese idiom to learn?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Easy idioms like 一心一意 (yī xīn yī yì — wholeheartedly) and 雪中送炭 (xuě zhōng sòng tàn — timely help) use common characters and are great for beginners learning chengyu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there Chinese idioms about animals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, many Chinese idioms feature animals like dragons (龙), tigers (虎), horses (马), and fish (鱼). Browse our animals category for chengyu organized by theme."
+        }
+      }
+    ]
+  }
+  </script>
   <style>
     body{font-family:system-ui,sans-serif;max-width:700px;margin:0 auto;padding:20px;color:#1a1a1a}
     header{text-align:center;border-bottom:2px solid #eee;padding-bottom:16px;margin-bottom:24px}
@@ -592,11 +624,12 @@ async function main() {
   console.log(`✅ /idioms/ 索引页生成完成`);
 
   // ── 生成分类 sitemap ──
+  const todayStr = new Date().toISOString().slice(0, 10);
   const urls = [
-    `  <url><loc>${SITE_URL}/idioms/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+    `  <url><loc>${SITE_URL}/idioms/</loc><lastmod>${todayStr}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     ...categoryMeta.map(
       (c) =>
-        `  <url><loc>${SITE_URL}/idioms/${c.slug}/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>`,
+        `  <url><loc>${SITE_URL}/idioms/${c.slug}/</loc><lastmod>${todayStr}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`,
     ),
   ].join('\n');
 
