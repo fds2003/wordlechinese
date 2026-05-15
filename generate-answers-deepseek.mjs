@@ -108,6 +108,7 @@ function generateHTML(dateStr, idiom, info, prevStr, nextStr) {
   const displayDate = d.toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
   });
+  const difficulty = info.difficulty || 'medium'; // fallback for bad API data
   const h1Text = `Wordle Chinese Answer ${displayDate} — ${idiom} (${info.pinyin})`;
   const pageUrl = `https://wordlechinese.com/answer/${dateStr}/`;
   const articleDescription = `Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}) — ${info.meaning}`;
@@ -222,7 +223,7 @@ ${chars.map((c, i) => `<div class="char-box"><div class="hanzi">${c}</div><div c
 </div>
 <a class="play-btn" href="https://wordlechinese.com">▶ Play Today's Wordle Chinese</a>
 <div class="section">
-<h2>📖 Meaning <span class="badge ${info.difficulty}">${info.difficulty}</span></h2>
+<h2>📖 Meaning <span class="badge ${difficulty}">${difficulty}</span></h2>
 <p><strong>${idiom}</strong> (${info.pinyin})</p>
 <p style="margin-top:8px">${info.meaning}</p>
 <p style="margin-top:8px;color:#6b7280;font-size:14px"><em>Literal: ${info.literal}</em></p>
@@ -248,7 +249,7 @@ ${chars.map((c, i) => `<div class="char-box"><div class="hanzi">${c}</div><div c
 <div class="section" style="border-top:2px solid #e5e7eb;padding-top:16px;margin-top:16px">
 <h2 style="font-size:16px;color:#374151;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px">🔗 Related</h2>
 <p style="font-size:14px;line-height:2">
-<a href="/idioms/${info.difficulty}/" style="color:#2563eb;font-weight:600">More ${info.difficulty} idioms →</a><br/>
+<a href="/idioms/${difficulty}/" style="color:#2563eb;font-weight:600">More ${difficulty} idioms →</a><br/>
 <a href="/idioms/" style="color:#2563eb">Browse all Chinese idiom categories</a>
 </p>
 </div>

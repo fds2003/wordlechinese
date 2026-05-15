@@ -4595,7 +4595,8 @@
     "literal": "big same small different",
     "example": "The two proposals are essentially the same, with only a few minor changes — they are mostly alike but with small differences.",
     "hint1": "Think about two things that are basically identical but not exactly.",
-    "hint2": "One character means 'big' or 'great', and another means 'small' or 'little'."
+    "hint2": "One character means 'big' or 'great', and another means 'small' or 'little'.",
+    "difficulty": "medium"
   },
   "刮目相看": {
     "pinyin": "guā mù xiāng kàn",
