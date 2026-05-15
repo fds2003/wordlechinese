@@ -108,12 +108,9 @@ function generateHTML(dateStr, idiom, info, prevStr, nextStr) {
   const displayDate = d.toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
   });
-  const h1MonthDay = d.toLocaleDateString('en-US', {
-    month: 'long', day: 'numeric', timeZone: 'UTC'
-  });
-  const h1Text = `Wordle Chinese Answer ${h1MonthDay} — ${idiom} (${info.pinyin})`;
+  const h1Text = `Wordle Chinese Answer ${displayDate} — ${idiom} (${info.pinyin})`;
   const pageUrl = `https://wordlechinese.com/answer/${dateStr}/`;
-  const articleDescription = `Wordle Chinese answer for ${h1MonthDay}: ${idiom} (${info.pinyin}) — ${info.meaning}`;
+  const articleDescription = `Wordle Chinese answer for ${displayDate}: ${idiom} (${info.pinyin}) — ${info.meaning}`;
 
   const chars = idiom.split('');
   const pinyins = info.pinyin.split(' ');
