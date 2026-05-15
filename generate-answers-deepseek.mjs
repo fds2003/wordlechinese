@@ -9,6 +9,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import Papa from 'papaparse';
 
 const API_KEY = process.env.DEEPSEEK_API_KEY;
@@ -439,4 +440,9 @@ async function main() {
   console.log(`\n🎉 完成！新生成 ${generated}，跳过 ${skipped}，失败 ${errors}`);
 }
 
-main().catch(console.error);
+// Export for testing
+export { generateHTML };
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  main().catch(console.error);
+}
