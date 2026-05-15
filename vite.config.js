@@ -1,7 +1,18 @@
+import fs from 'fs';
+import path from 'path';
+import { pathToFileURL } from 'url';
+
 import content from '@originjs/vite-plugin-content';
 import preact from '@preact/preset-vite';
 import legacy from '@vitejs/plugin-legacy';
 import { defineConfig, loadEnv } from 'vite';
+
+async function loadHomePrerender() {
+  const href = pathToFileURL(
+    path.join(process.cwd(), 'scripts/home-prerender.mjs'),
+  ).href;
+  return import(href);
+}
 
 const commitHash = require('child_process')
   .execSync('git rev-parse --short HEAD')
@@ -34,6 +45,41 @@ const googleAnalyticsPlugin = (gaId) => ({
   },
 });
 
+/** Build-time SEO: static copy in index.html (outside #app so Preact does not wipe it) + study hub HTML. */
+const homeSsgPrerenderPlugin = () => {
+  let resolvedOutDir;
+  return {
+    name: 'home-ssg-prerender',
+    configResolved(config) {
+      resolvedOutDir = path.resolve(config.root, config.build.outDir);
+    },
+    async transformIndexHtml(html) {
+      const { buildHomePrerenderHtml } = await loadHomePrerender();
+      const block = buildHomePrerenderHtml();
+      if (!html.includes('<div id="app"></div>')) {
+        console.warn(
+          '[home-ssg-prerender] <div id="app"></div> not found; skip inject',
+        );
+        return html;
+      }
+      return html.replace(
+        '<div id="app"></div>',
+        `${block}\n    <div id="app"></div>`,
+      );
+    },
+    async closeBundle() {
+      const { buildHskStudyGuideHtml } = await loadHomePrerender();
+      const studyDir = path.join(resolvedOutDir, 'study');
+      fs.mkdirSync(studyDir, { recursive: true });
+      fs.writeFileSync(
+        path.join(studyDir, 'chinese-wordle-hsk-guide.html'),
+        buildHskStudyGuideHtml(),
+        'utf8',
+      );
+    },
+  };
+};
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
@@ -53,6 +99,7 @@ export default defineConfig(({ mode }) => {
         modernPolyfills: true,
       }),
       googleAnalyticsPlugin(gaId),
+      homeSsgPrerenderPlugin(),
     ],
     server: {
       port: 3030,

@@ -63,7 +63,7 @@ export default ({ header, footer, boardStates, id }) => {
           class="button"
           href={imageSrc}
           download={fileName}
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           onClick={() => {
             fireEvent('Click: Share', {
               props: {

@@ -280,6 +280,7 @@ function generateSitemaps(generatedDates) {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://wordlechinese.com/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://wordlechinese.com/learn-chinese-with-wordle.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://wordlechinese.com/study/chinese-wordle-hsk-guide.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://wordlechinese.com/privacy.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
 </urlset>`
   );

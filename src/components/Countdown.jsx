@@ -4,7 +4,12 @@ import { useTranslation } from 'react-i18next';
 // Component that shows hours, minutes and seconds counting down to start of next day
 export default () => {
   const { t } = useTranslation();
-  let nextDay = new Date().setHours(0, 0, 0, 0) + 24 * 60 * 60 * 1000;
+  const now = new Date();
+  const nextDay = Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate() + 1,
+  );
   const [hours, setHours] = useState('00');
   const [minutes, setMinutes] = useState('00');
   const [seconds, setSeconds] = useState('00');

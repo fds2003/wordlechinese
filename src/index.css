@@ -98,6 +98,49 @@ a {
   box-sizing: border-box;
 }
 
+/* Crawler-visible homepage block injected at build (see vite home-ssg-prerender). */
+.home-prerender {
+  text-align: left;
+  max-width: 42rem;
+  margin: 0 auto 0.75rem;
+  padding: 0.5rem 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-insignificant-color);
+}
+
+.home-prerender h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+  color: var(--text-color);
+}
+
+.home-prerender h3 {
+  font-size: 0.875rem;
+  margin: 1rem 0 0.35rem;
+  color: var(--text-color);
+}
+
+.home-prerender p {
+  margin: 0.35rem 0;
+}
+
+.home-prerender-links {
+  list-style: disc;
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+  text-align: left;
+}
+
+.home-prerender-links a {
+  font-weight: 600;
+}
+
+.home-prerender-meta {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+
 /* ruby {
   font-family: 'Ma Shan Zheng', cursive;
 }

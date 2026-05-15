@@ -14,19 +14,19 @@ import Switch from 'rc-switch';
 import { Toaster, toast, useToasterStore } from 'react-hot-toast';
 import { Trans, useTranslation } from 'react-i18next';
 
-import idiomsTxt from '../game-data/all-idioms.txt?raw';
-import gameIdioms from '../game-data/game-idioms.csv';
+import { ALL_IDIOMS, DEFINITIONS, GAMES } from './game-data';
 
 import keypressDeleteMp3 from '../sounds/keypress-delete.mp3';
 import keypressReturnMp3 from '../sounds/keypress-return.mp3';
 import keypressStandardMp3 from '../sounds/keypress-standard.mp3';
 
-import BackspaceIcon from './components/BackspaceIcon';
 import CloseIcon from './components/CloseIcon';
 import CodeInput from './components/CodeInput';
 import Countdown from './components/Countdown';
 import CurrentPlaying from './components/CurrentPlaying';
 import FacebookIcon from './components/FacebookIcon';
+import GameBoard from './components/GameBoard';
+import GameKeyboard from './components/GameKeyboard';
 import InfoIcon from './components/InfoIcon';
 import KebabIcon from './components/KebabIcon';
 import PlayIcon from './components/PlayIcon';
@@ -44,26 +44,15 @@ import copy from './utils/copy';
 import fireEvent from './utils/fireEvent';
 import prefersColorSchemeSupported from './utils/prefersColorSchemeSupported';
 import usePageVisibility from './utils/usePageVisibility';
+import getBoardGameState from './utils/getBoardGameState';
+import getTodayGame from './utils/getTodayGame';
 
 const py = pinyin;
 window.pinyin = pinyin;
 
-const HARD_MODE = JSON.parse(LS.getItem(`${KEY_PREFIX}hardMode`) || false);
 const MAX_GAMES_BEFORE_SHOW_DASHBOARD = 5000;
 const MAX_LETTERS = 4;
-const MAX_KEYS = HARD_MODE ? 40 : 20;
 const MAX_STEPS = 6;
-const MIN_IDIOMS = HARD_MODE ? 10 : 6;
-
-if (HARD_MODE) {
-  fireEvent('Hard mode');
-}
-
-const ALL_IDIOMS = idiomsTxt.split('\n');
-const GAMES = gameIdioms.slice(1).map((row) => ({
-  id: row[0],
-  idiom: row[1],
-}));
 
 Howler.volume(JSON.parse(LS.getItem(`${KEY_PREFIX}volume`)) || 0.5);
 const keypressStandard = new Howl({
@@ -135,17 +124,6 @@ const importGameData = (gameData, overrides = false) => {
   } catch (e) {}
 };
 
-const getBoardGameState = (boardStates) => {
-  const won = boardStates.some(
-    (row) => !!row.length && row.every((s) => s === '🟩'),
-  );
-  if (won) return 'won';
-  const lastRow = boardStates[boardStates.length - 1];
-  const lost = !!lastRow.length && !lastRow.every((s) => s === '🟩');
-  if (lost) return 'lost';
-  return null;
-};
-
 // v = letter values of the row
 // s = submitted state of the row (after user press enter)
 const blankBoard = () =>
@@ -154,7 +132,14 @@ const blankBoard = () =>
     s: false,
   }));
 
-const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
+const getIdiomsKeys = (
+  idiom,
+  maxKeys,
+  minIdioms,
+  prevPassedIdioms,
+  prevKeys,
+  depth = 0,
+) => {
   let passedIdioms = prevPassedIdioms || new Set();
   passedIdioms.add(idiom);
   let keys = prevKeys || new Set();
@@ -170,7 +155,7 @@ const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
       for (let j = 0; j < anotherIdiom.idiom.length; j++) {
         keys.add(anotherIdiom.idiom[j]);
 
-        if (keys.size >= MAX_KEYS) {
+        if (keys.size >= maxKeys) {
           break lettersCycle;
         }
       }
@@ -186,11 +171,13 @@ const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
   }
 
   // Try the next idiom
-  if (keys.size < MAX_KEYS || passedIdioms.size < MIN_IDIOMS) {
+  if (keys.size < maxKeys || passedIdioms.size < minIdioms) {
     const nextIdiom = [...passedIdioms][++depth];
     if (nextIdiom) {
       const { passedIdioms: _passedIdioms, keys: _keys } = getIdiomsKeys(
         nextIdiom,
+        maxKeys,
+        minIdioms,
         passedIdioms,
         keys,
         depth,
@@ -201,11 +188,13 @@ const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
   }
 
   // Still not enough keys, choose a random idiom
-  if (keys.size < MAX_KEYS || passedIdioms.size < MIN_IDIOMS) {
+  if (keys.size < maxKeys || passedIdioms.size < minIdioms) {
     const randomIdiom = GAMES[Math.floor(Math.random() * GAMES.length)].idiom;
     if (randomIdiom) {
       const { passedIdioms: _passedIdioms, keys: _keys } = getIdiomsKeys(
         randomIdiom,
+        maxKeys,
+        minIdioms,
         passedIdioms,
         keys,
         0,
@@ -216,7 +205,7 @@ const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
   }
 
   // Something very wrong happened
-  if (keys.size < MAX_KEYS || passedIdioms.size < MIN_IDIOMS) {
+  if (keys.size < maxKeys || passedIdioms.size < minIdioms) {
     const gameID = GAMES.find((g) => g.idiom === idiom)?.id;
     console.error(gameID, {
       possibleIdioms: passedIdioms.size,
@@ -231,13 +220,7 @@ const getIdiomsKeys = (idiom, prevPassedIdioms, prevKeys, depth = 0) => {
   };
 };
 
-const startDate = new Date(2022, 0, 27); // 27 January 2022
-const getTodayGame = () => {
-  const today = new Date().setHours(0, 0, 0, 0);
-  const diff = today - startDate;
-  const dayCount = Math.floor(diff / (1000 * 60 * 60 * 24));
-  return GAMES[Math.max(0, dayCount % GAMES.length)];
-};
+
 
 const IdiomsDashboard = () => {
   const { t } = useTranslation();
@@ -335,6 +318,16 @@ export function App() {
     LS.getItem(`${KEY_PREFIX}skipFirstTime`) || false,
   );
 
+  const [hardMode, setHardMode] = useState(
+    JSON.parse(LS.getItem(`${KEY_PREFIX}hardMode`) || false),
+  );
+  const maxKeys = hardMode ? 40 : 20;
+  const minIdioms = hardMode ? 10 : 6;
+
+  useEffect(() => {
+    if (hardMode) fireEvent('Hard mode');
+  }, []);
+
   const [currentGame, setCurrentGame] = useState(
     GAMES.find((g) => g.id === location.hash.slice(1)) || getTodayGame(),
   );
@@ -389,25 +382,14 @@ export function App() {
     }
   }, [boardStates]);
 
-  const [definition, setDefinition] = useState(null);
-  useEffect(() => {
-    setDefinition(null);
-    fetch(
-      `https://baidu-hanyu-idiom.cheeaun.workers.dev/?wd=${currentGame.idiom}`,
-    )
-      .then((r) => r.json())
-      .then((r) => {
-        if (r.definition) {
-          setDefinition(r.definition);
-        }
-      })
-      .catch(() => {});
+  const definition = useMemo(() => {
+    return DEFINITIONS[currentGame.idiom] || null;
   }, [currentGame.idiom]);
 
   const currentStep = board?.findIndex((row) => row.s === false) || 0;
 
   const [currentGameKeys, currentGameKeysPinyin] = useMemo(() => {
-    const { keys } = getIdiomsKeys(currentGame.idiom);
+    const { keys } = getIdiomsKeys(currentGame.idiom, maxKeys, minIdioms);
     const allPossibleIdioms = ALL_IDIOMS.filter((idiom) => {
       // check if idiom contains 4 letters from keys
       return idiom.split('').every((letter) => keys.has(letter));
@@ -435,18 +417,21 @@ export function App() {
         return `${idiom} (${py(idiom)})`;
       })
       .sort((a, b) => a.localeCompare(b, 'zh'));
-    if (console.groupCollapsed) {
-      console.groupCollapsed(
-        `${possibleIdioms.length} Possible Idioms [${currentGame.id}] (${keys.size} keys):`,
-      );
-      console.log(`${possibleIdioms
-        .map((idiom, i) => `${i + 1}. ${idiom}`)
-        .join('\n')}
+    // Dev-only spoiler debugging helpers — stripped from production builds
+    if (import.meta.env.DEV) {
+      if (console.groupCollapsed) {
+        console.groupCollapsed(
+          `${possibleIdioms.length} Possible Idioms [${currentGame.id}] (${keys.size} keys):`,
+        );
+        console.log(`${possibleIdioms
+          .map((idiom, i) => `${i + 1}. ${idiom}`)
+          .join('\n')}
 
 🚨SPOILER🚨 Type 'HINTS' to see all hints. Type 'ANSWER' to see the answer.`);
-      console.groupEnd();
+        console.groupEnd();
+      }
+      window.ANSWER = `${currentGame.idiom} (${py(currentGame.idiom)})`;
     }
-    window.ANSWER = `${currentGame.idiom} (${py(currentGame.idiom)})`;
 
     const sortedKeys = [...keys].sort((a, b) => a.localeCompare(b, 'zh'));
     return [sortedKeys, keysPinyin];
@@ -528,6 +513,19 @@ export function App() {
       clearTimeout(timeout);
     };
   }, [gameState]);
+
+  const confettiFired = useRef(false);
+  useEffect(() => {
+    if (gameState === 'won') {
+      const filledRows = boardStates.filter((row) => row.length > 0).length;
+      if (filledRows >= 5 && !confettiFired.current) {
+        confettiFired.current = true;
+        blastConfetti();
+      }
+    } else {
+      confettiFired.current = false;
+    }
+  }, [gameState, boardStates]);
 
   const cachedTodayGame = useRef(getTodayGame());
   const pageLoad = useRef(true);
@@ -671,7 +669,7 @@ export function App() {
   const attempts = gameState === 'won' ? emojiResults.split('\n').length : 'X';
   const attemptsText = `${attempts}/${MAX_STEPS}`;
   const shareText = `${t('app.title')} [${currentGame.id}]${
-    HARD_MODE ? ' 🔥' : ''
+    hardMode ? ' 🔥' : ''
   } ${attemptsText}\n\n${emojiResults}`;
   const shareTextWithLink = `${shareText}\n\n${shortPermalink}`;
 
@@ -726,7 +724,9 @@ export function App() {
     }).join('');
     hints.push(t('hints.abbreviatedPinyin', { pinyinHint }));
 
-    window.HINTS = hints;
+    if (import.meta.env.DEV) {
+      window.HINTS = hints;
+    }
 
     return hints;
   }, [currentGame.idiom, definition]);
@@ -831,97 +831,31 @@ export function App() {
           </button>
         </div>
       </header>
-      <div id="board" class={`${gameState} ${HARD_MODE ? 'hard-mode' : ''}`}>
-        {board.map((row, index) => {
-          const pinyins = pinyin(row.v.join(''), { type: 'array' });
-          return (
-            <div
-              className={`row ${
-                currentStep === index && showError ? 'error' : ''
-              } ${currentStep === index ? 'current' : ''} ${boardStates[
-                index
-              ].join('')}`}
-              key={index}
-            >
-              {row.v.map((letter, i) => (
-                <Tile
-                  key={i}
-                  letter={letter}
-                  pinyin={pinyins[i]}
-                  state={boardStates[index][i]}
-                />
-              ))}
-            </div>
-          );
-        })}
-      </div>
-      <div id="keyboard" class={`${gameState} ${HARD_MODE ? 'hard-mode' : ''}`}>
-        <div class="inner">
-          <div class="keys">
-            {currentGameKeys.map((key, i) => (
-              <button
-                class={`${correctKeys.has(key) ? '🟩' : ''} ${
-                  presentKeys.has(key) ? '🟧' : ''
-                } ${absentKeys.has(key) ? '⬜' : ''}`}
-                type="button"
-                tabIndex={-1}
-                onPointerDown={() => {
-                  keypressStandard.play();
-                }}
-                onClick={() => {
-                  handleLetter(key);
-                }}
-              >
-                <ruby>
-                  {key}
-                  <rp>(</rp>
-                  <rt>
-                    {currentGameKeysPinyin.has(key)
-                      ? [...currentGameKeysPinyin.get(key)]
-                          .sort((a, b) => a.localeCompare(b, 'zh'))
-                          .join(' ⸱ ')
-                      : py(key)}
-                  </rt>
-                  <rp>)</rp>
-                </ruby>
-              </button>
-            ))}
-          </div>
-          <div class="row">
-            <button
-              type="button"
-              onPointerDown={() => {
-                keypressReturn.play();
-              }}
-              onClick={() => {
-                handleEnter();
-              }}
-              tabIndex={-1}
-            >
-              {t('common.enter')}
-            </button>
-            {HARD_MODE ? (
-              <b class="hard">{t('ui.hardMode')}</b>
-            ) : (
-              <button type="button" class="stuck" onClick={showHint}>
-                {t('ui.hint')}
-              </button>
-            )}
-            <button
-              type="button"
-              onPointerDown={() => {
-                keypressDelete.play();
-              }}
-              onClick={() => {
-                handleBackspace();
-              }}
-              tabIndex={-1}
-            >
-              <BackspaceIcon width="24" height="24" />
-            </button>
-          </div>
-        </div>
-      </div>
+      <GameBoard
+        board={board}
+        boardStates={boardStates}
+        currentStep={currentStep}
+        showError={showError}
+        gameState={gameState}
+        hardMode={hardMode}
+      />
+      <GameKeyboard
+        currentGameKeys={currentGameKeys}
+        currentGameKeysPinyin={currentGameKeysPinyin}
+        correctKeys={correctKeys}
+        presentKeys={presentKeys}
+        absentKeys={absentKeys}
+        gameState={gameState}
+        hardMode={hardMode}
+        t={t}
+        onLetter={handleLetter}
+        onEnter={handleEnter}
+        onBackspace={handleBackspace}
+        onHint={showHint}
+        onKeypressStandard={() => keypressStandard.play()}
+        onKeypressReturn={() => keypressReturn.play()}
+        onKeypressDelete={() => keypressDelete.play()}
+      />
       <div
         id="modal"
         class={showModal ? 'appear' : ''}
@@ -983,14 +917,14 @@ export function App() {
                 <small>
                   <a
                     href={`https://hanyu.baidu.com/s?wd=${currentGame.idiom}&from=zici`}
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     📖 {t('glossary.baidu')}
                   </a>
                   &nbsp; &nbsp;
                   <a
                     href={`https://www.zdic.net/hans/${currentGame.idiom}`}
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     📖 {t('glossary.zdic')}
                   </a>
@@ -1034,7 +968,7 @@ export function App() {
                     id={currentGame.id}
                     header={t('app.title')}
                     footer={`[${currentGame.id}]${
-                      HARD_MODE ? ' 🔥' : ''
+                      hardMode ? ' 🔥' : ''
                     } ${attemptsText}`}
                     boardStates={boardStates}
                   />
@@ -1044,7 +978,7 @@ export function App() {
                     href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
                       permalink,
                     )}&hashtag=${encodeURIComponent('#wordlechinese')}`}
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     onClick={() => {
                       copy(shareTextWithLink);
                       fireEvent('Click: Share', {
@@ -1062,7 +996,7 @@ export function App() {
                     href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
                       shareTextWithLink,
                     )}`}
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     onClick={() => {
                       fireEvent('Click: Share', {
                         props: {
@@ -1085,7 +1019,7 @@ export function App() {
               </div>
             </>
           )}
-          {gameState === 'won' && attempts <= 2 && !HARD_MODE && (
+          {gameState === 'won' && attempts <= 2 && !hardMode && (
             <p
               class="block alert"
               onClick={() => {
@@ -1098,10 +1032,6 @@ export function App() {
               {t('ui.easyEnableHardMode')}
             </p>
           )}
-          {showModal === 'won' &&
-            gameState === 'won' &&
-            attempts >= 5 &&
-            blastConfetti()}
           <div class="block">
             {/won|lost/i.test(gameState) &&
               getTodayGame().id === currentGame.id && (
@@ -1253,15 +1183,13 @@ export function App() {
                   <label>
                     {t('ui.hardMode')}
                     <Switch
-                      defaultChecked={HARD_MODE}
+                      checked={hardMode}
                       onChange={(checked) => {
                         LS.setItem(
                           `${KEY_PREFIX}hardMode`,
                           checked ? 'true' : 'false',
                         );
-                        setTimeout(() => {
-                          location.reload();
-                        }, 310); // Wait for Switch to animate
+                        setHardMode(checked);
                       }}
                     />
                   </label>
@@ -1307,12 +1235,12 @@ export function App() {
                   components={[
                     <a
                       href="https://github.com/fds2003/wordlechinese/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     />,
-                    <a href="https://cheeaun.com/projects/" target="_blank" />,
+                    <a href="https://cheeaun.com/projects/" target="_blank" rel="noopener noreferrer" />,
                     <a
                       href="https://www.nytimes.com/games/wordle/"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     />,
                   ]}
                 />
@@ -1323,7 +1251,7 @@ export function App() {
                   components={[
                     <a
                       href="https://www.buymeacoffee.com/cheeaun"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     />,
                   ]}
                 />
@@ -1331,7 +1259,7 @@ export function App() {
               <h2>{t('feedback.heading')}</h2>
               <ul>
                 <li>
-                  <a href="https://t.me/+ykuhfiImLd1kNjk1" target="_blank">
+                  <a href="https://t.me/+ykuhfiImLd1kNjk1" target="_blank" rel="noopener noreferrer">
                     {t('feedback.telegramGroup')}
                   </a>
                 </li>
@@ -1341,7 +1269,7 @@ export function App() {
                     components={[
                       <a
                         href="https://github.com/fds2003/wordlechinese/discussions"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       />,
                     ]}
                   />
@@ -1352,18 +1280,18 @@ export function App() {
                     components={[
                       <a
                         href="https://github.com/fds2003/wordlechinese/issues"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       />,
                     ]}
                   />
                 </li>
                 <li>
-                  <a href="https://twitter.com/cheeaun" target="_blank">
+                  <a href="https://twitter.com/cheeaun" target="_blank" rel="noopener noreferrer">
                     {t('feedback.twitter')}
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/cheeaun" target="_blank">
+                  <a href="https://t.me/cheeaun" target="_blank" rel="noopener noreferrer">
                     {t('feedback.telegram')}
                   </a>
                 </li>

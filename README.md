@@ -110,8 +110,6 @@ To reproduce the deploy from scratch:
 5. Wait for Vercel's "Valid Configuration" indicator on both domains, then verify <https://wordlechinese.com/> serves the new HTML.
 6. In Google Search Console, add the `wordlechinese.com` property using DNS TXT verification (record goes in Cloudflare) and submit `https://wordlechinese.com/sitemap.xml`.
 
-The legacy `.github/workflows/deploy.yml` GitHub Pages job is kept as a fallback for now and is not the production target.
-
 ## Other similar attempts
 
 ### [猜成语 (Cāi chéngyǔ)](https://bryony.dev/chengyu/chengyu.html) by [@nurupo_dev](https://twitter.com/nurupo_dev) - Guess the idiom
